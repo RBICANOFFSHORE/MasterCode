@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.testcases.framework.RegressionTest14feb">
+        <methods>
+          <include name="siKuliTestCase005"/>
+          <include name="siKuliTestCase027"/>
+          <include name="siKuliTestCase004"/>
+          <include name="siKuliTestCase026"/>
+          <include name="siKuliTestCase006"/>
+          <include name="siKuliTestCase028"/>
+          <include name="siKuliTestCase002"/>
+          <include name="siKuliTestCase024"/>
+          <include name="siKuliTestCase007"/>
+          <include name="siKuliTestCase029"/>
+          <include name="sikuliTestCase001"/>
+          <include name="sikuliTestCase023"/>
+          <include name="sikuliTestCase022"/>
+          <include name="siKuliTestCase009"/>
+          <include name="sikuliTestCase021"/>
+          <include name="siKuliTestCase008"/>
+          <include name="siKuliTestCase003"/>
+          <include name="siKuliTestCase025"/>
+          <include name="sikuliTestCase020"/>
+          <include name="siKuliTestCase015"/>
+          <include name="siKuliTestCase010"/>
+          <include name="sikuliTestCase019"/>
+          <include name="siKuliTestCase012"/>
+          <include name="sikuliTestCase018"/>
+          <include name="siKuliTestCase011"/>
+          <include name="siKuliTestCase013"/>
+          <include name="sikuliTestCase017"/>
+          <include name="siKuliTestCase014"/>
+          <include name="sikuliTestCase016"/>
+          <include name="appClose"/>
+          <include name="appLogin"/>
+          <include name="siKuliTestCase030"/>
+        </methods>
+      </class> <!-- com.testcases.framework.RegressionTest14feb -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

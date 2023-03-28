@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="30" passed="30">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="555489" started-at="2023-03-17T09:06:46Z" finished-at="2023-03-17T09:16:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="555489" started-at="2023-03-17T09:06:46Z" finished-at="2023-03-17T09:16:02Z">
+      <class name="com.testcases.framework.RegressionTest14feb">
+        <test-method status="PASS" signature="appLogin()[pri:0, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="appLogin" is-config="true" duration-ms="252909" started-at="2023-03-17T09:02:33Z" finished-at="2023-03-17T09:06:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLogin -->
+        <test-method status="PASS" signature="sikuliTestCase001()[pri:1, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="sikuliTestCase001" duration-ms="15738" started-at="2023-03-17T09:06:46Z" finished-at="2023-03-17T09:07:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sikuliTestCase001 -->
+        <test-method status="PASS" signature="siKuliTestCase002()[pri:2, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="siKuliTestCase002" duration-ms="24870" started-at="2023-03-17T09:07:02Z" finished-at="2023-03-17T09:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siKuliTestCase002 -->
+        <test-method status="PASS" signature="siKuliTestCase003()[pri:3, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="siKuliTestCase003" duration-ms="25083" started-at="2023-03-17T09:07:27Z" finished-at="2023-03-17T09:07:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siKuliTestCase003 -->
+        <test-method status="PASS" signature="siKuliTestCase004()[pri:4, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="siKuliTestCase004" duration-ms="14812" started-at="2023-03-17T09:07:52Z" finished-at="2023-03-17T09:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siKuliTestCase004 -->
+        <test-method status="PASS" signature="siKuliTestCase005()[pri:5, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="siKuliTestCase005" duration-ms="13986" started-at="2023-03-17T09:08:07Z" finished-at="2023-03-17T09:08:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siKuliTestCase005 -->
+        <test-method status="PASS" signature="siKuliTestCase006()[pri:6, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="siKuliTestCase006" duration-ms="14753" started-at="2023-03-17T09:08:21Z" finished-at="2023-03-17T09:08:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siKuliTestCase006 -->
+        <test-method status="PASS" signature="siKuliTestCase007()[pri:7, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="siKuliTestCase007" duration-ms="17986" started-at="2023-03-17T09:08:35Z" finished-at="2023-03-17T09:08:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siKuliTestCase007 -->
+        <test-method status="PASS" signature="siKuliTestCase008()[pri:8, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="siKuliTestCase008" duration-ms="18658" started-at="2023-03-17T09:08:53Z" finished-at="2023-03-17T09:09:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siKuliTestCase008 -->
+        <test-method status="PASS" signature="siKuliTestCase009()[pri:9, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="siKuliTestCase009" duration-ms="17908" started-at="2023-03-17T09:09:12Z" finished-at="2023-03-17T09:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siKuliTestCase009 -->
+        <test-method status="PASS" signature="siKuliTestCase010()[pri:10, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="siKuliTestCase010" duration-ms="21194" started-at="2023-03-17T09:09:30Z" finished-at="2023-03-17T09:09:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siKuliTestCase010 -->
+        <test-method status="PASS" signature="siKuliTestCase011()[pri:11, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="siKuliTestCase011" duration-ms="19599" started-at="2023-03-17T09:09:51Z" finished-at="2023-03-17T09:10:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siKuliTestCase011 -->
+        <test-method status="PASS" signature="siKuliTestCase012()[pri:12, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="siKuliTestCase012" duration-ms="17106" started-at="2023-03-17T09:10:11Z" finished-at="2023-03-17T09:10:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siKuliTestCase012 -->
+        <test-method status="PASS" signature="siKuliTestCase013()[pri:13, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="siKuliTestCase013" duration-ms="18837" started-at="2023-03-17T09:10:28Z" finished-at="2023-03-17T09:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siKuliTestCase013 -->
+        <test-method status="PASS" signature="siKuliTestCase014()[pri:14, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="siKuliTestCase014" duration-ms="18185" started-at="2023-03-17T09:10:47Z" finished-at="2023-03-17T09:11:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siKuliTestCase014 -->
+        <test-method status="PASS" signature="siKuliTestCase015()[pri:15, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="siKuliTestCase015" duration-ms="17609" started-at="2023-03-17T09:11:05Z" finished-at="2023-03-17T09:11:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siKuliTestCase015 -->
+        <test-method status="PASS" signature="sikuliTestCase016()[pri:16, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="sikuliTestCase016" duration-ms="17677" started-at="2023-03-17T09:11:23Z" finished-at="2023-03-17T09:11:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sikuliTestCase016 -->
+        <test-method status="PASS" signature="sikuliTestCase017()[pri:17, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="sikuliTestCase017" duration-ms="17499" started-at="2023-03-17T09:11:40Z" finished-at="2023-03-17T09:11:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sikuliTestCase017 -->
+        <test-method status="PASS" signature="sikuliTestCase018()[pri:18, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="sikuliTestCase018" duration-ms="17518" started-at="2023-03-17T09:11:58Z" finished-at="2023-03-17T09:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sikuliTestCase018 -->
+        <test-method status="PASS" signature="sikuliTestCase019()[pri:19, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="sikuliTestCase019" duration-ms="16405" started-at="2023-03-17T09:12:15Z" finished-at="2023-03-17T09:12:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sikuliTestCase019 -->
+        <test-method status="PASS" signature="sikuliTestCase020()[pri:20, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="sikuliTestCase020" duration-ms="17633" started-at="2023-03-17T09:12:32Z" finished-at="2023-03-17T09:12:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sikuliTestCase020 -->
+        <test-method status="PASS" signature="sikuliTestCase021()[pri:21, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="sikuliTestCase021" duration-ms="23237" started-at="2023-03-17T09:12:49Z" finished-at="2023-03-17T09:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sikuliTestCase021 -->
+        <test-method status="PASS" signature="sikuliTestCase022()[pri:22, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="sikuliTestCase022" duration-ms="17313" started-at="2023-03-17T09:13:13Z" finished-at="2023-03-17T09:13:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sikuliTestCase022 -->
+        <test-method status="PASS" signature="sikuliTestCase023()[pri:23, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="sikuliTestCase023" duration-ms="17761" started-at="2023-03-17T09:13:30Z" finished-at="2023-03-17T09:13:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sikuliTestCase023 -->
+        <test-method status="PASS" signature="siKuliTestCase024()[pri:24, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="siKuliTestCase024" duration-ms="19406" started-at="2023-03-17T09:13:48Z" finished-at="2023-03-17T09:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siKuliTestCase024 -->
+        <test-method status="PASS" signature="siKuliTestCase025()[pri:25, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="siKuliTestCase025" duration-ms="17986" started-at="2023-03-17T09:14:07Z" finished-at="2023-03-17T09:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siKuliTestCase025 -->
+        <test-method status="PASS" signature="siKuliTestCase026()[pri:26, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="siKuliTestCase026" duration-ms="20953" started-at="2023-03-17T09:14:25Z" finished-at="2023-03-17T09:14:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siKuliTestCase026 -->
+        <test-method status="PASS" signature="siKuliTestCase027()[pri:27, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="siKuliTestCase027" duration-ms="19171" started-at="2023-03-17T09:14:46Z" finished-at="2023-03-17T09:15:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siKuliTestCase027 -->
+        <test-method status="PASS" signature="siKuliTestCase028()[pri:28, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="siKuliTestCase028" duration-ms="20921" started-at="2023-03-17T09:15:05Z" finished-at="2023-03-17T09:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siKuliTestCase028 -->
+        <test-method status="PASS" signature="siKuliTestCase029()[pri:29, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="siKuliTestCase029" duration-ms="17143" started-at="2023-03-17T09:15:26Z" finished-at="2023-03-17T09:15:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siKuliTestCase029 -->
+        <test-method status="PASS" signature="siKuliTestCase030()[pri:30, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="siKuliTestCase030" duration-ms="18334" started-at="2023-03-17T09:15:43Z" finished-at="2023-03-17T09:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siKuliTestCase030 -->
+        <test-method status="FAIL" signature="appClose()[pri:0, instance:com.testcases.framework.RegressionTest14feb@3ce1e309]" name="appClose" is-config="true" duration-ms="331258" started-at="2023-03-17T09:16:02Z" finished-at="2023-03-17T09:21:33Z">
+          <exception class="org.sikuli.script.FindFailed">
+            <message>
+              <![CDATA[C:/Images For Sikuli/EndSession.png: (515x66) in R[0,0 1920x1080]@S(0)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[FindFailed: C:/Images For Sikuli/EndSession.png: (515x66) in R[0,0 1920x1080]@S(0)
+  Line 2226, in file Region.java
+
+at org.sikuli.script.Region.wait(Region.java:2226)
+at com.testcases.framework.RegressionTest14feb.appClose(RegressionTest14feb.java:2325)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:425)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.sikuli.script.FindFailed -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appClose -->
+      </class> <!-- com.testcases.framework.RegressionTest14feb -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
