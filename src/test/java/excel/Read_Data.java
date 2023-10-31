@@ -1,15 +1,11 @@
 package excel;
 
+import java.awt.*;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-
-import java.awt.*;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellType;
@@ -18,14 +14,28 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 import org.sikuli.basics.Debug;
 import org.sikuli.script.Region;
 import org.sikuli.script.Screen;
 import org.sikuli.script.ScreenImage;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 public  class Read_Data {
 	
+	public static ExtentSparkReporter spark;
+	public static ExtentReports extent;
+	public static ExtentTest test;
+	
+	
+	public static String tbc;
 	public int r;
+	public String bm1;
 	public String so;
 	public String mo;
 	public String lo;
@@ -55,26 +65,25 @@ public  class Read_Data {
 	public String bm;
 	public String sb;
 	public String bbb;
+
 	
-	public ScreenImage capture(Rectangle rect) {
+	public  ScreenImage capture(Rectangle rect) {
 		Debug.log(4, "ScreenUnion: capture: (%d,%d) %dx%d", rect.x, rect.y, rect.width, rect.height);
 		Screen s = Screen.getPrimaryScreen();
-		//    Location tl = new Location(rect.getLocation());
-		//    for (Screen sx : Screen.screens) {
-		//      if (sx.contains(tl)) {
-		//        s = sx;
-		//        break;
-		//      }
-		//    }
+//    Location tl = new Location(rect.getLocation());
+//    for (Screen sx : Screen.screens) {
+//      if (sx.contains(tl)) {
+//        s = sx;
+//        break;
+//      }
+//    }
 		ScreenImage si = s.capture(rect);
-			return si;
-			}
-	
-
+		return si;
+	}
 	
 	public static String readOrderDetailName() throws IOException
 	{
-		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
 		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(1);
@@ -91,7 +100,7 @@ public  class Read_Data {
 	
 	public static String readButtonName() throws IOException
 	{
-		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
 		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(1);
@@ -107,7 +116,7 @@ public  class Read_Data {
   		}
 	public static String readComboFormationName() throws IOException
 	{
-		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
 		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(1);
@@ -123,7 +132,7 @@ public  class Read_Data {
   		}
 	public static String readModifierName() throws IOException
 	{
-		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
 		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(1);
@@ -139,7 +148,7 @@ public  class Read_Data {
   		}
 	public  String readSMOriginalBlendPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -163,7 +172,7 @@ public  class Read_Data {
   	}
 	public String readMdOriginalBlendPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -188,7 +197,7 @@ public  class Read_Data {
   	}
 	public  String readLGOriginalBlendPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -215,7 +224,7 @@ public  class Read_Data {
 	
 	public String readRefillSmallCoffeePrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -240,7 +249,7 @@ public  class Read_Data {
   	}
 	public String readRefillMediumCoffeePrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -265,7 +274,7 @@ public  class Read_Data {
   	}
 	public String readRefillLargeCoffeePrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -291,7 +300,7 @@ public  class Read_Data {
 	
 	public String readRefillExtraLargeCoffeePrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -316,7 +325,7 @@ public  class Read_Data {
   	}
 	public String readSmallDarkRoastPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -341,7 +350,7 @@ public  class Read_Data {
   	}
 	public String readMediumDarkRoastPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -366,7 +375,7 @@ public  class Read_Data {
   	}
 	public String readLargeDarkRoastPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -391,7 +400,7 @@ public  class Read_Data {
   	}
 	public String readExtraLargeDarkRoastPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -416,7 +425,7 @@ public  class Read_Data {
   	}
 	public String readSmallRefillDarkRoastPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -441,7 +450,7 @@ public  class Read_Data {
   	}
 	public String readMediumRefillDarkRoastPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -466,7 +475,7 @@ public  class Read_Data {
   	}
 	public String readLargeRefillDarkRoastPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -491,7 +500,7 @@ public  class Read_Data {
   	}
 	public String readExtraLargeRefillDarkRoastPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -516,7 +525,7 @@ public  class Read_Data {
   	}
 	public String readSmallDecafPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -541,7 +550,7 @@ public  class Read_Data {
   	}
 	public String readMediumDecafPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -568,7 +577,7 @@ public  class Read_Data {
 	
 	public String readLargeDecafPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -595,7 +604,7 @@ public  class Read_Data {
 	
 	public String readExtraLargeDecafPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -621,7 +630,7 @@ public  class Read_Data {
   	}
 	public String readSmallRefillDecafPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -646,7 +655,7 @@ public  class Read_Data {
   	}
 	public String readMediumRefillDecafPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -671,7 +680,7 @@ public  class Read_Data {
   	}
 	public String readLargeRefillDecafPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -696,7 +705,7 @@ public  class Read_Data {
   	}
 	public String readExtraLargeRefillDecafPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -722,7 +731,7 @@ public  class Read_Data {
 
 	public String readSausageBiscuitPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -748,7 +757,7 @@ public  class Read_Data {
 
 	public String readBaconBeltBagelPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -773,7 +782,7 @@ public  class Read_Data {
   	}
 	public String readSmallSpecialityTeaPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -798,7 +807,7 @@ public  class Read_Data {
   	}
 	public String readMediumSpecialityTeaPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -823,7 +832,7 @@ public  class Read_Data {
   	}
 	public String readSteepedTeaSmallPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -848,7 +857,7 @@ public  class Read_Data {
   	}
 	public String readSteepedTeaMediumPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -873,7 +882,7 @@ public  class Read_Data {
   	}
 	public String readSteepedTeaLargePrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -899,7 +908,7 @@ public  class Read_Data {
 	
 	public String readSteepedTeaExtraLargePrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -924,7 +933,7 @@ public  class Read_Data {
   	}
 	public String readSteepedTeaSmallRefillPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -949,7 +958,7 @@ public  class Read_Data {
   	}
 	public String readSteepedTeaMediumRefillPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -974,7 +983,7 @@ public  class Read_Data {
   	}
 	public String readSteepedTeaLargeRefillPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1000,7 +1009,7 @@ public  class Read_Data {
 	
 	public String readSteepedTeaExtraLargeRefillPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1025,7 +1034,7 @@ public  class Read_Data {
   	}
 	public String readSmallLattePrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1050,7 +1059,7 @@ public  class Read_Data {
   	}
 	public String readMediumLattePrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1075,7 +1084,7 @@ public  class Read_Data {
   	}
 	public String readLargeLattePrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1100,7 +1109,7 @@ public  class Read_Data {
   	}
 	public String readAssortedDonutPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1125,7 +1134,7 @@ public  class Read_Data {
   	}
 	public String readAssortedPremiumPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1148,9 +1157,59 @@ public  class Read_Data {
   		
   		return ap;
   	}
+	public String readAssortedHalfDozenPrice() throws IOException
+  	{
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(21);
+  		Cell cell = row.getCell(10);
+  		CellType typeofCell = cell.getCellType();  
+  		if(typeofCell.equals(CellType.NUMERIC))
+  		{
+  			double numericCellValue = cell.getNumericCellValue();
+  			System.out.println(numericCellValue);
+  			
+  		}
+  		else if (typeofCell.equals(CellType.STRING)) 
+  		{
+			String stringCellValue = cell.getStringCellValue();
+			String replaceAll = stringCellValue.replaceAll("\\s", "");
+			System.out.println(replaceAll);
+			ap=replaceAll;
+		}
+  		
+  		return ap;
+  	}
+	public String readAssortedDozenPrice() throws IOException
+  	{
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(22);
+  		Cell cell = row.getCell(10);
+  		CellType typeofCell = cell.getCellType();  
+  		if(typeofCell.equals(CellType.NUMERIC))
+  		{
+  			double numericCellValue = cell.getNumericCellValue();
+  			System.out.println(numericCellValue);
+  			
+  		}
+  		else if (typeofCell.equals(CellType.STRING)) 
+  		{
+			String stringCellValue = cell.getStringCellValue();
+			String replaceAll = stringCellValue.replaceAll("\\s", "");
+			System.out.println(replaceAll);
+			ap=replaceAll;
+		}
+  		
+  		return ap;
+  	}
 	public String readBlueberryTimbitPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1175,7 +1234,7 @@ public  class Read_Data {
   	}
 	public String readBlueberryMuffinPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1193,14 +1252,14 @@ public  class Read_Data {
 			String stringCellValue = cell.getStringCellValue();
 			String replaceAll = stringCellValue.replaceAll("\\s", "");
 			System.out.println(replaceAll);
-			bm=replaceAll;
+			bm1=replaceAll;
 		}
   		
-  		return bm;
+  		return bm1;
   	}
 	public String readChocolateCookiesPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1218,17 +1277,17 @@ public  class Read_Data {
 			String stringCellValue = cell.getStringCellValue();
 			String replaceAll = stringCellValue.replaceAll("\\s", "");
 			System.out.println(replaceAll);
-			bm=replaceAll;
+			bm1=replaceAll;
 		}
   		
-  		return bm;
+  		return bm1;
   	}
 	
 	
 	
 	public static int readClassicDonutPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1244,7 +1303,7 @@ public  class Read_Data {
   	}
 	public static int readMapleButterPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1260,7 +1319,7 @@ public  class Read_Data {
   	}
 	public static int readIcedCoffeePrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1276,7 +1335,7 @@ public  class Read_Data {
   	}
 	public static int readSpecialityTeaPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1292,7 +1351,7 @@ public  class Read_Data {
   	}
 	public static int readVanillaIcedLattePrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1308,7 +1367,7 @@ public  class Read_Data {
   	}
 	public static int readVanillaCreamColdBrewPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1324,7 +1383,7 @@ public  class Read_Data {
   	}
 	public static int readBottleWaterPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1340,7 +1399,7 @@ public  class Read_Data {
   	}
 	public static int readEggCheeseBiscuitPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1356,7 +1415,7 @@ public  class Read_Data {
   	}
 	public static int readBaconFarmersBiscuitPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1372,7 +1431,7 @@ public  class Read_Data {
   	}
 	public static int readBaconFarmersWrapPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1388,7 +1447,7 @@ public  class Read_Data {
   	}
 	public static int readBaconBeltPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1402,9 +1461,9 @@ public  class Read_Data {
   		}
   		return 0;
   	}
-	public static int readTurkeyBaconClubPrice() throws IOException
+	public static String readTurkeyBaconClubPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1416,11 +1475,11 @@ public  class Read_Data {
   			double numericCellValue = cell.getNumericCellValue();
   			System.out.println(numericCellValue);
   		}
-  		return 0;
+  		return tbc;
   	}
 	public static int readHamMeltPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1436,7 +1495,7 @@ public  class Read_Data {
   	}
 	public static int readCrispyCilantroWrapPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1452,7 +1511,7 @@ public  class Read_Data {
   	}
 	public static int readChickenNoodlePrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1468,7 +1527,7 @@ public  class Read_Data {
   	}
 	public static int readGrainPreparedBagelPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1484,7 +1543,7 @@ public  class Read_Data {
   	}
 	public static int readTimbits10Price() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1500,7 +1559,7 @@ public  class Read_Data {
   	}
 	public static int readHashbrownPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1516,7 +1575,7 @@ public  class Read_Data {
   	}
 	public static int readCeramicMugPrice() throws IOException
   	{
-  		File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
   		FileInputStream fis = new FileInputStream(f);
   		Workbook wb = new XSSFWorkbook(fis);
   		Sheet sheetAt = wb.getSheetAt(0);
@@ -1530,36 +1589,36 @@ public  class Read_Data {
   		}
   		return 0;
   	}
-	public int readReleaseId() throws IOException
+	public String readReleaseId() throws IOException
     {
-        File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+        File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
         FileInputStream fis = new FileInputStream(f);
         Workbook wb = new XSSFWorkbook(fis);
-        Sheet sheetAt = wb.getSheetAt(0);
-        Row row = sheetAt.getRow(1);
-        Cell cell = row.getCell(2);
-        CellType typeofCell = cell.getCellType();
-        /*if(typeofCell.equals(CellType.STRING)){
-        	
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(1);
+  		Cell cell = row.getCell(2);
+  		CellType typeofCell = cell.getCellType();  
+  		if(typeofCell.equals(CellType.NUMERIC))
+  		{
+  			int numericCellValue = (int) cell.getNumericCellValue();
+  			System.out.println(numericCellValue);
+  			r=numericCellValue;
+  		}
+  		else if (typeofCell.equals(CellType.STRING)) 
+  		{
 			String stringCellValue = cell.getStringCellValue();
 			String replaceAll = stringCellValue.replaceAll("\\s", "");
 			System.out.println(replaceAll);
-		}*/
-        if(typeofCell.equals(CellType.NUMERIC))
-        {
-            double numericCellValue = cell.getNumericCellValue();
-            r = (int)numericCellValue;
-            
-//            System.out.println(r);
-            
-        }
-        return r;
+			bm1=replaceAll;
+		}
+  		
+        return bm1;
          
     }
 	
 	public static String readBundlingItemName() throws IOException
     {
-        File f= new File("C:\\Users\\390078\\git\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+        File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
         FileInputStream fis = new FileInputStream(f);
           Workbook wb = new XSSFWorkbook(fis);
           Sheet sheetAt = wb.getSheetAt(1);
@@ -1573,6 +1632,487 @@ public  class Read_Data {
           }
         return null;
           }
+	//Newly added
+	public  String  readSmallIcedCappuccinoPrice() throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(30);
+  		Cell cell = row.getCell(10);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	          
+
+	}
+	public  String  readMediumIcedCappuccinoPrice() throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(31);
+  		Cell cell = row.getCell(10);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	          
+
+	}
+	public  String  readLargeIcedCappuccinoPrice() throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(32);
+  		Cell cell = row.getCell(10);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	          
+
+	}
+	public  String  readSmallRefilIcedCappuccinoPrice() throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(33);
+  		Cell cell = row.getCell(10);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	          
+
+	}
+	public  String  readMediumRefilIcedCappuccinoPrice() throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(34);
+  		Cell cell = row.getCell(10);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	          
+
+	}
+	public  String  readLargeRefilIcedCappuccinoPrice() throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(35);
+  		Cell cell = row.getCell(10);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	          
+
+	}
+	public  String  readSmallIcedCappuccinoLightPrice() throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(36);
+  		Cell cell = row.getCell(10);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	          
+
+	}
+	public  String readMediumIcedCappuccinoLightPrice() throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(37);
+  		Cell cell = row.getCell(10);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	          
+
+	}
+	
+	public  String readLargeIcedCappuccinoLight() throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+		FileInputStream fis = new FileInputStream(f);
+		Workbook wb = new XSSFWorkbook(fis);
+		Sheet sheetAt = wb.getSheetAt(0);
+		Row row = sheetAt.getRow(38);
+		Cell cell = row.getCell(10);
+		CellType typeofCell = cell.getCellType(); 
+		String numericCellValue="";
+		if(typeofCell.equals(CellType.STRING))
+		{
+			numericCellValue = cell.getStringCellValue();
+			//System.out.println(numericCellValue);
+		}
+		return numericCellValue;
+
+
+	}
+	public  String  readSmallRefilIcedCappuccinoLightPrice() throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(39);
+  		Cell cell = row.getCell(10);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	          
+
+	}
+	public  String  readMediumRefilIcedCappuccinoLightPrice() throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(40);
+  		Cell cell = row.getCell(10);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	          
+
+	}
+	
+	
+	public  String  readLargeRefilIcedCappuccinoLight() throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(41);
+  		Cell cell = row.getCell(10);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	          
+
+	}
+	
+	
+	public  String readSmallMochaIcedCappuccino() throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(42);
+  		Cell cell = row.getCell(10);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	          
+
+	}
+	
+	
+	
+	public  String readMediumMochaIcedCappuccino()throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(43);
+  		Cell cell = row.getCell(10);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	          
+
+	}
+	public  String readLargeMochaIcedCappuccino()throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(44);
+  		Cell cell = row.getCell(10);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	          
+
+	}
+	public  String readSmallRefilMochaIcedCappuccino()throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(45);
+  		Cell cell = row.getCell(10);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	          
+
+	}
+	public  String  readMediumRefilMochaIcedCappuccino()throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(46);
+  		Cell cell = row.getCell(10);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	          
+
+	}
+	public  String readLargeRefilMochaIcedCappuccino()throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(47);
+  		Cell cell = row.getCell(10);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	          
+
+	}
+
+	public String read_Region_Id()throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(3);
+  		Cell cell = row.getCell(2);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	}
+	
+	public String read_Bacon_English_Muffin_Combo_Price()throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(2);
+  		Cell cell = row.getCell(22);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	}
+
+
+
+	public String  read_Bacon_Biscuit_Combo_price() throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(3);
+  		Cell cell = row.getCell(22);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	}
+	public String  read_Bacon_Bagel_Combo_price() throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(4);
+  		Cell cell = row.getCell(22);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	}
+	
+	public String  read_Bacon_Classic_Wrap_Combo_price() throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(5);
+  		Cell cell = row.getCell(22);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	}
+	
+	public String read_Bacon_Farmers_Wrap_Combo_price() throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(6);
+  		Cell cell = row.getCell(22);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	}
+	
+	
+	public String read_Sausage_English_Muffin_Combo_price() throws IOException
+	{
+		File f= new File("C:\\RBI Auto 15_08_23\\Tim_Hortons_NextGen\\Tim_Hortons_NextGen\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);
+  		Sheet sheetAt = wb.getSheetAt(0);
+  		Row row = sheetAt.getRow(7);
+  		Cell cell = row.getCell(22);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	}
+
+
 
 public static void main(String[] args) throws IOException
 {
@@ -1626,4 +2166,10 @@ rd.readSteepedTeaMediumRefillPrice();
 rd.readSteepedTeaSmallPrice();
 rd.readSteepedTeaSmallRefillPrice();
 rd.readSmallLattePrice();
+rd.readAssortedHalfDozenPrice();
+rd.readAssortedDozenPrice();
+Rectangle rectangle=new Rectangle();
+rectangle.setBounds(10,10,10,10);
+rd.capture(rectangle);
+rd.readTurkeyBaconClubPrice();
 }}
