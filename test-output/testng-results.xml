@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-31T13:33:05 IST" name="Default suite" finished-at="2023-10-31T13:33:27 IST" duration-ms="22391">
+  <suite started-at="2024-02-22T12:51:23 IST" name="Default suite" finished-at="2024-02-22T12:59:19 IST" duration-ms="476025">
     <groups>
     </groups>
-    <test started-at="2023-10-31T13:33:05 IST" name="Default test" finished-at="2023-10-31T13:33:27 IST" duration-ms="22391">
+    <test started-at="2024-02-22T12:51:23 IST" name="Default test" finished-at="2024-02-22T12:59:19 IST" duration-ms="476025">
       <class name="com.testcases.framework.Runner">
-        <test-method signature="appLogin()[pri:0, instance:com.testcases.framework.Runner@2ad48653]" started-at="2023-10-31T13:33:05 IST" name="appLogin" finished-at="2023-10-31T13:33:27 IST" duration-ms="22357" status="PASS">
+        <test-method signature="appLogin()[pri:0, instance:com.testcases.framework.Runner@7d9f158f]" started-at="2024-02-22T12:51:23 IST" name="appLogin" finished-at="2024-02-22T12:59:19 IST" duration-ms="475981" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- appLogin -->
-        <test-method is-config="true" signature="getScreenshot(java.lang.String,org.sikuli.script.Screen,com.aventstack.extentreports.ExtentReports,com.aventstack.extentreports.ExtentTest)[pri:0, instance:com.testcases.framework.Runner@2ad48653]" started-at="2023-10-31T13:33:27 IST" name="getScreenshot" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1698739407465" status="FAIL">
+        <test-method is-config="true" signature="getScreenshot(java.lang.String,org.sikuli.script.Screen,com.aventstack.extentreports.ExtentReports,com.aventstack.extentreports.ExtentTest)[pri:0, instance:com.testcases.framework.Runner@7d9f158f]" started-at="2024-02-22T12:59:19 IST" name="getScreenshot" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1708586959819" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[

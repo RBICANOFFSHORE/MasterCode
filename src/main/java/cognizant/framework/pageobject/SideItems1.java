@@ -32,7 +32,12 @@ public class SideItems1 extends Read_Data {
 	Pattern  Donut_specialty_chocolate_dip =  new Pattern("C:\\Images For Sikuli\\Donut_specialty_chocolate_dip.png");
 	Pattern  Donut_specialty_double_chocolate =  new Pattern("C:\\Images For Sikuli\\Donut_specialty_double_chocolate.png");
 	Pattern  Donut_specialty_vanilla_dip =  new Pattern("C:\\Images For Sikuli\\Donut_specialty_vanilla_dip.png");
-	
+	Pattern  Retro_Half_Dozen =  new Pattern("C:\\Images For Sikuli\\Retro_Half_Dozen.png");
+	Pattern  Retro_Dozen =  new Pattern("C:\\Images For Sikuli\\Retro_Dozen.png");
+	Pattern Sea_Salt_Wedges = new Pattern("C:\\Images For Sikuli\\Sea_Salt_Wedges.png"); 
+	Pattern Lunch = new Pattern("C:\\Images For Sikuli\\Lunch.png"); 
+	Pattern Breads_and_Biscuits = new Pattern("C:\\Images For Sikuli\\Breads_and_Biscuits.png"); 
+	Pattern Plain_Croissant = new Pattern("C:\\Images For Sikuli\\Plain_Croissant.png");
 	
 	
 	Screen s;
@@ -725,8 +730,12 @@ public class SideItems1 extends Read_Data {
 		Thread.sleep(2000);
 		s.wait(Sides,300);
 		s.click(Sides.similar((float)0.5));
+		
+		Thread.sleep(2000);
 		s.wait(NextButton,300);
 		s.click(NextButton.similar((float)0.5));
+		
+		Thread.sleep(2000);
 		s.wait(NextButton,300);
 		s.click(NextButton.similar((float)0.5));
 		s.wait(NextButton,300);
@@ -794,4 +803,371 @@ public class SideItems1 extends Read_Data {
 		s.click(VoidItem.similar((float)0.5));
 	}
 
+	@Test(priority = 39)
+	public void siKuliTestCase039(ExtentReports extent, ExtentTest testcase) throws FindFailed, IOException, TesseractException, InterruptedException 
+	{ 
+		
+		SideItems1 b = new SideItems1(s);
+
+
+		testcase=extent.createTest("TC_0039: Verify Retro Half Dozen Price. "+"Region Id: "+b.read_Region_Id());
+
+		s.wait(Sides,300);
+		s.click(Sides.similar((float)0.5));
+		
+		s.wait(Retro_Half_Dozen,300);
+		s.click(Retro_Half_Dozen.similar((float)0.5));
+
+            
+		
+
+
+
+		testcase.log(Status.PASS, "User able to click on Retro Half Dozen");
+
+
+
+		s.wait(EatIn, 300);  
+		s.click(EatIn.similar((float)0.8));
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+
+		Thread.sleep(4000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(420,200,60,30);
+	
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Retro_Half_Dozen_Price");
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Retro_Half_Dozen_Price_Withname");
+
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		//System.out.println(imageText);
+
+		
+		//System.out.println(b.read_Retro_Half_Dozen_Price());
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_Retro_Half_Dozen_Price();
+		
+	      System.out.println("Price from picture in POS: "+a1);
+	    System.out.println("Price from pricing sheet: "+a2);
+
+
+		if(a1.equals(a2)){
+
+			 testcase.log(Status.PASS," Correct ala carte price of Retro Half Dozen");
+
+			 System.out.println("***********Scenario039 PASS: Correct ala carte price of Retro Half Dozen.  ***********");
+
+		}
+		else {
+
+			testcase.log(Status.FAIL," Incorrect ala carte price of Retro Half Dozen."+" Expected Price: "+b.read_Retro_Half_Dozen_Price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+			System.out.println("***********Scenario039 FAIL: Incorrect ala carte price of Retro Half Dozen.***********");
+
+
+		}
+
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+	  
+	}
+	
+	
+	
+	@Test(priority = 40)
+	public void siKuliTestCase040(ExtentReports extent, ExtentTest testcase) throws FindFailed, IOException, TesseractException, InterruptedException 
+	{ 
+		
+		SideItems1 b = new SideItems1(s);
+
+
+		testcase=extent.createTest("TC_0040: Verify Retro Dozen Price. "+"Region Id: "+b.read_Region_Id());
+
+		
+		Thread.sleep(4000);
+		s.wait(Sides,300);
+		s.click(Sides.similar((float)0.5));
+		
+		s.wait(Retro_Dozen,300);
+		s.click(Retro_Dozen.similar((float)0.5));
+
+
+		testcase.log(Status.PASS, "User able to click on Retro Half Dozen");
+
+		s.wait(EatIn, 300);  
+		s.click(EatIn.similar((float)0.8));
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+
+		Thread.sleep(4000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(420,200,60,30);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Retro_Dozen_Price");
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Retro_Dozen_Price_Withname");
+
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		//System.out.println(imageText);
+
+		
+		//System.out.println(b.read_Retro_Dozen_Price());
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_Retro_Dozen_Price();
+		
+	      System.out.println("Price from picture in POS: "+a1);
+	    System.out.println("Price from pricing sheet: "+a2);
+
+
+		if(a1.equals(a2)){
+
+			 testcase.log(Status.PASS," Correct ala carte price of Retro Dozen");
+
+			 System.out.println("***********Scenario040 PASS: Correct ala carte price of Retro Dozen.  ***********");
+
+
+		}
+		else {
+
+			testcase.log(Status.FAIL," Incorrect ala carte price of Retro Dozen."+" Expected Price: "+b.read_Retro_Dozen_Price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+			testcase.addScreenCaptureFromPath(imagePath);
+			System.out.println("***********Scenario040 FAIL: Incorrect ala carte price of Retro Dozen.***********");
+
+
+		}
+
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+
+
+	  
+		
+		
+	}
+
+	@Test(priority = 41) 
+
+	public void siKuliTestCase041(ExtentReports extent, ExtentTest testcase) throws FindFailed, IOException, TesseractException, InterruptedException  
+
+	{  
+
+	SideItems1 b = new SideItems1(s); 
+
+	testcase=extent.createTest("TC_0041: Verify Sea Salt Wedges Price. "+b.read_Region_Id()); 
+
+
+	Thread.sleep(2000); 
+
+	s.wait(Lunch,300); 
+
+	s.click(Lunch.similar((float)0.5)); 
+
+	s.wait(Sea_Salt_Wedges ,300); 
+
+	s.click(Sea_Salt_Wedges .similar((float)0.5)); 
+	
+	System.out.println("clicked"); 
+
+	testcase.log(Status.PASS, "User able to click on Sea Salt Wedges"); 
+
+	s.wait(EatIn, 300);   
+
+	s.click(EatIn.similar((float)0.8)); 
+
+	testcase.log(Status.PASS, "User able to click on Eat In"); 
+
+	Thread.sleep(4000); 
+
+	Rectangle rectangle=new Rectangle(); 
+
+	rectangle.setBounds(420,205,60,30); 
+
+	String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Sea_Salt_Wedges_price"); 
+
+	rectangle.setBounds(210,200,275,30); 
+
+	String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Sea_Salt_Wedges_price_withname"); 
+
+	ITesseract image = new Tesseract(); 
+
+	image.setDatapath(".\\tessdata"); 
+
+	String imageText=image.doOCR(new File(imagePath)); 
+
+
+	System.out.println(imageText);  
+
+	System.out.println(b.read_Sea_Salt_Wedges_price()); 
+
+	String a1=null; 
+
+	String a2=null; 
+
+	//Price validation 
+
+	String replaceAll = imageText.replaceAll("\\s",""); 
+
+	a1 = replaceAll; 
+
+
+	a2 = b.read_Sea_Salt_Wedges_price(); 
+
+	System.out.println(a1); 
+
+	System.out.println(a2); 
+
+
+	if(a1.equals(a2)){ 
+
+	testcase.log(Status.PASS," Correct ala carte price of Sea Salt Wedges"); 
+
+	System.out.println("***********Scenario41 PASS: Correct ala carte price of Sea Salt Wedges.  ***********"); 
+
+	} 
+
+	else { 
+
+	testcase.log(Status.FAIL," Incorrect ala carte price of Sea Salt Wedges."+" Expected Price: "+read_Sea_Salt_Wedges_price()); 
+
+	           testcase.addScreenCaptureFromPath(pricewithname); 
+
+	System.out.println("***********Scenario41 FAIL: Incorrect ala carte price of Sea Salt Wedges.***********"); 
+
+
+	} 
+
+
+	s.wait(VoidItem, 300); 
+
+	s.click(VoidItem.similar((float)0.5)); 
+
+	} 
+	
+	@Test(priority = 42) 
+
+	public void siKuliTestCase042(ExtentReports extent, ExtentTest testcase) throws FindFailed, IOException, TesseractException, InterruptedException  
+
+	{   
+
+	SideItems1 b = new SideItems1(s); 
+
+	testcase=extent.createTest("TC_0042: Verify Plain Croissant Price. "+b.read_Region_Id()); 
+
+	Thread.sleep(2000); 
+
+	s.wait(Sides,300); 
+
+	s.click(Sides.similar((float)0.5)); 
+
+	s.wait(Breads_and_Biscuits ,300); 
+
+	s.click(Breads_and_Biscuits .similar((float)0.5)); 
+
+	s.wait(Plain_Croissant  ,300); 
+
+	s.click(Plain_Croissant  .similar((float)0.5)); 
+
+	testcase.log(Status.PASS, "User able to click on Plain_Croissant "); 
+
+	s.wait(EatIn, 300);   
+
+	s.click(EatIn.similar((float)0.8)); 
+
+	testcase.log(Status.PASS, "User able to click on Eat In"); 
+
+	Thread.sleep(4000); 
+
+	Rectangle rectangle=new Rectangle(); 
+
+	rectangle.setBounds(420,205,65,35); 
+
+	String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Plain_Croissant_price"); 
+
+	rectangle.setBounds(210,200,275,30); 
+
+	String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Plain_Croissant_price_withname"); 
+
+
+	ITesseract image = new Tesseract(); 
+
+	image.setDatapath(".\\tessdata"); 
+
+	String imageText=image.doOCR(new File(imagePath)); 
+
+	System.out.println(imageText); 
+
+	System.out.println(b.read_Plain_Croissant_price()); 
+
+	String a1=null; 
+
+	String a2=null; 
+ 
+
+	//Price validation 
+
+	String replaceAll = imageText.replaceAll("\\s",""); 
+
+	a1 = replaceAll;  
+
+	a2 = b.read_Plain_Croissant_price();  
+
+	System.out.println(a1); 
+
+	System.out.println(a2); 
+
+
+	if(a1.equals(a2)){ 
+
+	testcase.log(Status.PASS," Correct ala carte price of Plain Croissant"); 
+
+	System.out.println("***********Scenario42 PASS: Correct ala carte price of Plain Croissant.  ***********"); 
+	
+	         } 
+	else { 
+ 
+
+	testcase.log(Status.FAIL," Incorrect ala carte price of Plain Croissant."+" Expected Price: "+read_Plain_Croissant_price()); 
+
+	testcase.addScreenCaptureFromPath(pricewithname); 
+
+	System.out.println("***********Scenario42 FAIL: Incorrect ala carte price of Plain Croissant.***********"); 
+
+
+	} 
+
+	s.wait(VoidItem, 300); 
+
+	s.click(VoidItem.similar((float)0.5)); 
+
+	} 
+
+	 
 }
