@@ -94,13 +94,13 @@ public class LandingPage extends Read_Data{
 	     s.doubleClick(RollbackLightDesktop1.similar((float)0.6));
 	     s.wait(StoreNumber, 300);           
 	     s.type(StoreNumber, "");
-	     s.type(StoreNumber, "7000054");
+	     s.type(StoreNumber, "7000186");
 	     testcase.log(Status.PASS, "User able to enter store number");
 	     s.wait(RegionIDClick, 300);  
 	     s.click(RegionIDClick.similar((float)0.5));
 	     s.wait(TabPOS, 300);  
 	     s.click(TabPOS.similar((float)0.4));
-	     s.type(ReleaseID, "37255"); //36956
+	     s.type(ReleaseID, "37426"); //36956
 	     testcase.log(Status.PASS, "User able to enter release id");
 	     s.wait(RollbackApply, 300);
 	     s.click(RollbackApply.similar((float)0.6)); 

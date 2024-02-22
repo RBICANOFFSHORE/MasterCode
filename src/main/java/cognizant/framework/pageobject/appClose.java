@@ -74,7 +74,7 @@ public class appClose {
 		    s.click(Functions.similar((float)0.5));
 		    s.wait(MinPOS, 300);  
 		    s.click(MinPOS.similar((float)0.8));
-		  /*  s.wait(IQTouchTaskbar, 300);
+		   /* s.wait(IQTouchTaskbar, 300);
 		    s.rightClick(IQTouchTaskbar.similar((float)0.5));
 		    s.wait(CloseWindow, 300);
 		    s.click(CloseWindow.similar((float)0.5));

@@ -63,6 +63,11 @@ public class LunchItems extends Read_Data {
   	Pattern  Turkey_Melt_Combo =  new Pattern("C:\\Images For Sikuli\\Turkey_Melt_Combo.png");
   	Pattern  Slow_Cooked_Chkn_Bacon_Ranch_Wrap_Combo =  new Pattern("C:\\Images For Sikuli\\Slow_Cooked_Chkn_Bacon_Ranch_Wrap_Combo.png");
   	Pattern  Crispy_Chk_Bacon_Ranch_Wrap_Combo =  new Pattern("C:\\Images For Sikuli\\Crispy_Chk_Bacon_Ranch_Wrap_Combo.png");
+  	Pattern  HotBowls1 = new Pattern("C:\\Images For Sikuli\\HotBowls1.png");
+  	Pattern  ChickenNoodleSoup = new Pattern("C:\\Images For Sikuli\\ChickenNoodleSoup.png");
+  	Pattern  LargeButton = new Pattern("C:\\Images For Sikuli\\LargeButton.png");
+  	Pattern  Chilli = new Pattern("C:\\Images For Sikuli\\Chilli.png");
+  	
   	
   
   	Pattern Breakfast = new Pattern("C:/Images For Sikuli/Breakfast.png"); 
@@ -72,6 +77,28 @@ public class LunchItems extends Read_Data {
   	Pattern MinPOS = new Pattern("C:/Images For Sikuli/MinPOS.png"); 
   	Pattern EatIn = new Pattern("C:/Images For Sikuli/EatIn.png"); 
   	Pattern VoidItem = new Pattern("C:\\Images For Sikuli\\VoidItem.png");
+  	
+  //	******Lunch Wraps*******
+  	Pattern Slow_Cooked_Chicken_Wrap = new Pattern("C:\\Images For Sikuli\\Slow_Cooked_Chicken_Wrap.png");
+  	Pattern Crispy_Chicken_Wrap = new Pattern("C:\\Images For Sikuli\\Crispy_Chicken_Wrap.png");
+  	Pattern Slow_Cooked_Chkn_Bacon_Ranch_Wrap = new Pattern("C:\\Images For Sikuli\\Slow_Cooked_Chkn_Bacon_Ranch_Wrap.png");
+  	Pattern Crispy_Chk_Bacon_Ranch_Wrap = new Pattern("C:\\Images For Sikuli\\Crispy_Chk_Bacon_Ranch_Wrap.png");
+  	Pattern Spicy_Chickn_Bacon_Ranch_Wrap = new Pattern("C:\\Images For Sikuli\\Spicy_Chickn_Bacon_Ranch_Wrap.png");
+  	Pattern Lunch_Wrap_Button = new Pattern("C:\\Images For Sikuli\\Lunch_Wrap_Button.png");
+  	
+  // ********Lunch ALC Sandwiches********
+  	Pattern Turkey_Bacon_Club = new Pattern("C:\\Images For Sikuli\\Turkey_Bacon_Club.png");
+  	Pattern Roast_Beef_Cheddar = new Pattern("C:\\Images For Sikuli\\Roast_Beef_Cheddar.png");
+  	Pattern Bacon_Grilled_Cheese_Melt = new Pattern("C:\\Images For Sikuli\\Bacon_Grilled_Cheese_Melt.png");
+  	Pattern Lunch_Sandwiche_Button = new Pattern("C:\\Images For Sikuli\\Lunch_Sandwiche_Button.png");
+  	Pattern Turkey_Melt = new Pattern("C:\\Images For Sikuli\\Turkey_Melt.png");
+  	Pattern Ham_Melt = new Pattern("C:\\Images For Sikuli\\Ham_Melt.png");
+  	
+  	
+  	
+  	
+  	
+  	
   	
   	
     Screen s;
@@ -257,7 +284,7 @@ public class LunchItems extends Read_Data {
 
 		Thread.sleep(4000);
 		Rectangle rectangle=new Rectangle();
-		rectangle.setBounds(420,200,65,35);
+		rectangle.setBounds(420,200,60,30);
 		
 		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Grilled_Cheese_Melt_Combo_Price");
 		rectangle.setBounds(210,200,275,30);
@@ -343,7 +370,7 @@ public class LunchItems extends Read_Data {
 
 		Thread.sleep(4000);
 		Rectangle rectangle=new Rectangle();
-		rectangle.setBounds(420,200,70,40);
+		rectangle.setBounds(420,200,60,30);
 		
 		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Slow_Cooked_Chicken_Wrap_Combo_combo_Price");
 		rectangle.setBounds(210,200,275,30);
@@ -429,7 +456,7 @@ public class LunchItems extends Read_Data {
 
 		Thread.sleep(4000);
 		Rectangle rectangle=new Rectangle();
-		rectangle.setBounds(420,200,70,40);
+		rectangle.setBounds(420,200,60,30);
 		
 		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Crispy_Chicken_Wrap_Combo_Price");
 		rectangle.setBounds(210,200,275,30);
@@ -1084,6 +1111,1237 @@ public class LunchItems extends Read_Data {
 		s.wait(VoidItem, 300);
 		s.click(VoidItem.similar((float)0.5));
 	  }
+	
+	@Test(priority = 41)
+    public void siKuliTestCase0041(ExtentReports extent, ExtentTest testcase) throws FindFailed, IOException, TesseractException, InterruptedException 
+    {	 
+  
+    	
+    	LunchItems b = new LunchItems(s);
+    	testcase=extent.createTest("TC_041: Verify Regular Chicken Noodle Soup Price. "+"Region Id: "+b.read_Region_Id());
 
+
+
+		Thread.sleep(2000);
+		s.wait(Lunch,300);
+		s.click(Lunch.similar((float)0.5));
+		testcase.log(Status.PASS, "User able to click on Lunch");
+		Thread.sleep(2000);
+
+        s.wait(HotBowls1,300);
+        s.click(HotBowls1.similar((float)0.5));
+        testcase.log(Status.PASS, "User able to click on Hot Bowls");
+		
+		s.wait(ChickenNoodleSoup,300);
+		s.click(ChickenNoodleSoup.similar((float)0.5));
+
+		testcase.log(Status.PASS, "User is able to click on Regular Chicken Noodle Soup");
+
+
+
+		s.wait(EatIn, 300);  
+		s.click(EatIn.similar((float)0.8));
+		testcase.log(Status.PASS, "User is able to click on Eat In");
+
+
+		Thread.sleep(4000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(420,200,65,35);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "ChickenNoodleSoup__price");
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "ChickenNoodleSoup_price_Withname");
+
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+		
+		System.out.println(b.read_RGChickenNoodleSoup_Price());
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_RGChickenNoodleSoup_Price();
+		System.out.println(a1);
+		System.out.println(a2);
+
+
+		if(a1.equals(a2)){
+
+			 testcase.log(Status.PASS," Correct ala carte price of Regular Chicken Noodle Soup");
+
+			 System.out.println("***********Scenario041 PASS: Correct ala carte price of Regular Chicken Noodle Soup.  ***********");
+
+
+		}
+		else {
+
+			testcase.log(Status.FAIL," Incorrect ala carte price of Regular Chicken Noodle Soup."+" Expected Price: "+b.read_RGChickenNoodleSoup_Price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+			System.out.println("***********Scenario040 FAIL: Incorrect ala carte price of Regular Chicken Noodle Soup.***********");
+
+
+		}
+
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+	  }
+
+	@Test(priority = 42)
+    public void siKuliTestCase0042(ExtentReports extent, ExtentTest testcase) throws FindFailed, IOException, TesseractException, InterruptedException 
+    {	 
+  
+    	
+    	LunchItems b = new LunchItems(s);
+    	testcase=extent.createTest("TC_042: Verify Large Chicken Noodle Soup Price. "+"Region Id: "+b.read_Region_Id());
+
+
+
+		Thread.sleep(2000);
+		s.wait(Lunch,300);
+		s.click(Lunch.similar((float)0.5));
+		testcase.log(Status.PASS, "User able to click on Lunch");
+		Thread.sleep(2000);
+
+        s.wait(HotBowls1,300);
+        s.click(HotBowls1.similar((float)0.5));
+        testcase.log(Status.PASS, "User able to click on Hot Bowls");
+		
+        s.wait(LargeButton,300);
+        s.click(LargeButton.similar((float)0.5));
+        
+		s.wait(ChickenNoodleSoup,300);
+		s.click(ChickenNoodleSoup.similar((float)0.5));
+
+		testcase.log(Status.PASS, "User is able to click on Large Chicken Noodle Soup");
+
+
+
+		s.wait(EatIn, 300);  
+		s.click(EatIn.similar((float)0.8));
+		testcase.log(Status.PASS, "User is able to click on Eat In");
+
+
+		Thread.sleep(4000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(420,200,65,35);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "LGChickenNoodleSoup__price");
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "LGChickenNoodleSoup_price_Withname");
+
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+		
+		System.out.println(b.read_LGChickenNoodleSoup_Price());
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_LGChickenNoodleSoup_Price();
+		System.out.println(a1);
+		System.out.println(a2);
+
+
+		if(a1.equals(a2)){
+
+			 testcase.log(Status.PASS," Correct ala carte price of Large Chicken Noodle Soup");
+
+			 System.out.println("***********Scenario042 PASS: Correct ala carte price of Large Chicken Noodle Soup.  ***********");
+
+
+		}
+		else {
+
+			testcase.log(Status.FAIL," Incorrect ala carte price of Large Chicken Noodle Soup."+" Expected Price: "+b.read_LGChickenNoodleSoup_Price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+			System.out.println("***********Scenario042 FAIL: Incorrect ala carte price of Large Chicken Noodle Soup.***********");
+
+
+		}
+
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+	  }
+
+	@Test(priority = 43)
+    public void siKuliTestCase0043(ExtentReports extent, ExtentTest testcase) throws FindFailed, IOException, TesseractException, InterruptedException 
+    {	 
+  
+    	
+    	LunchItems b = new LunchItems(s);
+    	testcase=extent.createTest("TC_043: Verify Regular Chili Price. "+"Region Id: "+b.read_Region_Id());
+
+
+
+		Thread.sleep(2000);
+		s.wait(Lunch,300);
+		s.click(Lunch.similar((float)0.5));
+		testcase.log(Status.PASS, "User able to click on Lunch");
+		Thread.sleep(2000);
+
+        s.wait(HotBowls1,300);
+        s.click(HotBowls1.similar((float)0.5));
+        testcase.log(Status.PASS, "User able to click on Hot Bowls");
+        
+		s.wait(Chilli,300);
+		s.click(Chilli.similar((float)0.5));
+
+		testcase.log(Status.PASS, "User is able to click on Regular Chili");
+
+
+		s.wait(EatIn, 300);  
+		s.click(EatIn.similar((float)0.8));
+		testcase.log(Status.PASS, "User is able to click on Eat In");
+
+
+		Thread.sleep(4000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(420,200,65,35);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "RGChili__price");
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "RGChili__price_Withname");
+
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+		
+		System.out.println(b.read_RGChili_Price());
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_RGChili_Price();
+		System.out.println(a1);
+		System.out.println(a2);
+
+
+		if(a1.equals(a2)){
+
+			 testcase.log(Status.PASS," Correct ala carte price of Regular Chili");
+
+			 System.out.println("***********Scenario043 PASS: Correct ala carte price of Regular Chili.  ***********");
+
+
+		}
+		else {
+
+			testcase.log(Status.FAIL," Incorrect ala carte price of Regular Chili."+" Expected Price: "+b.read_RGChili_Price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+			System.out.println("***********Scenario043 FAIL: Incorrect ala carte price of Regular Chili.***********");
+
+
+		}
+
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+	  }
+
+	@Test(priority = 44)
+    public void siKuliTestCase0044(ExtentReports extent, ExtentTest testcase) throws FindFailed, IOException, TesseractException, InterruptedException 
+    {	 
+  
+    	
+    	LunchItems b = new LunchItems(s);
+    	testcase=extent.createTest("TC_044: Verify Large Chili Price. "+"Region Id: "+b.read_Region_Id());
+
+
+
+		Thread.sleep(2000);
+		s.wait(Lunch,300);
+		s.click(Lunch.similar((float)0.5));
+		testcase.log(Status.PASS, "User able to click on Lunch");
+		Thread.sleep(2000);
+
+        s.wait(HotBowls1,300);
+        s.click(HotBowls1.similar((float)0.5));
+        testcase.log(Status.PASS, "User able to click on Hot Bowls");
+		
+        s.wait(LargeButton,300);
+        s.click(LargeButton.similar((float)0.5));
+        
+		s.wait(Chilli,300);
+		s.click(Chilli.similar((float)0.5));
+
+		testcase.log(Status.PASS, "User is able to click on Large Chili");
+
+
+
+		s.wait(EatIn, 300);  
+		s.click(EatIn.similar((float)0.8));
+		testcase.log(Status.PASS, "User is able to click on Eat In");
+
+
+		Thread.sleep(4000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(420,200,65,35);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "LGChili__price");
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "LGChili__price_Withname");
+
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+		
+		System.out.println(b.read_LGChili_Price());
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_LGChili_Price();
+		System.out.println(a1);
+		System.out.println(a2);
+
+
+		if(a1.equals(a2)){
+
+			 testcase.log(Status.PASS," Correct ala carte price of Large Chili");
+
+			 System.out.println("***********Scenario044 PASS: Correct ala carte price of Large Chili.  ***********");
+
+
+		}
+		else {
+
+			testcase.log(Status.FAIL," Incorrect ala carte price of Large Chili."+" Expected Price: "+b.read_LGChili_Price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+			System.out.println("***********Scenario044 FAIL: Incorrect ala carte price of Large Chili.***********");
+
+
+		}
+
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+	  }
+
+	@Test(priority = 45)
+    public void siKuliTestCase0045(ExtentReports extent, ExtentTest testcase) throws FindFailed, IOException, TesseractException, InterruptedException 
+    {	 
+  
+    	
+    	LunchItems b = new LunchItems(s);
+    	testcase=extent.createTest("TC_045: Verify Slow Cooked Chicken Wrap Price. "+"Region Id: "+b.read_Region_Id());
+
+
+
+		Thread.sleep(2000);
+		s.wait(Lunch,300);
+		s.click(Lunch.similar((float)0.5));
+		testcase.log(Status.PASS, "User able to click on Lunch");
+		Thread.sleep(2000);
+
+        s.wait(Lunch_Wrap_Button,300);
+        s.click(Lunch_Wrap_Button.similar((float)0.5));
+        testcase.log(Status.PASS, "User able to click on Lunch Wrap");
+        Thread.sleep(2000);
+        
+		s.wait(Slow_Cooked_Chicken_Wrap,300);
+		s.click(Slow_Cooked_Chicken_Wrap.similar((float)0.5));
+
+		testcase.log(Status.PASS, "User is able to click on Slow Cooked Chicken Wrap");
+
+
+
+		s.wait(EatIn, 300);  
+		s.click(EatIn.similar((float)0.8));
+		testcase.log(Status.PASS, "User is able to click on Eat In");
+
+
+		Thread.sleep(4000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(420,200,65,35);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Slow_Cooked_Chicken_Wrap__price");
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Slow_Cooked_Chicken_Wrap__price_Withname");
+
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+		
+		System.out.println(b.read_Slow_Cooked_Chicken_Wrap_Price());
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_Slow_Cooked_Chicken_Wrap_Price();
+		System.out.println(a1);
+		System.out.println(a2);
+
+
+		if(a1.equals(a2)){
+
+			 testcase.log(Status.PASS," Correct ala carte price of Slow Cooked Chicken Wrap");
+
+			 System.out.println("***********Scenario045 PASS: Correct ala carte price of Slow Cooked Chicken Wrap.  ***********");
+
+
+		}
+		else {
+
+			testcase.log(Status.FAIL," Incorrect ala carte price of Slow Cooked Chicken Wrap."+" Expected Price: "+b.read_Slow_Cooked_Chicken_Wrap_Price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+			System.out.println("***********Scenario045 FAIL: Incorrect ala carte price of Slow Cooked Chicken Wrap.***********");
+
+
+		}
+
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+		
+	  }
+	
+	@Test(priority = 46)
+    public void siKuliTestCase0046(ExtentReports extent, ExtentTest testcase) throws FindFailed, IOException, TesseractException, InterruptedException 
+    {	 
+  
+    	
+    	LunchItems b = new LunchItems(s);
+    	testcase=extent.createTest("TC_046: Verify Crispy Chicken Wrap Price. "+"Region Id: "+b.read_Region_Id());
+
+
+
+		Thread.sleep(2000);
+		s.wait(Lunch,300);
+		s.click(Lunch.similar((float)0.5));
+		testcase.log(Status.PASS, "User able to click on Lunch");
+		Thread.sleep(2000);
+
+        s.wait(Lunch_Wrap_Button,300);
+        s.click(Lunch_Wrap_Button.similar((float)0.5));
+        testcase.log(Status.PASS, "User able to click on Lunch Wrap");
+        Thread.sleep(2000);
+        
+		s.wait(Crispy_Chicken_Wrap,300);
+		s.click(Crispy_Chicken_Wrap.similar((float)0.5));
+
+		testcase.log(Status.PASS, "User is able to click on Crispy Chicken Wrap");
+
+
+
+		s.wait(EatIn, 300);  
+		s.click(EatIn.similar((float)0.8));
+		testcase.log(Status.PASS, "User is able to click on Eat In");
+
+
+		Thread.sleep(4000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(420,200,65,35);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Crispy_Chicken_Wrap__price");
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Crispy_Chicken_Wrap__price_Withname");
+
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+		
+		System.out.println(b.read_Crispy_Chicken_Wrap_Price());
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_Crispy_Chicken_Wrap_Price();
+		System.out.println(a1);
+		System.out.println(a2);
+
+
+		if(a1.equals(a2)){
+
+			 testcase.log(Status.PASS," Correct ala carte price of Crispy Chicken Wrap");
+
+			 System.out.println("***********Scenario046 PASS: Correct ala carte price of Crispy Chicken Wrap.  ***********");
+
+
+		}
+		else {
+
+			testcase.log(Status.FAIL," Incorrect ala carte price of Crispy Chicken Wrap."+" Expected Price: "+b.read_Crispy_Chicken_Wrap_Price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+			System.out.println("***********Scenario046 FAIL: Incorrect ala carte price of Crispy Chicken Wrap.***********");
+
+
+		}
+
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+		
+	  }
+
+	@Test(priority = 47)
+    public void siKuliTestCase0047(ExtentReports extent, ExtentTest testcase) throws FindFailed, IOException, TesseractException, InterruptedException 
+    {	 
+  
+    	
+    	LunchItems b = new LunchItems(s);
+    	testcase=extent.createTest("TC_047: Verify Slow Cooked Chicken Bacon Ranch Wrap Price. "+"Region Id: "+b.read_Region_Id());
+
+
+
+		Thread.sleep(2000);
+		s.wait(Lunch,300);
+		s.click(Lunch.similar((float)0.5));
+		testcase.log(Status.PASS, "User able to click on Lunch");
+		Thread.sleep(2000);
+
+        s.wait(Lunch_Wrap_Button,300);
+        s.click(Lunch_Wrap_Button.similar((float)0.5));
+        testcase.log(Status.PASS, "User able to click on Lunch Wrap");
+        Thread.sleep(2000);
+        
+		s.wait(Slow_Cooked_Chkn_Bacon_Ranch_Wrap,300);
+		s.click(Slow_Cooked_Chkn_Bacon_Ranch_Wrap.similar((float)0.5));
+
+		testcase.log(Status.PASS, "User is able to click on Slow Cooked Chicken Bacon Ranch Wrap");
+
+
+
+		s.wait(EatIn, 300);  
+		s.click(EatIn.similar((float)0.8));
+		testcase.log(Status.PASS, "User is able to click on Eat In");
+
+
+		Thread.sleep(4000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(420,200,65,35);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Slow_Cooked_Chicken_Bacon_Ranch_Wrap__price");
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Slow_Cooked_Chicken_Bacon_Ranch_Wrap__price_Withname");
+
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+		
+		System.out.println(b.read_Slow_Cooked_Chkn_Bacon_Ranch_Wrap_Price());
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_Slow_Cooked_Chkn_Bacon_Ranch_Wrap_Price();
+		System.out.println(a1);
+		System.out.println(a2);
+
+
+		if(a1.equals(a2)){
+
+			 testcase.log(Status.PASS," Correct ala carte price of Slow Cooked Chicken Bacon Ranch Wrap");
+
+			 System.out.println("***********Scenario047 PASS: Correct ala carte price of Slow Cooked Chicken Bacon Ranch Wrap.  ***********");
+
+
+		}
+		else {
+
+			testcase.log(Status.FAIL," Incorrect ala carte price of Slow Cooked Chicken Bacon Ranch Wrap."+" Expected Price: "+b.read_Slow_Cooked_Chkn_Bacon_Ranch_Wrap_Price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+			System.out.println("***********Scenario047 FAIL: Incorrect ala carte price of Slow Cooked Chicken Bacon Ranch Wrap.***********");
+
+
+		}
+
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+		
+	  }
+	
+	@Test(priority = 48)
+    public void siKuliTestCase0048(ExtentReports extent, ExtentTest testcase) throws FindFailed, IOException, TesseractException, InterruptedException 
+    {	 
+  
+    	
+    	LunchItems b = new LunchItems(s);
+    	testcase=extent.createTest("TC_048: Verify Crispy Chicken Bacon Ranch Wrap Price. "+"Region Id: "+b.read_Region_Id());
+
+
+
+		Thread.sleep(2000);
+		s.wait(Lunch,300);
+		s.click(Lunch.similar((float)0.5));
+		testcase.log(Status.PASS, "User able to click on Lunch");
+		Thread.sleep(2000);
+
+        s.wait(Lunch_Wrap_Button,300);
+        s.click(Lunch_Wrap_Button.similar((float)0.5));
+        testcase.log(Status.PASS, "User able to click on Lunch Wrap");
+        Thread.sleep(2000);
+        
+		s.wait(Crispy_Chk_Bacon_Ranch_Wrap,300);
+		s.click(Crispy_Chk_Bacon_Ranch_Wrap.similar((float)0.5));
+
+		testcase.log(Status.PASS, "User is able to click on Crispy Chicken Bacon Ranch Wrap");
+
+
+
+		s.wait(EatIn, 300);  
+		s.click(EatIn.similar((float)0.8));
+		testcase.log(Status.PASS, "User is able to click on Eat In");
+
+
+		Thread.sleep(4000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(420,200,65,35);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Crispy_Chicken_Bacon_Ranch_Wrap__price");
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Crispy_Chicken_Bacon_Ranch_Wrap__price_Withname");
+
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+		
+		System.out.println(b.read_Crispy_Chk_Bacon_Ranch_Wrap_Price());
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_Crispy_Chk_Bacon_Ranch_Wrap_Price();
+		System.out.println(a1);
+		System.out.println(a2);
+
+
+		if(a1.equals(a2)){
+
+			 testcase.log(Status.PASS," Correct ala carte price of Crispy Chicken Bacon Ranch Wrap");
+
+			 System.out.println("***********Scenario048 PASS: Correct ala carte price of Crispy Chicken Bacon Ranch Wrap.  ***********");
+
+
+		}
+		else {
+
+			testcase.log(Status.FAIL," Incorrect ala carte price of Crispy Chicken Bacon Ranch Wrap."+" Expected Price: "+b.read_Crispy_Chk_Bacon_Ranch_Wrap_Price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+			System.out.println("***********Scenario048 FAIL: Incorrect ala carte price of Crispy Chicken Bacon Ranch Wrap.***********");
+
+
+		}
+
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+		
+	  }
+	
+	@Test(priority = 49)
+    public void siKuliTestCase0049(ExtentReports extent, ExtentTest testcase) throws FindFailed, IOException, TesseractException, InterruptedException 
+    {	 
+  
+    	
+    	LunchItems b = new LunchItems(s);
+    	testcase=extent.createTest("TC_049: Verify Spicy Chicken Bacon Ranch Wrap Price. "+"Region Id: "+b.read_Region_Id());
+
+
+
+		Thread.sleep(2000);
+		s.wait(Lunch,300);
+		s.click(Lunch.similar((float)0.5));
+		testcase.log(Status.PASS, "User able to click on Lunch");
+		Thread.sleep(2000);
+
+        s.wait(Lunch_Wrap_Button,300);
+        s.click(Lunch_Wrap_Button.similar((float)0.5));
+        testcase.log(Status.PASS, "User able to click on Lunch Wrap");
+        Thread.sleep(2000);
+        
+		s.wait(Spicy_Chickn_Bacon_Ranch_Wrap,300);
+		s.click(Spicy_Chickn_Bacon_Ranch_Wrap.similar((float)0.5));
+
+		testcase.log(Status.PASS, "User is able to click on Spicy Chicken Bacon Ranch Wrap");
+
+
+
+		s.wait(EatIn, 300);  
+		s.click(EatIn.similar((float)0.8));
+		testcase.log(Status.PASS, "User is able to click on Eat In");
+
+
+		Thread.sleep(4000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(420,200,65,35);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Spicy_Chicken_Bacon_Ranch_Wrap__price");
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Spicy_Chicken_Bacon_Ranch_Wrap__price_Withname");
+
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+		
+		System.out.println(b.read_Spicy_Chickn_Bacon_Ranch_Wrap_Price());
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_Spicy_Chickn_Bacon_Ranch_Wrap_Price();
+		System.out.println(a1);
+		System.out.println(a2);
+
+
+		if(a1.equals(a2)){
+
+			 testcase.log(Status.PASS," Correct ala carte price of Spicy Chicken Bacon Ranch Wrap");
+
+			 System.out.println("***********Scenario049 PASS: Correct ala carte price of Spicy Chicken Bacon Ranch Wrap.  ***********");
+
+
+		}
+		else {
+
+			testcase.log(Status.FAIL," Incorrect ala carte price of Spicy Chicken Bacon Ranch Wrap."+" Expected Price: "+b.read_Spicy_Chickn_Bacon_Ranch_Wrap_Price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+			System.out.println("***********Scenario049 FAIL: Incorrect ala carte price of Spicy Chicken Bacon Ranch Wrap.***********");
+
+
+		}
+
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+		
+	  }
+	
+	@Test(priority = 50)
+    public void siKuliTestCase0050(ExtentReports extent, ExtentTest testcase) throws FindFailed, IOException, TesseractException, InterruptedException 
+    {	 
+  
+    	
+    	LunchItems b = new LunchItems(s);
+    	testcase=extent.createTest("TC_050: Verify Turkey Bacon Club Sandwich Price. "+"Region Id: "+b.read_Region_Id());
+
+
+
+		Thread.sleep(2000);
+		s.wait(Lunch,300);
+		s.click(Lunch.similar((float)0.5));
+		testcase.log(Status.PASS, "User able to click on Lunch");
+		Thread.sleep(2000);
+		
+		
+
+        s.wait(Lunch_Sandwiche_Button,300);
+        s.click(Lunch_Sandwiche_Button.similar((float)0.5));
+        testcase.log(Status.PASS, "User able to click on Lunch Sandwiches");
+        Thread.sleep(2000);
+        
+		s.wait(Turkey_Bacon_Club,300);
+		s.click(Turkey_Bacon_Club.similar((float)0.5));
+
+		testcase.log(Status.PASS, "User is able to click on Turkey Bacon Club Sandwich");
+
+
+
+		s.wait(EatIn, 300);  
+		s.click(EatIn.similar((float)0.8));
+		testcase.log(Status.PASS, "User is able to click on Eat In");
+
+
+		Thread.sleep(4000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(420,200,65,35);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Turkey_Bacon_Club__price");
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Turkey_Bacon_Club_price_Withname");
+
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+		
+		System.out.println(b.read_Turkey_Bacon_Club_Price());
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_Turkey_Bacon_Club_Price();
+		System.out.println(a1);
+		System.out.println(a2);
+
+
+		if(a1.equals(a2)){
+
+			 testcase.log(Status.PASS," Correct ala carte price of Turkey Bacon Club Sandwich");
+
+			 System.out.println("***********Scenario050 PASS: Correct ala carte price of Turkey Bacon Club Sandwich.  ***********");
+
+
+		}
+		else {
+
+			testcase.log(Status.FAIL," Incorrect ala carte price of Turkey Bacon Club Sandwich."+" Expected Price: "+b.read_Turkey_Bacon_Club_Price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+			System.out.println("***********Scenario050 FAIL: Incorrect ala carte price of Turkey Bacon Club Sandwich.***********");
+
+
+		}
+
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+		
+	  }
+	
+	@Test(priority = 51)
+    public void siKuliTestCase0051(ExtentReports extent, ExtentTest testcase) throws FindFailed, IOException, TesseractException, InterruptedException 
+    {	 
+  
+    	
+    	LunchItems b = new LunchItems(s);
+    	testcase=extent.createTest("TC_051: Verify Roast Beef & Cheddar Sandwich Price. "+"Region Id: "+b.read_Region_Id());
+
+
+
+		Thread.sleep(2000);
+		s.wait(Lunch,300);
+		s.click(Lunch.similar((float)0.5));
+		testcase.log(Status.PASS, "User able to click on Lunch");
+		Thread.sleep(2000);
+		
+		
+
+        s.wait(Lunch_Sandwiche_Button,300);
+        s.click(Lunch_Sandwiche_Button.similar((float)0.5));
+        testcase.log(Status.PASS, "User able to click on Lunch Sandwiches");
+        Thread.sleep(2000);
+        
+		s.wait(Roast_Beef_Cheddar,300);
+		s.click(Roast_Beef_Cheddar.similar((float)0.5));
+
+		testcase.log(Status.PASS, "User is able to click on Roast Beef & Cheddar Sandwich");
+
+
+
+		s.wait(EatIn, 300);  
+		s.click(EatIn.similar((float)0.8));
+		testcase.log(Status.PASS, "User is able to click on Eat In");
+
+
+		Thread.sleep(4000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(425, 200, 60, 35);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Roast_Beef_Cheddar_price");
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Roast_Beef_Cheddar_price_Withname");
+
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+		
+		System.out.println(b.read_Roast_Beef_Cheddar_Price());
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_Roast_Beef_Cheddar_Price();
+		System.out.println(a1);
+		System.out.println(a2);
+
+
+		if(a1.equals(a2)){
+
+			 testcase.log(Status.PASS," Correct ala carte price of Roast Beef & Cheddar Sandwich");
+
+			 System.out.println("***********Scenario051 PASS: Correct ala carte price of Roast Beef & Cheddar Sandwich.  ***********");
+
+
+		}
+		else {
+
+			testcase.log(Status.FAIL," Incorrect ala carte price of Roast Beef & Cheddar Sandwich."+" Expected Price: "+b.read_Roast_Beef_Cheddar_Price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+			System.out.println("***********Scenario051 FAIL: Incorrect ala carte price of Roast Beef & Cheddar Sandwich.***********");
+
+
+		}
+
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+		
+	  }
+	
+	@Test(priority = 52)
+    public void siKuliTestCase0052(ExtentReports extent, ExtentTest testcase) throws FindFailed, IOException, TesseractException, InterruptedException 
+    {	 
+  
+    	
+    	LunchItems b = new LunchItems(s);
+    	testcase=extent.createTest("TC_052: Verify Bacon Grilled Cheese Melt Price. "+"Region Id: "+b.read_Region_Id());
+
+
+
+		Thread.sleep(2000);
+		s.wait(Lunch,300);
+		s.click(Lunch.similar((float)0.5));
+		testcase.log(Status.PASS, "User able to click on Lunch");
+		Thread.sleep(2000);
+		
+		
+
+        s.wait(Melt,300);
+        s.click(Melt.similar((float)0.5));
+        testcase.log(Status.PASS, "User able to click on Lunch Melts");
+        Thread.sleep(2000);
+        
+		s.wait(Bacon_Grilled_Cheese_Melt,300);
+		s.click(Bacon_Grilled_Cheese_Melt.similar((float)0.5));
+
+		testcase.log(Status.PASS, "User is able to click on Bacon Grilled Cheese Melt");
+
+
+
+		s.wait(EatIn, 300);  
+		s.click(EatIn.similar((float)0.8));
+		testcase.log(Status.PASS, "User is able to click on Eat In");
+
+
+		Thread.sleep(4000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(425,200,65,35);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Bacon_Grilled_Cheese_Melt_price");
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Bacon_Grilled_Cheese_Melt_price_Withname");
+
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+		
+		System.out.println(b.read_Bacon_Grilled_Cheese_Melt_Price());
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_Bacon_Grilled_Cheese_Melt_Price();
+		System.out.println(a1);
+		System.out.println(a2);
+
+
+		if(a1.equals(a2)){
+
+			 testcase.log(Status.PASS," Correct ala carte price of Roast Beef & Cheddar Sandwich");
+
+			 System.out.println("***********Scenario052 PASS: Correct ala carte price of Bacon Grilled Cheese Melt.  ***********");
+
+
+		}
+		else {
+
+			testcase.log(Status.FAIL," Incorrect ala carte price of Bacon Grilled Cheese Melt."+" Expected Price: "+b.read_Bacon_Grilled_Cheese_Melt_Price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+			//testcase.addScreenCaptureFromPath(imagePath);
+			System.out.println("***********Scenario052 FAIL: Incorrect ala carte price of Bacon Grilled Cheese Melt.***********");
+
+
+		}
+
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+		
+	  }
+	
+	@Test(priority = 53)
+    public void siKuliTestCase0053(ExtentReports extent, ExtentTest testcase) throws FindFailed, IOException, TesseractException, InterruptedException 
+    {	 
+  
+    	
+    	LunchItems b = new LunchItems(s);
+    	testcase=extent.createTest("TC_053: Verify Turkey Melt Price. "+"Region Id: "+b.read_Region_Id());
+
+
+
+		Thread.sleep(2000);
+		s.wait(Lunch,300);
+		s.click(Lunch.similar((float)0.5));
+		testcase.log(Status.PASS, "User able to click on Lunch");
+		Thread.sleep(2000);
+		
+		
+
+        s.wait(Melt,300);
+        s.click(Melt.similar((float)0.5));
+        testcase.log(Status.PASS, "User able to click on Lunch Melts");
+        Thread.sleep(2000);
+        
+		s.wait(Turkey_Melt,300);
+		s.click(Turkey_Melt.similar((float)0.5));
+
+		testcase.log(Status.PASS, "User is able to click on Turkey Melt");
+
+
+
+		s.wait(EatIn, 300);  
+		s.click(EatIn.similar((float)0.8));
+		testcase.log(Status.PASS, "User is able to click on Eat In");
+
+
+		Thread.sleep(4000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(425,200,65,35);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Turkey_Melt_price");
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Turkey_Melt_price_Withname");
+
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+		
+		System.out.println(b.read_Turkey_Melt_Price());
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_Turkey_Melt_Price();
+		System.out.println(a1);
+		System.out.println(a2);
+
+
+		if(a1.equals(a2)){
+
+			 testcase.log(Status.PASS," Correct ala carte price of Turkey Melt");
+
+			 System.out.println("***********Scenario053 PASS: Correct ala carte price of Turkey Melt.  ***********");
+
+
+		}
+		else {
+
+			testcase.log(Status.FAIL," Incorrect ala carte price of Turkey Melt."+" Expected Price: "+b.read_Turkey_Melt_Price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+			//testcase.addScreenCaptureFromPath(imagePath);
+			System.out.println("***********Scenario053 FAIL: Incorrect ala carte price of Turkey Melt.***********");
+
+
+		}
+
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+		
+	  }
+	
+	@Test(priority = 54)
+    public void siKuliTestCase0054(ExtentReports extent, ExtentTest testcase) throws FindFailed, IOException, TesseractException, InterruptedException 
+    {	 
+  
+    	
+    	LunchItems b = new LunchItems(s);
+    	testcase=extent.createTest("TC_054: Verify Ham Melt Price. "+"Region Id: "+b.read_Region_Id());
+
+
+
+		Thread.sleep(2000);
+		s.wait(Lunch,300);
+		s.click(Lunch.similar((float)0.5));
+		testcase.log(Status.PASS, "User able to click on Lunch");
+		Thread.sleep(2000);
+		
+		
+
+        s.wait(Melt,300);
+        s.click(Melt.similar((float)0.5));
+        testcase.log(Status.PASS, "User able to click on Lunch Melts");
+        Thread.sleep(2000);
+        
+		s.wait(Ham_Melt,300);
+		s.click(Ham_Melt.similar((float)0.5));
+
+		testcase.log(Status.PASS, "User is able to click on Ham Melt");
+
+
+
+		s.wait(EatIn, 300);  
+		s.click(EatIn.similar((float)0.8));
+		testcase.log(Status.PASS, "User is able to click on Eat In");
+
+
+		Thread.sleep(4000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(425,200,65,35);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Ham_Melt_price");
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Ham_Melt_price_Withname");
+
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+		
+		System.out.println(b.read_Ham_Melt_Price());
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_Ham_Melt_Price();
+		System.out.println(a1);
+		System.out.println(a2);
+
+
+		if(a1.equals(a2)){
+
+			 testcase.log(Status.PASS," Correct ala carte price of Ham Melt");
+
+			 System.out.println("***********Scenario054 PASS: Correct ala carte price of Ham Melt.  ***********");
+
+
+		}
+		else {
+
+			testcase.log(Status.FAIL," Incorrect ala carte price of Ham Melt."+" Expected Price: "+b.read_Ham_Melt_Price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+			//testcase.addScreenCaptureFromPath(imagePath);
+			System.out.println("***********Scenario054 FAIL: Incorrect ala carte price of Ham Melt.***********");
+
+
+		}
+
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+		
+	  }
+
+	
     }
 
