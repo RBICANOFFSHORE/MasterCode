@@ -71,7 +71,7 @@ public class Runner extends Read_Data {
 		// ********JAN Q1 PRICE UPDATE********
 
 		// ****Pumpkin Spice****
-
+/*
 		
 		  bevItem.sikuliTestCase063(extent, testcase);
 		  bevItem.sikuliTestCase064(extent, testcase);
@@ -247,13 +247,130 @@ public class Runner extends Read_Data {
 		breakfastsitem.siKuliTestCase0011(extent, testcase);
 		breakfastsitem.siKuliTestCase0016(extent, testcase);*/
 		
-		/*
+		
+		
+		//2nd April Release
+	/*	
+		//Hot Chocolate
 		bevItem.sikuliTestCase131(extent, testcase);
 		bevItem.sikuliTestCase132(extent, testcase);
 		bevItem.sikuliTestCase133(extent, testcase);
 		bevItem.sikuliTestCase134(extent, testcase);
 		bevItem.sikuliTestCase135(extent, testcase);
-		bevItem.sikuliTestCase136(extent, testcase);*/
+		bevItem.sikuliTestCase136(extent, testcase);
+		bevItem.sikuliTestCase137(extent, testcase);
+		bevItem.sikuliTestCase138(extent, testcase);
+		bevItem.sikuliTestCase139(extent, testcase);
+		bevItem.sikuliTestCase140(extent, testcase);
+		bevItem.sikuliTestCase141(extent, testcase);
+		bevItem.sikuliTestCase142(extent, testcase);
+		bevItem.sikuliTestCase143(extent, testcase);
+		bevItem.sikuliTestCase144(extent, testcase);
+		bevItem.sikuliTestCase145(extent, testcase);
+		bevItem.sikuliTestCase146(extent, testcase);
+		bevItem.sikuliTestCase147(extent, testcase);
+		bevItem.sikuliTestCase148(extent, testcase);
+		bevItem.sikuliTestCase149(extent, testcase);
+		bevItem.sikuliTestCase150(extent, testcase);
+		bevItem.sikuliTestCase151(extent, testcase);
+		bevItem.sikuliTestCase152(extent, testcase);
+		bevItem.sikuliTestCase153(extent, testcase);
+		*/
+		
+	/*	//*****Mango Starfruit*****
+		bevItem.sikuliTestCase219(extent, testcase);
+		bevItem.sikuliTestCase220(extent, testcase);
+		bevItem.sikuliTestCase221(extent, testcase);
+		bevItem.sikuliTestCase222(extent, testcase);
+		bevItem.sikuliTestCase223(extent, testcase);
+		bevItem.sikuliTestCase224(extent, testcase);
+		
+		//*****Wild Berry Hibiscus*****
+		bevItem.sikuliTestCase225(extent, testcase);
+		bevItem.sikuliTestCase226(extent, testcase);
+		bevItem.sikuliTestCase227(extent, testcase);
+		bevItem.sikuliTestCase228(extent, testcase);
+		bevItem.sikuliTestCase229(extent, testcase);
+		bevItem.sikuliTestCase230(extent, testcase);
+		
+		//****Specialty Tea****
+		bevItem.sikuliTestCase231(extent, testcase);
+		bevItem.sikuliTestCase232(extent, testcase);
+		bevItem.sikuliTestCase233(extent, testcase);
+		bevItem.sikuliTestCase234(extent, testcase);
+		bevItem.sikuliTestCase235(extent, testcase);
+		bevItem.sikuliTestCase236(extent, testcase);
+		bevItem.sikuliTestCase237(extent, testcase);
+		bevItem.sikuliTestCase238(extent, testcase);
+		bevItem.sikuliTestCase239(extent, testcase);
+		
+		//****Steeped Tea****
+		bevItem.sikuliTestCase240(extent, testcase);
+		bevItem.sikuliTestCase241(extent, testcase);
+		bevItem.sikuliTestCase242(extent, testcase);
+		bevItem.sikuliTestCase243(extent, testcase);
+		bevItem.sikuliTestCase244(extent, testcase);
+		bevItem.sikuliTestCase245(extent, testcase);
+		bevItem.sikuliTestCase246(extent, testcase);
+		bevItem.sikuliTestCase247(extent, testcase);
+		bevItem.sikuliTestCase248(extent, testcase);
+		*/
+		
+		//****Tea Latte****
+		bevItem.sikuliTestCase051(extent, testcase);
+		bevItem.sikuliTestCase052(extent, testcase);
+		bevItem.sikuliTestCase053(extent, testcase);
+		bevItem.sikuliTestCase054(extent, testcase);
+		bevItem.sikuliTestCase055(extent, testcase);
+		bevItem.sikuliTestCase056(extent, testcase);
+		
+		//****London Fog****
+		bevItem.sikuliTestCase057(extent, testcase);
+		bevItem.sikuliTestCase058(extent, testcase);
+		bevItem.sikuliTestCase059(extent, testcase);
+		bevItem.sikuliTestCase060(extent, testcase);
+		bevItem.sikuliTestCase061(extent, testcase);
+		bevItem.sikuliTestCase062(extent, testcase);
+		
+		//*****Apple Cinnamon Latte*****
+		 bevItem.sikuliTestCase209(extent, testcase);
+		 bevItem.sikuliTestCase210(extent, testcase);
+		 bevItem.sikuliTestCase211(extent, testcase);
+		 bevItem.sikuliTestCase212(extent, testcase);
+		 bevItem.sikuliTestCase213(extent, testcase);
+		 bevItem.sikuliTestCase214(extent, testcase); 
+		
+	/*	//*****Juice*****
+		 bevItem.sikuliTestCase249(extent, testcase);
+		 bevItem.sikuliTestCase250(extent, testcase);
+		 
+		*/
+	/*	//****Bagels****
+		B.siKuliTestCase07(extent, testcase);
+		B.siKuliTestCase08(extent, testcase);
+		B.siKuliTestCase09(extent, testcase);
+		B.siKuliTestCase010(extent, testcase);
+		
+		//****Retail Item****
+		
+	/*	R.siKuliTestCase007(extent, testcase);
+		R.siKuliTestCase008(extent, testcase);
+		R.siKuliTestCase009(extent, testcase);
+		R.siKuliTestCase010(extent, testcase);
+		R.siKuliTestCase011(extent, testcase);
+		R.siKuliTestCase0012(extent, testcase);
+		R.siKuliTestCase0013(extent, testcase);
+		R.siKuliTestCase0014(extent, testcase);
+		R.siKuliTestCase0015(extent, testcase);
+		R.siKuliTestCase0016(extent, testcase);
+		R.siKuliTestCase0017(extent, testcase);
+		R.siKuliTestCase018(extent, testcase);*/
+		
+		
+		
+		
+		
+		
 		
 		
 		

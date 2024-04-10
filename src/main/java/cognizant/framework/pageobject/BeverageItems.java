@@ -275,6 +275,75 @@ public class BeverageItems extends Read_Data {
 	Pattern RS_White_HotChocolate = new Pattern("C:\\Images For Sikuli\\RS_White_HotChocolate.png");
 	Pattern RM_White_HotChocolate = new Pattern("C:\\Images For Sikuli\\RM_White_HotChoclate.png");
 	Pattern RL_White_HotChocolate = new Pattern("C:\\Images For Sikuli\\RL_White_HotChocolate.png");
+	Pattern RXL_White_HotChocolate = new Pattern("C:\\Images For Sikuli\\RXL_White_HotChocolate.png");
+	Pattern SS_Thermos_White_HotChocolate = new Pattern("C:\\Images For Sikuli\\SS_Thermos_White_HotChocolate.png");
+	Pattern BR_Thermos_White_HotChocolate = new Pattern("C:\\Images For Sikuli\\BR_Thermos_White_HotChocolate.png");
+	Pattern Take12_White_HotChocolate = new Pattern("C:\\Images For Sikuli\\Take12_White_HotChocolate.png");
+	Pattern Apple_Cinnamon_Fog = new Pattern("C:\\Images For Sikuli\\Apple_Cinnamon_Fog.png");
+	Pattern SM_Apple_Cinnamon_Fog = new Pattern("C:\\Images For Sikuli\\SM_Apple_Cinnamon_Fog.png");
+	Pattern MD_Apple_Cinnamon_Fog = new Pattern("C:\\Images For Sikuli\\MD_Apple_Cinnamon_Fog.png");
+	Pattern LG_Apple_Cinnamon_Fog = new Pattern("C:\\Images For Sikuli\\LG_Apple_Cinnamon_Fog.png");
+	Pattern RS_Apple_Cinnamon_Fog = new Pattern("C:\\Images For Sikuli\\RS_Apple_Cinnamon_Fog.png");
+	Pattern RM_Apple_Cinnamon_Fog = new Pattern("C:\\Images For Sikuli\\RM_Apple_Cinnamon_Fog.png");
+	Pattern RL_Apple_Cinnamon_Fog = new Pattern("C:\\Images For Sikuli\\RL_Apple_Cinnamon_Fog.png");
+	Pattern SM_White_Milk = new Pattern("C:\\Images For Sikuli\\SM_White_Milk.png");
+	Pattern LG_White_Milk = new Pattern("C:\\Images For Sikuli\\LG_White_Milk.png");
+	Pattern SM_Chocolate_Milk = new Pattern("C:\\Images For Sikuli\\SM_Chocolate_Milk.png");
+	Pattern LG_Chocolate_Milk = new Pattern("C:\\Images For Sikuli\\LG_Chocolate_Milk.png");
+	Pattern Mango_StarFruit = new Pattern("C:\\Images For Sikuli\\Mango_StarFruit.png");
+	Pattern SM_Mango_StarFruit = new Pattern("C:\\Images For Sikuli\\SM_Mango_StarFruit.png");
+	Pattern MD_Mango_StarFruit = new Pattern("C:\\Images For Sikuli\\MD_Mango_StarFruit.png");
+	Pattern LG_Mango_StarFruit = new Pattern("C:\\Images For Sikuli\\LG_Mango_StarFruit.png");
+	Pattern RS_Mango_StarFruit = new Pattern("C:\\Images For Sikuli\\RS_Mango_StarFruit.png");
+	Pattern RM_Mango_StarFruit = new Pattern("C:\\Images For Sikuli\\RM_Mango_StarFruit.png");
+	Pattern RL_Mango_StarFruit = new Pattern("C:\\Images For Sikuli\\RL_Mango_StarFruit.png");
+	Pattern WildBerry_Hibiscus = new Pattern("C:\\Images For Sikuli\\WildBerry_Hibiscus.png");
+	Pattern SM_WildBerry_Hibiscus = new Pattern("C:\\Images For Sikuli\\SM_WildBerry_Hibiscus.png");
+	Pattern MD_WildBerry_Hibiscus = new Pattern("C:\\Images For Sikuli\\MD_WildBerry_Hibiscus.png");
+	Pattern LG_WildBerry_Hibiscus = new Pattern("C:\\Images For Sikuli\\LG_WildBerry_Hibiscus.png");
+	Pattern RS_WildBerry_Hibiscus = new Pattern("C:\\Images For Sikuli\\RS_WildBerry_Hibiscus.png");
+	Pattern RM_WildBerry_Hibiscus = new Pattern("C:\\Images For Sikuli\\RM_WildBerry_Hibiscus.png");
+	Pattern RL_WildBerry_Hibiscus = new Pattern("C:\\Images For Sikuli\\RL_WildBerry_Hibiscus.png");
+	Pattern Tea_Specialty = new Pattern("C:\\Images For Sikuli\\Tea_Specialty.png");
+	Pattern SM_Tea_Specialty = new Pattern("C:\\Images For Sikuli\\SM_Tea_Specialty.png");
+	Pattern MD_Tea_Specialty = new Pattern("C:\\Images For Sikuli\\MD_Tea_Specialty.png");
+	Pattern LG_Tea_Specialty = new Pattern("C:\\Images For Sikuli\\LG_Tea_Specialty.png");
+	Pattern XL_Tea_Specialty = new Pattern("C:\\Images For Sikuli\\XL_Tea_Specialty.png");
+	Pattern RS_Tea_Specialty = new Pattern("C:\\Images For Sikuli\\RS_Tea_Specialty.png");
+	Pattern RM_Tea_Specialty = new Pattern("C:\\Images For Sikuli\\RM_Tea_Specialty.png");
+	Pattern RL_Tea_Specialty = new Pattern("C:\\Images For Sikuli\\RL_Tea_Specialty.png");
+	Pattern SpecialityTeaBRThermos = new Pattern("C:\\Images For Sikuli\\SpecialityTeaBRThermos.png");
+	Pattern SpecialityTeaBigTim = new Pattern("C:\\Images For Sikuli\\SpecialityTeaBRThermos.png");
+	Pattern SpecialityTeaTake12 = new Pattern("C:\\Images For Sikuli\\SpecialityTeaTake12.png");
+	Pattern SM_Steeped_Tea = new Pattern("C:\\Images For Sikuli\\SM_Steeped_Tea.png");
+	Pattern MD_Steeped_Tea = new Pattern("C:\\Images For Sikuli\\MD_Steeped_Tea.png");
+	Pattern LG_Steeped_Tea = new Pattern("C:\\Images For Sikuli\\LG_Steeped_Tea.png");
+	Pattern RS_Steeped_Tea = new Pattern("C:\\Images For Sikuli\\RS_Steeped_Tea.png");
+	Pattern RM_Steeped_Tea = new Pattern("C:\\Images For Sikuli\\RM_Steeped_Tea.png");
+	Pattern RL_Steeped_Tea = new Pattern("C:\\Images For Sikuli\\RL_Steeped_Tea.png");
+	Pattern Steeped_Tea_BRThermos = new Pattern("C:\\Images For Sikuli\\Steeped_Tea_BRThermos.png");
+	Pattern Steeped_Tea_Big_Tim = new Pattern("C:\\Images For Sikuli\\Steeped_Tea_Big_Tim.png");
+	Pattern Steeped_Tea_Take12 = new Pattern("C:\\Images For Sikuli\\Steeped_Tea_Take12.png");
+	Pattern Btl_Apple_Juice = new Pattern("C:\\Images For Sikuli\\Btl_Apple_Juice.png");
+	Pattern Btl_Orange_Juice = new Pattern("C:\\Images For Sikuli\\Btl_Orange_Juice.png");
+	Pattern RS_Unsweetend_Latte = new Pattern("C:\\Images For Sikuli\\RS_Unsweetend_Latte.png");
+	Pattern RM_Unsweetend_Latte = new Pattern("C:\\Images For Sikuli\\RM_Unsweetend_Latte.png");
+	Pattern RL_Unsweetend_Latte = new Pattern("C:\\Images For Sikuli\\RL_Unsweetend_Latte.png");
+	Pattern Iced_Latte = new Pattern("C:\\Images For Sikuli\\Iced_Latte.png");
+
+	Pattern Original_Iced_Coffee = new Pattern("C:\\Images For Sikuli\\Original_Iced_Coffee.png");
+	Pattern RS_Black_Coffee = new Pattern("C:\\Images For Sikuli\\RS_Black_Coffee.png");
+	Pattern RM_Black_Coffee = new Pattern("C:\\Images For Sikuli\\RM_Black_Coffee.png");
+	Pattern RL_Black_Coffee = new Pattern("C:\\Images For Sikuli\\RL_Black_Coffee.png");
+
+	Pattern Original_Cold_Brew = new Pattern("C:\\Images For Sikuli\\Original_Cold_Brew.png");
+	Pattern RS_Black_Cold_Brew = new Pattern("C:\\Images For Sikuli\\RS_Black_Cold_Brew.png");
+	Pattern RM_Black_Cold_Brew = new Pattern("C:\\Images For Sikuli\\RM_Black_Cold_Brew.png");
+	Pattern RL_Black_Cold_Brew = new Pattern("C:\\Images For Sikuli\\RL_Black_Cold_Brew.png");
+	
+
+	
+	
 	
 	
 	
@@ -11186,6 +11255,7 @@ public class BeverageItems extends Read_Data {
 
 //		s.wait(Beverages1, 300);
 //		s.click(Beverages1);
+		Thread.sleep(2000);
 
 		s.wait(HotChocolate, 300);
 
@@ -11295,6 +11365,8 @@ public class BeverageItems extends Read_Data {
 
 //		s.wait(Beverages1, 300);
 //		s.click(Beverages1);
+		
+		Thread.sleep(2000);
 
 		s.wait(HotChocolate, 300);
 
@@ -11404,6 +11476,8 @@ public class BeverageItems extends Read_Data {
 
 //		s.wait(Beverages1, 300);
 //		s.click(Beverages1);
+		
+		Thread.sleep(2000);
 
 		s.wait(HotChocolate, 300);
 
@@ -11513,6 +11587,8 @@ public class BeverageItems extends Read_Data {
 
 //		s.wait(Beverages1, 300);
 //		s.click(Beverages1);
+		
+		Thread.sleep(2000);
 
 		s.wait(HotChocolate, 300);
 
@@ -11622,6 +11698,8 @@ public class BeverageItems extends Read_Data {
 
 //		s.wait(Beverages1, 300);
 //		s.click(Beverages1);
+		
+		Thread.sleep(2000);
 
 		s.wait(HotChocolate, 300);
 
@@ -11731,6 +11809,8 @@ public class BeverageItems extends Read_Data {
 
 //		s.wait(Beverages1, 300);
 //		s.click(Beverages1);
+		
+		Thread.sleep(2000);
 
 		s.wait(HotChocolate, 300);
 
@@ -11840,6 +11920,8 @@ public class BeverageItems extends Read_Data {
 
 //		s.wait(Beverages1, 300);
 //		s.click(Beverages1);
+		
+		Thread.sleep(2000);
 
 		s.wait(HotChocolate, 300);
 
@@ -11949,6 +12031,8 @@ public class BeverageItems extends Read_Data {
 
 //		s.wait(Beverages1, 300);
 //		s.click(Beverages1);
+		
+		Thread.sleep(2000);
 
 		s.wait(HotChocolate, 300);
 
@@ -12058,6 +12142,8 @@ public class BeverageItems extends Read_Data {
 
 //		s.wait(Beverages1, 300);
 //		s.click(Beverages1);
+		
+		Thread.sleep(2000);
 
 		s.wait(HotChocolate, 300);
 
@@ -12167,6 +12253,8 @@ public class BeverageItems extends Read_Data {
 
 //		s.wait(Beverages1, 300);
 //		s.click(Beverages1);
+		
+		Thread.sleep(2000);
 
 		s.wait(HotChocolate, 300);
 
@@ -12276,6 +12364,8 @@ public class BeverageItems extends Read_Data {
 
 //		s.wait(Beverages1, 300);
 //		s.click(Beverages1);
+		
+		Thread.sleep(2000);
 
 		s.wait(White_Hot_Chocolate, 300);
 
@@ -12385,6 +12475,8 @@ public class BeverageItems extends Read_Data {
 
 //		s.wait(Beverages1, 300);
 //		s.click(Beverages1);
+		
+		Thread.sleep(2000);
 
 		s.wait(White_Hot_Chocolate, 300);
 
@@ -12494,6 +12586,8 @@ public class BeverageItems extends Read_Data {
 
 //		s.wait(Beverages1, 300);
 //		s.click(Beverages1);
+		
+		Thread.sleep(2000);
 
 		s.wait(White_Hot_Chocolate, 300);
 
@@ -12603,6 +12697,8 @@ public class BeverageItems extends Read_Data {
 
 //		s.wait(Beverages1, 300);
 //		s.click(Beverages1);
+		
+		Thread.sleep(2000);
 
 		s.wait(White_Hot_Chocolate, 300);
 
@@ -12712,6 +12808,7 @@ public class BeverageItems extends Read_Data {
 
 //		s.wait(Beverages1, 300);
 //		s.click(Beverages1);
+		Thread.sleep(2000);
 
 		s.wait(White_Hot_Chocolate, 300);
 
@@ -12808,4 +12905,6741 @@ public class BeverageItems extends Read_Data {
 
 	}
 	
+	@Test(priority = 147)
+
+	public void sikuliTestCase147(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent.createTest("TC_147:Verify Refil Medium White Hot Chocolate Price. " + "Region Id:" + b.read_Region_Id());
+
+//		s.wait(Beverages1, 300);
+//		s.click(Beverages1);
+		
+		Thread.sleep(2000);
+
+		s.wait(White_Hot_Chocolate, 300);
+
+		s.click(White_Hot_Chocolate);
+
+		s.wait(RM_White_HotChocolate, 300);
+
+		s.click(RM_White_HotChocolate);
+
+		testcase.log(Status.PASS, "User able to click on Refil Medium White Hot Chocolate");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RMWHotChocolatePrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RMWHotChocolatePricePricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_RM_White_HotChocolate_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_RM_White_HotChocolate_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Refil Medium White Hot Chocolate ");
+
+			System.out.println(
+					"***********Scenario147 PASS: Correct ala carte price of Refil Medium White Hot Chocolate ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Refil Medium White Hot Chocolate "
+					+ "Expected Price: " + read_RM_White_HotChocolate_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario147 FAIL: Incorrect ala carte price of Refil Medium White Hot Chocolate ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 148)
+
+	public void sikuliTestCase148(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent.createTest("TC_148:Verify Refil Large White Hot Chocolate Price. " + "Region Id:" + b.read_Region_Id());
+
+//		s.wait(Beverages1, 300);
+//		s.click(Beverages1);
+		
+		Thread.sleep(2000);
+
+		s.wait(White_Hot_Chocolate, 300);
+
+		s.click(White_Hot_Chocolate);
+
+		s.wait(RL_White_HotChocolate, 300);
+
+		s.click(RL_White_HotChocolate);
+
+		testcase.log(Status.PASS, "User able to click on Refil Large White Hot Chocolate");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RLWHotChocolatePrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RLWHotChocolatePricePricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_RL_White_HotChocolate_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_RL_White_HotChocolate_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Refil Large White Hot Chocolate ");
+
+			System.out.println(
+					"***********Scenario148 PASS: Correct ala carte price of Refil Large White Hot Chocolate ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Refil Large White Hot Chocolate "
+					+ "Expected Price: " + read_RL_White_HotChocolate_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario148 FAIL: Incorrect ala carte price of Refil Large White Hot Chocolate ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 149)
+
+	public void sikuliTestCase149(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent.createTest("TC_149:Verify Refil Large White Hot Chocolate Price. " + "Region Id:" + b.read_Region_Id());
+
+//		s.wait(Beverages1, 300);
+//		s.click(Beverages1);
+		
+		Thread.sleep(2000);
+
+		s.wait(White_Hot_Chocolate, 300);
+
+		s.click(White_Hot_Chocolate);
+
+		s.wait(RL_White_HotChocolate, 300);
+
+		s.click(RL_White_HotChocolate);
+
+		testcase.log(Status.PASS, "User able to click on Refil Large White Hot Chocolate");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RLWHotChocolatePrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RLWHotChocolatePricePricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_RL_White_HotChocolate_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_RL_White_HotChocolate_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Refil Large White Hot Chocolate ");
+
+			System.out.println(
+					"***********Scenario149 PASS: Correct ala carte price of Refil Large White Hot Chocolate ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Refil Large White Hot Chocolate "
+					+ "Expected Price: " + read_RL_White_HotChocolate_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario149 FAIL: Incorrect ala carte price of Refil Large White Hot Chocolate ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 150)
+
+	public void sikuliTestCase150(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent.createTest("TC_150:Verify Refil Extra Large White Hot Chocolate Price. " + "Region Id:" + b.read_Region_Id());
+
+//		s.wait(Beverages1, 300);
+//		s.click(Beverages1);
+		
+		Thread.sleep(2000);
+
+		s.wait(White_Hot_Chocolate, 300);
+
+		s.click(White_Hot_Chocolate);
+
+		s.wait(RXL_White_HotChocolate, 300);
+
+		s.click(RL_White_HotChocolate);
+
+		testcase.log(Status.PASS, "User able to click on Refil Extra Large White Hot Chocolate");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RXLWHotChocolatePrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RXLWHotChocolatePricePricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_RXL_White_HotChocolate_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_RXL_White_HotChocolate_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Refil Extra Large White Hot Chocolate ");
+
+			System.out.println(
+					"***********Scenario150 PASS: Correct ala carte price of Refil Extra Large White Hot Chocolate ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Refil Extra Large White Hot Chocolate "
+					+ "Expected Price: " + read_RXL_White_HotChocolate_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario150 FAIL: Incorrect ala carte price of Refil Large White Hot Chocolate ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 151)
+
+	public void sikuliTestCase151(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent.createTest("TC_151:Verify SS Thermos White Hot Chocolate Price. " + "Region Id:" + b.read_Region_Id());
+
+//		s.wait(Beverages1, 300);
+//		s.click(Beverages1);
+		
+		Thread.sleep(2000);
+
+		s.wait(White_Hot_Chocolate, 300);
+
+		s.click(White_Hot_Chocolate);
+
+		s.wait(SS_Thermos_White_HotChocolate, 300);
+
+		s.click(SS_Thermos_White_HotChocolate);
+
+		testcase.log(Status.PASS, "User able to click on SS Thermos White Hot Chocolate");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"SSWHotChocolatePrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"SSWHotChocolatePricePricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_SS_White_HotChocolate_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_SS_White_HotChocolate_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of SS Thermos White Hot Chocolate ");
+
+			System.out.println(
+					"***********Scenario151 PASS: Correct ala carte price of SS Thermos White Hot Chocolate ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of SS Thermos White Hot Chocolate "
+					+ "Expected Price: " + read_SS_White_HotChocolate_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario151 FAIL: Incorrect ala carte price of SS Thermos Hot Chocolate ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 152)
+
+	public void sikuliTestCase152(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent.createTest("TC_152:Verify BR Thermos White Hot Chocolate Price. " + "Region Id:" + b.read_Region_Id());
+
+//		s.wait(Beverages1, 300);
+//		s.click(Beverages1);
+		
+		Thread.sleep(2000);
+
+		s.wait(White_Hot_Chocolate, 300);
+
+		s.click(White_Hot_Chocolate);
+
+		s.wait(BR_Thermos_White_HotChocolate, 300);
+
+		s.click(BR_Thermos_White_HotChocolate);
+
+		testcase.log(Status.PASS, "User able to click on BR Thermos White Hot Chocolate");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"BRWHotChocolatePrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"BRWHotChocolatePricePricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_BR_White_HotChocolate_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_BR_White_HotChocolate_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of BR Thermos White Hot Chocolate ");
+
+			System.out.println(
+					"***********Scenario152 PASS: Correct ala carte price of BR Thermos White Hot Chocolate ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of BR Thermos White Hot Chocolate "
+					+ "Expected Price: " + read_BR_White_HotChocolate_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario152 FAIL: Incorrect ala carte price of BR Thermos Hot Chocolate ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 153)
+
+	public void sikuliTestCase153(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent.createTest("TC_153:Verify Take 12 White Hot Chocolate Price. " + "Region Id:" + b.read_Region_Id());
+
+//		s.wait(Beverages1, 300);
+//		s.click(Beverages1);
+		
+		Thread.sleep(2000);
+
+		s.wait(White_Hot_Chocolate, 300);
+
+		s.click(White_Hot_Chocolate);
+
+		s.wait(Take12_White_HotChocolate, 300);
+
+		s.click(Take12_White_HotChocolate);
+
+		testcase.log(Status.PASS, "User able to click on Take 12 White Hot Chocolate");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"T12WHotChocolatePrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"T12WHotChocolatePricePricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_Take12_White_HotChocolate_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_Take12_White_HotChocolate_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Take 12 White Hot Chocolate ");
+
+			System.out.println(
+					"***********Scenario153 PASS: Correct ala carte price of Take 12 White Hot Chocolate ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Take 12 White Hot Chocolate "
+					+ "Expected Price: " + read_Take12_White_HotChocolate_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario153 FAIL: Incorrect ala carte price of Take 12 White Hot Chocolate ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+
+	@Test(priority = 209)
+
+	public void sikuliTestCase209(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent.createTest("TC_209:Verify Small Apple Cinnamon Fog Price. " + "Region Id:" + b.read_Region_Id());
+
+//		s.wait(Beverages1, 300);
+//		s.click(Beverages1);
+		
+		Thread.sleep(2000);
+
+		s.wait(TeaLatteButton, 300);
+
+		s.click(TeaLatteButton);
+
+		s.wait(Apple_Cinnamon_Fog, 300);
+
+		s.click(Apple_Cinnamon_Fog);
+		
+		s.wait(SM_Apple_Cinnamon_Fog, 300);
+
+		s.click(SM_Apple_Cinnamon_Fog);
+
+		testcase.log(Status.PASS, "User able to click on Small Apple Cinnamon Fog");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"SMApplecinnFogPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"SMApplecinnFogPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_SM_Apple_Cinn_Fog_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_SM_Apple_Cinn_Fog_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Small Apple Cinnamon Fog ");
+
+			System.out.println(
+					"***********Scenario209 PASS: Correct ala carte price of Small Apple Cinnamon Fog ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Small Apple Cinnamon Fog "
+					+ "Expected Price: " + read_SM_Apple_Cinn_Fog_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario209 FAIL: Incorrect ala carte price of Small Apple Cinnamon Fog ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+
+	@Test(priority = 210)
+
+	public void sikuliTestCase210(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent.createTest("TC_210:Verify Medium Apple Cinnamon Fog Price. " + "Region Id:" + b.read_Region_Id());
+
+//		s.wait(Beverages1, 300);
+//		s.click(Beverages1);
+
+		s.wait(TeaLatteButton, 300);
+
+		s.click(TeaLatteButton);
+
+		s.wait(Apple_Cinnamon_Fog, 300);
+
+		s.click(Apple_Cinnamon_Fog);
+		
+		s.wait(MD_Apple_Cinnamon_Fog, 300);
+
+		s.click(MD_Apple_Cinnamon_Fog);
+
+		testcase.log(Status.PASS, "User able to click on Medium Apple Cinnamon Fog");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"MDApplecinnFogPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"MDApplecinnFogPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_MD_Apple_Cinn_Fog_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_MD_Apple_Cinn_Fog_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Medium Apple Cinnamon Fog ");
+
+			System.out.println(
+					"***********Scenario210 PASS: Correct ala carte price of Medium Apple Cinnamon Fog ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Medium Apple Cinnamon Fog "
+					+ "Expected Price: " + read_MD_Apple_Cinn_Fog_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario210 FAIL: Incorrect ala carte price of Medium Apple Cinnamon Fog ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 211)
+
+	public void sikuliTestCase211(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent.createTest("TC_211:Verify Large Apple Cinnamon Fog Price. " + "Region Id:" + b.read_Region_Id());
+
+//		s.wait(Beverages1, 300);
+//		s.click(Beverages1);
+
+		s.wait(TeaLatteButton, 300);
+
+		s.click(TeaLatteButton);
+
+		s.wait(Apple_Cinnamon_Fog, 300);
+
+		s.click(Apple_Cinnamon_Fog);
+		
+		s.wait(LG_Apple_Cinnamon_Fog, 300);
+
+		s.click(LG_Apple_Cinnamon_Fog);
+
+		testcase.log(Status.PASS, "User able to click on Large Apple Cinnamon Fog");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"LGApplecinnFogPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"LGApplecinnFogPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_LG_Apple_Cinn_Fog_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_LG_Apple_Cinn_Fog_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Large Apple Cinnamon Fog ");
+
+			System.out.println(
+					"***********Scenario211 PASS: Correct ala carte price of Large Apple Cinnamon Fog ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Large Apple Cinnamon Fog "
+					+ "Expected Price: " + read_LG_Apple_Cinn_Fog_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario211 FAIL: Incorrect ala carte price of Large Apple Cinnamon Fog ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 212)
+
+	public void sikuliTestCase212(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent.createTest("TC_212:Verify Refil Small Apple Cinnamon Fog Price. " + "Region Id:" + b.read_Region_Id());
+
+//		s.wait(Beverages1, 300);
+//		s.click(Beverages1);
+
+		s.wait(TeaLatteButton, 300);
+
+		s.click(TeaLatteButton);
+
+		s.wait(Apple_Cinnamon_Fog, 300);
+
+		s.click(Apple_Cinnamon_Fog);
+		
+		s.wait(RS_Apple_Cinnamon_Fog, 300);
+
+		s.click(RS_Apple_Cinnamon_Fog);
+
+		testcase.log(Status.PASS, "User able to click on Refil Small Apple Cinnamon Fog");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RSApplecinnFogPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RSApplecinnFogPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_RS_Apple_Cinn_Fog_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_RS_Apple_Cinn_Fog_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Refil Small Apple Cinnamon Fog ");
+
+			System.out.println(
+					"***********Scenario212 PASS: Correct ala carte price of Refil Small Apple Cinnamon Fog ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Refil Small Apple Cinnamon Fog "
+					+ "Expected Price: " + read_RS_Apple_Cinn_Fog_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario212 FAIL: Incorrect ala carte price of Refil Small Apple Cinnamon Fog ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 213)
+
+	public void sikuliTestCase213(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent.createTest("TC_213:Verify Refil Medium Apple Cinnamon Fog Price. " + "Region Id:" + b.read_Region_Id());
+
+//		s.wait(Beverages1, 300);
+//		s.click(Beverages1);
+
+		s.wait(TeaLatteButton, 300);
+
+		s.click(TeaLatteButton);
+
+		s.wait(Apple_Cinnamon_Fog, 300);
+
+		s.click(Apple_Cinnamon_Fog);
+		
+		s.wait(RM_Apple_Cinnamon_Fog, 300);
+
+		s.click(RM_Apple_Cinnamon_Fog);
+
+		testcase.log(Status.PASS, "User able to click on Refil Medium Apple Cinnamon Fog");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RMApplecinnFogPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RMApplecinnFogPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_RM_Apple_Cinn_Fog_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_RM_Apple_Cinn_Fog_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Refil Medium Apple Cinnamon Fog ");
+
+			System.out.println(
+					"***********Scenario213 PASS: Correct ala carte price of Refil Medium Apple Cinnamon Fog ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Refil Medium Apple Cinnamon Fog "
+					+ "Expected Price: " + read_RM_Apple_Cinn_Fog_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario213 FAIL: Incorrect ala carte price of Refil Medium Apple Cinnamon Fog ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 214)
+
+	public void sikuliTestCase214(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent.createTest("TC_214:Verify Refil Large Apple Cinnamon Fog Price. " + "Region Id:" + b.read_Region_Id());
+
+//		s.wait(Beverages1, 300);
+//		s.click(Beverages1);
+
+		s.wait(TeaLatteButton, 300);
+
+		s.click(TeaLatteButton);
+
+		s.wait(Apple_Cinnamon_Fog, 300);
+
+		s.click(Apple_Cinnamon_Fog);
+		
+		s.wait(RL_Apple_Cinnamon_Fog, 300);
+
+		s.click(RL_Apple_Cinnamon_Fog);
+
+		testcase.log(Status.PASS, "User able to click on Refil Large Apple Cinnamon Fog");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RLApplecinnFogPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RLApplecinnFogPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_RL_Apple_Cinn_Fog_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_RL_Apple_Cinn_Fog_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Refil Large Apple Cinnamon Fog ");
+
+			System.out.println(
+					"***********Scenario214 PASS: Correct ala carte price of Refil Large Apple Cinnamon Fog ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Refil Large Apple Cinnamon Fog "
+					+ "Expected Price: " + read_RL_Apple_Cinn_Fog_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario214 FAIL: Incorrect ala carte price of Refil Large Apple Cinnamon Fog ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 215)
+
+	public void sikuliTestCase215(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent.createTest("TC_215:Verify Small White Milk Price. " + "Region Id:" + b.read_Region_Id());
+
+//		s.wait(Beverages1, 300);
+//		s.click(Beverages1);
+
+		s.wait(ColdBeverages, 300);
+
+		s.click(ColdBeverages);
+
+		s.wait(SM_White_Milk, 300);
+
+		s.click(SM_White_Milk);
+		
+		testcase.log(Status.PASS, "User able to click on Small White Milk");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"SMWhiteMilkPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"SMWhiteMilkPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_SM_White_Milk_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_SM_White_Milk_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Small White Milk ");
+
+			System.out.println(
+					"***********Scenario215 PASS: Correct ala carte price of Small White Milk ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Small White Milk "
+					+ "Expected Price: " + read_SM_White_Milk_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario215 FAIL: Incorrect ala carte price of Small White Milk ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 216)
+
+	public void sikuliTestCase216(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent.createTest("TC_216:Verify Large White Milk Price. " + "Region Id:" + b.read_Region_Id());
+
+//		s.wait(Beverages1, 300);
+//		s.click(Beverages1);
+
+		s.wait(ColdBeverages, 300);
+
+		s.click(ColdBeverages);
+
+		s.wait(LG_White_Milk, 300);
+
+		s.click(LG_White_Milk);
+		
+		testcase.log(Status.PASS, "User able to click on Large White Milk");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"LGWhiteMilkPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"LGWhiteMilkPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_LG_White_Milk_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_LG_White_Milk_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Large White Milk ");
+
+			System.out.println(
+					"***********Scenario216 PASS: Correct ala carte price of Large White Milk ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Large White Milk "
+					+ "Expected Price: " + read_LG_White_Milk_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario216 FAIL: Incorrect ala carte price of Large White Milk ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 217)
+
+	public void sikuliTestCase217(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent.createTest("TC_217:Verify Small Chocolate Milk Price. " + "Region Id:" + b.read_Region_Id());
+
+//		s.wait(Beverages1, 300);
+//		s.click(Beverages1);
+
+		s.wait(ColdBeverages, 300);
+
+		s.click(ColdBeverages);
+
+		s.wait(SM_Chocolate_Milk, 300);
+
+		s.click(SM_Chocolate_Milk);
+		
+		testcase.log(Status.PASS, "User able to click on Small Chocolate Milk");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"SMChoclateMilkPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"SMChoclateMilkPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_SM_Chocolate_Milk_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_SM_Chocolate_Milk_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Small Chocolate Milk ");
+
+			System.out.println(
+					"***********Scenario217 PASS: Correct ala carte price of Small Chocolate Milk ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Small Chocolate Milk "
+					+ "Expected Price: " + read_SM_Chocolate_Milk_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario217 FAIL: Incorrect ala carte price of Small Chocolate Milk ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 218)
+
+	public void sikuliTestCase218(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent.createTest("TC_218:Verify Large Chocolate Milk Price. " + "Region Id:" + b.read_Region_Id());
+
+//		s.wait(Beverages1, 300);
+//		s.click(Beverages1);
+
+		s.wait(ColdBeverages, 300);
+
+		s.click(ColdBeverages);
+
+		s.wait(LG_Chocolate_Milk, 300);
+
+		s.click(LG_Chocolate_Milk);
+		
+		testcase.log(Status.PASS, "User able to click on Large Chocolate Milk");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"LGChoclateMilkPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"LGChoclateMilkPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_LG_Chocolate_Milk_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_LG_Chocolate_Milk_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Large Chocolate Milk ");
+
+			System.out.println(
+					"***********Scenario218 PASS: Correct ala carte price of Large Chocolate Milk ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Large Chocolate Milk "
+					+ "Expected Price: " + read_LG_Chocolate_Milk_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario218 FAIL: Incorrect ala carte price of Large Chocolate Milk ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 219)
+
+	public void sikuliTestCase219(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_219:Verify Small Mango Starfruit Price. " + "Region Id:" + b.read_Region_Id());
+
+//	s.wait(Beverages1,300); 
+//
+//	s.click(Beverages1); 
+
+		s.wait(IcedBeverages, 300);
+
+		s.click(IcedBeverages);
+
+		s.wait(Quenchers, 300);
+
+		s.click(Quenchers);
+
+		s.wait(Mango_StarFruit, 300);
+
+		s.click(Mango_StarFruit);
+		Thread.sleep(2000);
+
+		s.wait(SM_Mango_StarFruit, 300);
+
+		s.click(SM_Mango_StarFruit);
+
+		testcase.log(Status.PASS, "User able to click on Small Mango Starfruit");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"SmMangoStarfruitPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"SmMangoStarfruitPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_SM_MangoStarfruit_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_SM_MangoStarfruit_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Small Mango Starfruit ");
+
+			System.out.println(
+					"***********Scenario219 PASS: Correct ala carte price of Small Mango Starfruit ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Small Mango Starfruit. " + "Expected Price: "
+					+ read_SM_MangoStarfruit_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario219 FAIL: Incorrect ala carte price of Small Mango Starfruit ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 220)
+
+	public void sikuliTestCase220(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_220:Verify Medium Mango Starfruit Price. " + "Region Id:" + b.read_Region_Id());
+
+//	s.wait(Beverages1,300); 
+//
+//	s.click(Beverages1); 
+
+		s.wait(IcedBeverages, 300);
+
+		s.click(IcedBeverages);
+
+		s.wait(Quenchers, 300);
+
+		s.click(Quenchers);
+
+		s.wait(Mango_StarFruit, 300);
+
+		s.click(Mango_StarFruit);
+		Thread.sleep(2000);
+
+		s.wait(MD_Mango_StarFruit, 300);
+
+		s.click(MD_Mango_StarFruit);
+
+		testcase.log(Status.PASS, "User able to click on Medium Mango Starfruit");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"MDMangoStarfruitPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"MDMangoStarfruitPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_MD_MangoStarfruit_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_MD_MangoStarfruit_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Medium Mango Starfruit ");
+
+			System.out.println(
+					"***********Scenario220 PASS: Correct ala carte price of Medium Mango Starfruit ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Medium Mango Starfruit. " + "Expected Price: "
+					+ read_MD_MangoStarfruit_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario220 FAIL: Incorrect ala carte price of Medium Mango Starfruit ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 221)
+
+	public void sikuliTestCase221(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_221:Verify Large Mango Starfruit Price. " + "Region Id:" + b.read_Region_Id());
+
+//	s.wait(Beverages1,300); 
+//
+//	s.click(Beverages1); 
+
+		s.wait(IcedBeverages, 300);
+
+		s.click(IcedBeverages);
+
+		s.wait(Quenchers, 300);
+
+		s.click(Quenchers);
+
+		s.wait(Mango_StarFruit, 300);
+
+		s.click(Mango_StarFruit);
+		Thread.sleep(2000);
+
+		s.wait(LG_Mango_StarFruit, 300);
+
+		s.click(LG_Mango_StarFruit);
+
+		testcase.log(Status.PASS, "User able to click on Large Mango Starfruit");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"LGMangoStarfruitPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"LGMangoStarfruitPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_LG_MangoStarfruit_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_LG_MangoStarfruit_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Large Mango Starfruit ");
+
+			System.out.println(
+					"***********Scenario221 PASS: Correct ala carte price of Large Mango Starfruit ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Large Mango Starfruit. " + "Expected Price: "
+					+ read_LG_MangoStarfruit_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario221 FAIL: Incorrect ala carte price of Large Mango Starfruit ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 222)
+
+	public void sikuliTestCase222(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_222:Verify Refil Small Mango Starfruit Price. " + "Region Id:" + b.read_Region_Id());
+
+//	s.wait(Beverages1,300); 
+//
+//	s.click(Beverages1); 
+
+		s.wait(IcedBeverages, 300);
+
+		s.click(IcedBeverages);
+
+		s.wait(Quenchers, 300);
+
+		s.click(Quenchers);
+
+		s.wait(Mango_StarFruit, 300);
+
+		s.click(Mango_StarFruit);
+		Thread.sleep(2000);
+
+		s.wait(RS_Mango_StarFruit, 300);
+
+		s.click(RS_Mango_StarFruit);
+
+		testcase.log(Status.PASS, "User able to click on Refil Small Mango Starfruit");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RSMangoStarfruitPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RSMangoStarfruitPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_RS_MangoStarfruit_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_RS_MangoStarfruit_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Refil Small Mango Starfruit ");
+
+			System.out.println(
+					"***********Scenario222 PASS: Correct ala carte price of Refil Small Mango Starfruit ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Refil Small Mango Starfruit. " + "Expected Price: "
+					+ read_RS_MangoStarfruit_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario222 FAIL: Incorrect ala carte price of Refil Small Mango Starfruit ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 223)
+
+	public void sikuliTestCase223(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_223:Verify Refil Medium Mango Starfruit Price. " + "Region Id:" + b.read_Region_Id());
+
+//	s.wait(Beverages1,300); 
+//
+//	s.click(Beverages1); 
+
+		s.wait(IcedBeverages, 300);
+
+		s.click(IcedBeverages);
+
+		s.wait(Quenchers, 300);
+
+		s.click(Quenchers);
+
+		s.wait(Mango_StarFruit, 300);
+
+		s.click(Mango_StarFruit);
+		Thread.sleep(2000);
+
+		s.wait(RM_Mango_StarFruit, 300);
+
+		s.click(RM_Mango_StarFruit);
+
+		testcase.log(Status.PASS, "User able to click on Refil Medium Mango Starfruit");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RMMangoStarfruitPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RMMangoStarfruitPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_RM_MangoStarfruit_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_RM_MangoStarfruit_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Refil Medium Mango Starfruit ");
+
+			System.out.println(
+					"***********Scenario223 PASS: Correct ala carte price of Refil Medium Mango Starfruit ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Refil Medium Mango Starfruit. " + "Expected Price: "
+					+ read_RM_MangoStarfruit_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario223 FAIL: Incorrect ala carte price of Refil Medium Mango Starfruit ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 224)
+
+	public void sikuliTestCase224(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_224:Verify Refil Large Mango Starfruit Price. " + "Region Id:" + b.read_Region_Id());
+
+//	s.wait(Beverages1,300); 
+//
+//	s.click(Beverages1); 
+
+		s.wait(IcedBeverages, 300);
+
+		s.click(IcedBeverages);
+
+		s.wait(Quenchers, 300);
+
+		s.click(Quenchers);
+
+		s.wait(Mango_StarFruit, 300);
+
+		s.click(Mango_StarFruit);
+		Thread.sleep(2000);
+
+		s.wait(RL_Mango_StarFruit, 300);
+
+		s.click(RL_Mango_StarFruit);
+
+		testcase.log(Status.PASS, "User able to click on Refil Large Mango Starfruit");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RLMangoStarfruitPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RLMangoStarfruitPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_RL_MangoStarfruit_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_RL_MangoStarfruit_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Refil Large Mango Starfruit ");
+
+			System.out.println(
+					"***********Scenario224 PASS: Correct ala carte price of Refil Large Mango Starfruit ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Refil Large Mango Starfruit. " + "Expected Price: "
+					+ read_RL_MangoStarfruit_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario224 FAIL: Incorrect ala carte price of Refil Large Mango Starfruit ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 225)
+
+	public void sikuliTestCase225(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_225:Verify Small Wildberry Hibiscus Price. " + "Region Id:" + b.read_Region_Id());
+
+//	s.wait(Beverages1,300); 
+//
+//	s.click(Beverages1); 
+
+		s.wait(IcedBeverages, 300);
+
+		s.click(IcedBeverages);
+
+		s.wait(Quenchers, 300);
+
+		s.click(Quenchers);
+
+		s.wait(WildBerry_Hibiscus, 300);
+
+		s.click(WildBerry_Hibiscus);
+		Thread.sleep(2000);
+
+		s.wait(SM_WildBerry_Hibiscus, 300);
+
+		s.click(SM_WildBerry_Hibiscus);
+
+		testcase.log(Status.PASS, "User able to click on Small Wildberry Hibiscus");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"SM_Wildberry_HibiscusPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"SM_Wildberry_HibiscusPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_SM_Wildberry_Hibiscus_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_SM_Wildberry_Hibiscus_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Small Wildberry Hibiscus ");
+
+			System.out.println(
+					"***********Scenario225 PASS: Correct ala carte price of Small Wildberry Hibiscus ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Small Wildberry Hibiscus. " + "Expected Price: "
+					+ read_SM_Wildberry_Hibiscus_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario225 FAIL: Incorrect ala carte price of Small Wildberry Hibiscus ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 226)
+
+	public void sikuliTestCase226(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_226:Verify Medium Wildberry Hibiscus Price. " + "Region Id:" + b.read_Region_Id());
+
+//	s.wait(Beverages1,300); 
+//
+//	s.click(Beverages1); 
+
+		s.wait(IcedBeverages, 300);
+
+		s.click(IcedBeverages);
+
+		s.wait(Quenchers, 300);
+
+		s.click(Quenchers);
+
+		s.wait(WildBerry_Hibiscus, 300);
+
+		s.click(WildBerry_Hibiscus);
+		Thread.sleep(2000);
+
+		s.wait(MD_WildBerry_Hibiscus, 300);
+
+		s.click(MD_WildBerry_Hibiscus);
+
+		testcase.log(Status.PASS, "User able to click on Medium Wildberry Hibiscus");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"MD_Wildberry_HibiscusPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"MD_Wildberry_HibiscusPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_MD_Wildberry_Hibiscus_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_MD_Wildberry_Hibiscus_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Medium Wildberry Hibiscus ");
+
+			System.out.println(
+					"***********Scenario226 PASS: Correct ala carte price of Medium Wildberry Hibiscus ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Medium Wildberry Hibiscus. " + "Expected Price: "
+					+ read_MD_Wildberry_Hibiscus_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario226 FAIL: Incorrect ala carte price of Medium Wildberry Hibiscus ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 227)
+
+	public void sikuliTestCase227(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_227:Verify Large Wildberry Hibiscus Price. " + "Region Id:" + b.read_Region_Id());
+
+//	s.wait(Beverages1,300); 
+//
+//	s.click(Beverages1); 
+
+		s.wait(IcedBeverages, 300);
+
+		s.click(IcedBeverages);
+
+		s.wait(Quenchers, 300);
+
+		s.click(Quenchers);
+
+		s.wait(WildBerry_Hibiscus, 300);
+
+		s.click(WildBerry_Hibiscus);
+		Thread.sleep(2000);
+
+		s.wait(LG_WildBerry_Hibiscus, 300);
+
+		s.click(LG_WildBerry_Hibiscus);
+
+		testcase.log(Status.PASS, "User able to click on Large Wildberry Hibiscus");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"LG_Wildberry_HibiscusPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"LG_Wildberry_HibiscusPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_LG_Wildberry_Hibiscus_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_LG_Wildberry_Hibiscus_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Large Wildberry Hibiscus ");
+
+			System.out.println(
+					"***********Scenario227 PASS: Correct ala carte price of Large Wildberry Hibiscus ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Large Wildberry Hibiscus. " + "Expected Price: "
+					+ read_LG_Wildberry_Hibiscus_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario227 FAIL: Incorrect ala carte price of Large Wildberry Hibiscus ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+
+	@Test(priority = 228)
+
+	public void sikuliTestCase228(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_228:Verify Refil Small Wildberry Hibiscus Price. " + "Region Id:" + b.read_Region_Id());
+
+//	s.wait(Beverages1,300); 
+//
+//	s.click(Beverages1); 
+
+		s.wait(IcedBeverages, 300);
+
+		s.click(IcedBeverages);
+
+		s.wait(Quenchers, 300);
+
+		s.click(Quenchers);
+
+		s.wait(WildBerry_Hibiscus, 300);
+
+		s.click(WildBerry_Hibiscus);
+		Thread.sleep(2000);
+
+		s.wait(RS_WildBerry_Hibiscus, 300);
+
+		s.click(RS_WildBerry_Hibiscus);
+
+		testcase.log(Status.PASS, "User able to click on Refil Small Wildberry Hibiscus");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RS_Wildberry_HibiscusPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RS_Wildberry_HibiscusPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_RS_Wildberry_Hibiscus_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_RS_Wildberry_Hibiscus_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Refil Small Wildberry Hibiscus ");
+
+			System.out.println(
+					"***********Scenario228 PASS: Correct ala carte price of Refil Small Wildberry Hibiscus ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Refil Small Wildberry Hibiscus. " + "Expected Price: "
+					+ read_RS_Wildberry_Hibiscus_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario228 FAIL: Incorrect ala carte price of Refil Small Wildberry Hibiscus ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 229)
+
+	public void sikuliTestCase229(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_229:Verify Refil Medium Wildberry Hibiscus Price. " + "Region Id:" + b.read_Region_Id());
+
+//	s.wait(Beverages1,300); 
+//
+//	s.click(Beverages1); 
+
+		s.wait(IcedBeverages, 300);
+
+		s.click(IcedBeverages);
+
+		s.wait(Quenchers, 300);
+
+		s.click(Quenchers);
+
+		s.wait(WildBerry_Hibiscus, 300);
+
+		s.click(WildBerry_Hibiscus);
+		Thread.sleep(2000);
+
+		s.wait(RM_WildBerry_Hibiscus, 300);
+
+		s.click(RM_WildBerry_Hibiscus);
+
+		testcase.log(Status.PASS, "User able to click on Refil Medium Wildberry Hibiscus");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RM_Wildberry_HibiscusPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RM_Wildberry_HibiscusPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_RM_Wildberry_Hibiscus_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_RM_Wildberry_Hibiscus_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Refil Medium Wildberry Hibiscus ");
+
+			System.out.println(
+					"***********Scenario229 PASS: Correct ala carte price of Refil Medium Wildberry Hibiscus ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Refil Medium Wildberry Hibiscus. " + "Expected Price: "
+					+ read_RM_Wildberry_Hibiscus_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario229 FAIL: Incorrect ala carte price of Refil Medium Wildberry Hibiscus ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 230)
+
+	public void sikuliTestCase230(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_230:Verify Refil Large Wildberry Hibiscus Price. " + "Region Id:" + b.read_Region_Id());
+
+//	s.wait(Beverages1,300); 
+//
+//	s.click(Beverages1); 
+
+		s.wait(IcedBeverages, 300);
+
+		s.click(IcedBeverages);
+
+		s.wait(Quenchers, 300);
+
+		s.click(Quenchers);
+
+		s.wait(WildBerry_Hibiscus, 300);
+
+		s.click(WildBerry_Hibiscus);
+		Thread.sleep(2000);
+
+		s.wait(RL_WildBerry_Hibiscus, 300);
+
+		s.click(RL_WildBerry_Hibiscus);
+
+		testcase.log(Status.PASS, "User able to click on Refil Large Wildberry Hibiscus");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RL_Wildberry_HibiscusPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RL_Wildberry_HibiscusPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_RL_Wildberry_Hibiscus_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_RL_Wildberry_Hibiscus_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Refil Large Wildberry Hibiscus ");
+
+			System.out.println(
+					"***********Scenario230 PASS: Correct ala carte price of Refil Large Wildberry Hibiscus ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Refil Large Wildberry Hibiscus. " + "Expected Price: "
+					+ read_RL_Wildberry_Hibiscus_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario230 FAIL: Incorrect ala carte price of Refil Large Wildberry Hibiscus ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+
+	@Test(priority = 231)
+
+	public void sikuliTestCase231(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_231:Verify Small Specialty Tea Price. " + "Region Id:" + b.read_Region_Id());
+
+	    s.wait(Beverages1,300); 
+
+	    s.click(Beverages1); 
+	    
+	    Thread.sleep(3000);
+
+		s.wait(Tea_Specialty, 300);
+
+		s.click(Tea_Specialty);
+
+		s.wait(SM_Tea_Specialty, 300);
+
+		s.click(SM_Tea_Specialty);
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Small Specialty Tea");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"SM_SpclTeaPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"SM_SpclTeaPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_SM_Spcl_Tea_price_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_SM_Spcl_Tea_price_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Small Specialty Tea ");
+
+			System.out.println(
+					"***********Scenario231 PASS: Correct ala carte price of Small Specialty Tea ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Small Specialty Tea. " + "Expected Price: "
+					+ read_SM_Spcl_Tea_price_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario231 FAIL: Incorrect ala carte price of Small Specialty Tea ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+
+	@Test(priority = 232)
+
+	public void sikuliTestCase232(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_232:Verify Medium Specialty Tea Price. " + "Region Id:" + b.read_Region_Id());
+
+//	    s.wait(Beverages1,300); 
+//
+//	    s.click(Beverages1); 
+		
+		Thread.sleep(3000);
+
+		s.wait(Tea_Specialty, 300);
+
+		s.click(Tea_Specialty);
+
+		s.wait(MD_Tea_Specialty, 300);
+
+		s.click(MD_Tea_Specialty);
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Medium Specialty Tea");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"MD_SpclTeaPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"MD_SpclTeaPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_MD_Spcl_Tea_price_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_MD_Spcl_Tea_price_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Medium Specialty Tea ");
+
+			System.out.println(
+					"***********Scenario232 PASS: Correct ala carte price of Medium Specialty Tea ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Medium Specialty Tea. " + "Expected Price: "
+					+ read_MD_Spcl_Tea_price_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario232 FAIL: Incorrect ala carte price of Medium Specialty Tea ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 233)
+
+	public void sikuliTestCase233(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_233:Verify Large Specialty Tea Price. " + "Region Id:" + b.read_Region_Id());
+
+//	    s.wait(Beverages1,300); 
+//
+//	    s.click(Beverages1);
+		
+		Thread.sleep(3000);
+
+		s.wait(Tea_Specialty, 300);
+
+		s.click(Tea_Specialty);
+
+		s.wait(LG_Tea_Specialty, 300);
+
+		s.click(LG_Tea_Specialty);
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Large Specialty Tea");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"LG_SpclTeaPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"LG_SpclTeaPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_LG_Spcl_Tea_price_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_LG_Spcl_Tea_price_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Large Specialty Tea ");
+
+			System.out.println(
+					"***********Scenario233 PASS: Correct ala carte price of Large Specialty Tea ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Large Specialty Tea. " + "Expected Price: "
+					+ read_LG_Spcl_Tea_price_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario233 FAIL: Incorrect ala carte price of Large Specialty Tea ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 234)
+
+	public void sikuliTestCase234(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_234:Verify Refil Small Specialty Tea Price. " + "Region Id:" + b.read_Region_Id());
+
+//	    s.wait(Beverages1,300); 
+//
+//	    s.click(Beverages1); 
+		
+		Thread.sleep(3000);
+
+		s.wait(Tea_Specialty, 300);
+
+		s.click(Tea_Specialty);
+
+		s.wait(RS_Tea_Specialty, 300);
+
+		s.click(RS_Tea_Specialty);
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Refil Small Specialty Tea");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RS_SpclTeaPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RS_SpclTeaPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_RS_Spcl_Tea_price_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_RS_Spcl_Tea_price_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Refil Small Specialty Tea ");
+
+			System.out.println(
+					"***********Scenario234 PASS: Correct ala carte price of Refil Small Specialty Tea ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Refil Small Specialty Tea. " + "Expected Price: "
+					+ read_RS_Spcl_Tea_price_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario234 FAIL: Incorrect ala carte price of Refil Small Specialty Tea ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 235)
+
+	public void sikuliTestCase235(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_235:Verify Refil Medium Specialty Tea Price. " + "Region Id:" + b.read_Region_Id());
+
+//	    s.wait(Beverages1,300); 
+//
+//	    s.click(Beverages1); 
+		Thread.sleep(3000);
+
+		s.wait(Tea_Specialty, 300);
+
+		s.click(Tea_Specialty);
+
+		s.wait(RM_Tea_Specialty, 300);
+
+		s.click(RM_Tea_Specialty);
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Refil Medium Specialty Tea");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RM_SpclTeaPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RM_SpclTeaPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_RM_Spcl_Tea_price_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_RM_Spcl_Tea_price_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Refil Medium Specialty Tea ");
+
+			System.out.println(
+					"***********Scenario235 PASS: Correct ala carte price of Refil Medium Specialty Tea ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Refil Medium Specialty Tea. " + "Expected Price: "
+					+ read_RM_Spcl_Tea_price_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario235 FAIL: Incorrect ala carte price of Refil Medium Specialty Tea ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+
+	
+	
+	@Test(priority = 236)
+
+	public void sikuliTestCase236(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_236:Verify Refil Large Specialty Tea Price. " + "Region Id:" + b.read_Region_Id());
+
+//	    s.wait(Beverages1,300); 
+//
+//	    s.click(Beverages1); 
+
+		Thread.sleep(3000);
+		s.wait(Tea_Specialty, 300);
+
+		s.click(Tea_Specialty);
+
+		s.wait(RL_Tea_Specialty, 300);
+
+		s.click(RL_Tea_Specialty);
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Refil Large Specialty Tea");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RL_SpclTeaPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RL_SpclTeaPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_RL_Spcl_Tea_price_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_RL_Spcl_Tea_price_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Refil Large Specialty Tea ");
+
+			System.out.println(
+					"***********Scenario236 PASS: Correct ala carte price of Refil Large Specialty Tea ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Refil Large Specialty Tea. " + "Expected Price: "
+					+ read_RL_Spcl_Tea_price_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario236 FAIL: Incorrect ala carte price of Refil Large Specialty Tea ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+
+	@Test(priority = 237)
+
+	public void sikuliTestCase237(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_237:Verify Specialty Tea BR Thermos Price. " + "Region Id:" + b.read_Region_Id());
+
+//	    s.wait(Beverages1,300); 
+//
+//	    s.click(Beverages1); 
+	    
+	    Thread.sleep(3000);
+
+		s.wait(Tea_Specialty, 300);
+
+		s.click(Tea_Specialty);
+
+		s.wait(SpecialityTeaBRThermos, 300);
+
+		s.click(SpecialityTeaBRThermos);
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Specialty Tea BR Thermos");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"BR_SpclTeaPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"BR_SpclTeaPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_Spcl_Tea_BR_Thermos_price_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_Spcl_Tea_BR_Thermos_price_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Specialty Tea BR Thermos ");
+
+			System.out.println(
+					"***********Scenario237 PASS: Correct ala carte price of Specialty Tea BR Thermos ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Specialty Tea BR Thermos. " + "Expected Price: "
+					+ read_Spcl_Tea_BR_Thermos_price_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario237 FAIL: Incorrect ala carte price of Specialty Tea BR Thermos ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 238)
+
+	public void sikuliTestCase238(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_238:Verify Specialty Tea Big Tim Price. " + "Region Id:" + b.read_Region_Id());
+
+//	    s.wait(Beverages1,300); 
+//
+//	    s.click(Beverages1); 
+
+		Thread.sleep(3000);
+		s.wait(Tea_Specialty, 300);
+
+		s.click(Tea_Specialty);
+
+		s.wait(SpecialityTeaBigTim, 300);
+
+		s.click(SpecialityTeaBigTim);
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Specialty Tea Big Tim");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"BT_SpclTeaPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"BT_SpclTeaPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_Spcl_Tea_Big_Tim_price_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_Spcl_Tea_Big_Tim_price_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Specialty Tea Big Tim ");
+
+			System.out.println(
+					"***********Scenario238 PASS: Correct ala carte price of Specialty Tea Big Tim ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Specialty Tea Big Tim. " + "Expected Price: "
+					+ read_Spcl_Tea_Big_Tim_price_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario238 FAIL: Incorrect ala carte price of Specialty Tea Big Tim ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 239)
+
+	public void sikuliTestCase239(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_239:Verify Specialty Tea Take 12 Price. " + "Region Id:" + b.read_Region_Id());
+
+//	    s.wait(Beverages1,300); 
+//
+//	    s.click(Beverages1);
+		
+		Thread.sleep(3000);
+
+		s.wait(Tea_Specialty, 300);
+
+		s.click(Tea_Specialty);
+
+		s.wait(SpecialityTeaTake12, 300);
+
+		s.click(SpecialityTeaTake12);
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Specialty Tea Take 12");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"T12_SpclTeaPrice");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"T12_SpclTeaPricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_Spcl_Tea_Take12_price_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_Spcl_Tea_Take12_price_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Specialty Tea Take 12 ");
+
+			System.out.println(
+					"***********Scenario239 PASS: Correct ala carte price of Specialty Tea Take 12 ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Specialty Tea Take 12. " + "Expected Price: "
+					+ read_Spcl_Tea_Take12_price_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario239 FAIL: Incorrect ala carte price of Specialty Tea Take 12 ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+
+	@Test(priority = 240)
+
+	public void sikuliTestCase240(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_240:Verify Small Steeped Orange Tea Price. " + "Region Id:" + b.read_Region_Id());
+
+	    s.wait(Beverages1,300); 
+
+	    s.click(Beverages1); 
+	    
+	    Thread.sleep(3000);
+
+		s.wait(SteepedTea, 300);
+
+		s.click(SteepedTea);
+
+		s.wait(SM_Steeped_Tea, 300);
+
+		s.click(SM_Steeped_Tea);
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Small Steeped Orange Tea");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"Sm_Steeped_Orange_Tea_Price");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"Sm_Steeped_Orange_Tea_Pricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_SM_Steeped_Tea_price_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_SM_Steeped_Tea_price_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Small Steeped Orange Tea ");
+
+			System.out.println(
+					"***********Scenario240 PASS: Correct ala carte price of Small Steeped Orange Tea ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Small Steeped Orange Tea. " + "Expected Price: "
+					+ read_SM_Steeped_Tea_price_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario240 FAIL: Incorrect ala carte price of Small Steeped Orange Tea ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 241)
+
+	public void sikuliTestCase241(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_241:Verify Medium Steeped Orange Tea Price. " + "Region Id:" + b.read_Region_Id());
+
+//	    s.wait(Beverages1,300); 
+//
+//	    s.click(Beverages1); 
+		
+		Thread.sleep(3000);
+
+		s.wait(SteepedTea, 300);
+
+		s.click(SteepedTea);
+
+		s.wait(MD_Steeped_Tea, 300);
+
+		s.click(MD_Steeped_Tea);
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Medium Steeped Orange Tea");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"MD_Steeped_Orange_Tea_Price");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"MD_Steeped_Orange_Tea_Pricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_MD_Steeped_Tea_price_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_MD_Steeped_Tea_price_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Medium Steeped Orange Tea ");
+
+			System.out.println(
+					"***********Scenario241 PASS: Correct ala carte price of Medium Steeped Orange Tea ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Medium Steeped Orange Tea. " + "Expected Price: "
+					+ read_MD_Steeped_Tea_price_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario241 FAIL: Incorrect ala carte price of Medium Steeped Orange Tea ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+
+	@Test(priority = 242)
+
+	public void sikuliTestCase242(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_242:Verify Large Steeped Orange Tea Price. " + "Region Id:" + b.read_Region_Id());
+
+//	    s.wait(Beverages1,300); 
+//
+//	    s.click(Beverages1); 
+		
+		Thread.sleep(3000);
+
+		s.wait(SteepedTea, 300);
+
+		s.click(SteepedTea);
+
+		s.wait(LG_Steeped_Tea, 300);
+
+		s.click(LG_Steeped_Tea);
+		
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Large Steeped Orange Tea");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"LG_Steeped_Orange_Tea_Price");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"LG_Steeped_Orange_Tea_Pricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_LG_Steeped_Tea_price_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_LG_Steeped_Tea_price_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Large Steeped Orange Tea ");
+
+			System.out.println(
+					"***********Scenario242 PASS: Correct ala carte price of Large Steeped Orange Tea ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Large Steeped Orange Tea. " + "Expected Price: "
+					+ read_LG_Steeped_Tea_price_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario242 FAIL: Incorrect ala carte price of Large Steeped Orange Tea ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+
+	@Test(priority = 243)
+
+	public void sikuliTestCase243(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_243:Verify Refil Small Steeped Orange Tea Price. " + "Region Id:" + b.read_Region_Id());
+
+//	    s.wait(Beverages1,300); 
+//
+//	    s.click(Beverages1); 
+		Thread.sleep(3000);
+
+		s.wait(SteepedTea, 300);
+
+		s.click(SteepedTea);
+
+		s.wait(RS_Steeped_Tea, 300);
+
+		s.click(RS_Steeped_Tea);
+		
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Refil Small Steeped Orange Tea");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RS_Steeped_Orange_Tea_Price");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RS_Steeped_Orange_Tea_Pricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_RS_Steeped_Tea_price_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_RS_Steeped_Tea_price_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Refil Small Steeped Orange Tea ");
+
+			System.out.println(
+					"***********Scenario243 PASS: Correct ala carte price of Refil Small Steeped Orange Tea ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Refil Small Steeped Orange Tea. " + "Expected Price: "
+					+ read_RS_Steeped_Tea_price_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario243 FAIL: Incorrect ala carte price of Refil Small Steeped Orange Tea ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 244)
+
+	public void sikuliTestCase244(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_244:Verify Refil Medium Steeped Orange Tea Price. " + "Region Id:" + b.read_Region_Id());
+
+//	    s.wait(Beverages1,300); 
+//
+//	    s.click(Beverages1); 
+		
+		Thread.sleep(3000);
+
+		s.wait(SteepedTea, 300);
+
+		s.click(SteepedTea);
+
+		s.wait(RM_Steeped_Tea, 300);
+
+		s.click(RM_Steeped_Tea);
+		
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Refil Medium Steeped Orange Tea");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RM_Steeped_Orange_Tea_Price");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RM_Steeped_Orange_Tea_Pricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_RM_Steeped_Tea_price_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_RM_Steeped_Tea_price_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Refil Medium Steeped Orange Tea ");
+
+			System.out.println(
+					"***********Scenario244 PASS: Correct ala carte price of Refil Medium Steeped Orange Tea ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Refil Medium Steeped Orange Tea. " + "Expected Price: "
+					+ read_RM_Steeped_Tea_price_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario244 FAIL: Incorrect ala carte price of Refil Medium Steeped Orange Tea ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 245)
+
+	public void sikuliTestCase245(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_245:Verify Refil Large Steeped Orange Tea Price. " + "Region Id:" + b.read_Region_Id());
+
+//	    s.wait(Beverages1,300); 
+//
+//	    s.click(Beverages1); 
+		
+		Thread.sleep(3000);
+
+		s.wait(SteepedTea, 300);
+
+		s.click(SteepedTea);
+
+		s.wait(RL_Steeped_Tea, 300);
+
+		s.click(RL_Steeped_Tea);
+		
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Refil Large Steeped Orange Tea");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RL_Steeped_Orange_Tea_Price");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"RL_Steeped_Orange_Tea_Pricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_RL_Steeped_Tea_price_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_RL_Steeped_Tea_price_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Refil Large Steeped Orange Tea ");
+
+			System.out.println(
+					"***********Scenario245 PASS: Correct ala carte price of Refil Large Steeped Orange Tea ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Refil Large Steeped Orange Tea. " + "Expected Price: "
+					+ read_RL_Steeped_Tea_price_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario245 FAIL: Incorrect ala carte price of Refil Large Steeped Orange Tea ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 246)
+
+	public void sikuliTestCase246(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_246:Verify Take 12 Steeped Orange Tea Price. " + "Region Id:" + b.read_Region_Id());
+
+//	    s.wait(Beverages1,300); 
+//
+//	    s.click(Beverages1); 
+		
+		Thread.sleep(3000);
+
+		s.wait(SteepedTea, 300);
+
+		s.click(SteepedTea);
+
+		s.wait(Steeped_Tea_Take12, 300);
+
+		s.click(Steeped_Tea_Take12);
+		
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Take 12 Steeped Orange Tea");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"T12_Steeped_Orange_Tea_Price");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"T12_Steeped_Orange_Tea_Pricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_Steeped_Tea_Take12_price_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_Steeped_Tea_Take12_price_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Take 12 Steeped Orange Tea ");
+
+			System.out.println(
+					"***********Scenario246 PASS: Correct ala carte price of Take 12 Steeped Orange Tea ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Take 12 Steeped Orange Tea. " + "Expected Price: "
+					+ read_Steeped_Tea_Take12_price_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario246 FAIL: Incorrect ala carte price of Take 12 Steeped Orange Tea ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 247)
+
+	public void sikuliTestCase247(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_247:Verify BR Thermos Steeped Orange Tea Price. " + "Region Id:" + b.read_Region_Id());
+
+//	    s.wait(Beverages1,300); 
+//
+//	    s.click(Beverages1); 
+		
+		Thread.sleep(3000);
+
+		s.wait(SteepedTea, 300);
+
+		s.click(SteepedTea);
+
+		s.wait(Steeped_Tea_BRThermos, 300);
+
+		s.click(Steeped_Tea_BRThermos);
+		
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on BR Thermos Steeped Orange Tea");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"BR_Steeped_Orange_Tea_Price");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"BR_Steeped_Orange_Tea_Pricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_Steeped_Tea_BR_Thermos_price_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_Steeped_Tea_BR_Thermos_price_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of BR Thermos Steeped Orange Tea ");
+
+			System.out.println(
+					"***********Scenario247 PASS: Correct ala carte price of BR Thermos Steeped Orange Tea ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of BR Thermos Steeped Orange Tea. " + "Expected Price: "
+					+ read_Steeped_Tea_BR_Thermos_price_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario247 FAIL: Incorrect ala carte price of BR Thermos Steeped Orange Tea ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+
+	@Test(priority = 248)
+
+	public void sikuliTestCase248(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_248:Verify Big Tim Steeped Orange Tea Price. " + "Region Id:" + b.read_Region_Id());
+
+//	    s.wait(Beverages1,300); 
+//
+//	    s.click(Beverages1); 
+		
+		Thread.sleep(3000);
+
+		s.wait(SteepedTea, 300);
+
+		s.click(SteepedTea);
+
+		s.wait(Steeped_Tea_Big_Tim, 300);
+
+		s.click(Steeped_Tea_Big_Tim);
+		
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Big Tim Steeped Orange Tea");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"Big_Tim_Steeped_Orange_Tea_Price");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"Big_Tim_Steeped_Orange_Tea_Pricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_Steeped_Tea_Big_Tim_price_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_Steeped_Tea_Big_Tim_price_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Big Tim Steeped Orange Tea ");
+
+			System.out.println(
+					"***********Scenario248 PASS: Correct ala carte price of Big Tim Steeped Orange Tea ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Big Tim Steeped Orange Tea. " + "Expected Price: "
+					+ read_Steeped_Tea_Big_Tim_price_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario248 FAIL: Incorrect ala carte price of Big Tim Steeped Orange Tea ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 249)
+
+	public void sikuliTestCase249(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_249:Verify Btl Apple Juice Price. " + "Region Id:" + b.read_Region_Id());
+
+	    s.wait(Beverages1,300); 
+
+	    s.click(Beverages1); 
+
+		s.wait(ColdBeverages, 300);
+
+		s.click(ColdBeverages);
+
+		s.wait(Btl_Apple_Juice, 300);
+
+		s.click(Btl_Apple_Juice);
+		
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Btl Apple Juice");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"Btl_Apple_Juice_Price");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"Btl_Apple_Juice_Pricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_Btl_Apple_Juice_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_Btl_Apple_Juice_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Btl Apple Juice ");
+
+			System.out.println(
+					"***********Scenario249 PASS: Correct ala carte price of Btl Apple Juice ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Btl Apple Juice. " + "Expected Price: "
+					+ read_Btl_Apple_Juice_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario249 FAIL: Incorrect ala carte price of Btl Apple Juice ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	@Test(priority = 250)
+
+	public void sikuliTestCase250(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_250:Verify Btl Orange Juice Price. " + "Region Id:" + b.read_Region_Id());
+
+	    s.wait(Beverages1,300); 
+
+	    s.click(Beverages1); 
+
+		s.wait(ColdBeverages, 300);
+
+		s.click(ColdBeverages);
+
+		s.wait(Btl_Orange_Juice, 300);
+
+		s.click(Btl_Orange_Juice);
+		
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Btl Orange Juice");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"Btl_Orange_Juice_Price");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"Btl_Orange_Juice_Pricewithname");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_Btl_Orange_Juice_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_Btl_Orange_Juice_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct ala carte price of Btl Orange Juice ");
+
+			System.out.println(
+					"***********Scenario249 PASS: Correct ala carte price of Btl Orange Juice ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect ala carte price of Btl Orange Juice. " + "Expected Price: "
+					+ read_Btl_Orange_Juice_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario249 FAIL: Incorrect ala carte price of Btl Orange Juice ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+
+	@Test(priority = 251)
+
+	public void sikuliTestCase251(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_251:Verify Refill Small Unsweetend Iced Latte. " + "Region Id:" + b.read_Region_Id());
+
+	    s.wait(Beverages1,300); 
+
+	    s.click(Beverages1); 
+
+		s.wait(IcedBeverages, 300);
+
+		s.click(IcedBeverages);
+
+		s.wait(Iced_Latte, 300);
+
+		s.click(Iced_Latte);
+
+		s.wait(RS_Unsweetend_Latte, 300);
+
+		s.click(RS_Unsweetend_Latte);
+		
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Unsweetend small");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"IcedBR_IcedLatte_UnsweetendSmall");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"IcedBR_IcedLatte_UnsweetendSmall_priceName");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_Unsweetend_Small_Refill_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_Unsweetend_Small_Refill_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct Refill Small Unsweetend Iced Latte price ");
+
+			System.out.println(
+					"***********Scenario251 PASS: Correct Refill Small Unsweetend Iced Latte price ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect Refill Small Unsweetend Iced Latte price " + "Expected Price: "
+					+ read_Unsweetend_Small_Refill_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario251 FAIL: Incorrect Refill Small Unsweetend Iced Latte price ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	
+	
+	
+	
+	
+	@Test(priority = 252)
+
+	public void sikuliTestCase252(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_252:Verify Refill Medium Unsweetend Iced Latte. " + "Region Id:" + b.read_Region_Id());
+
+//	    s.wait(Beverages1,300); 
+//
+//	    s.click(Beverages1); 
+
+		s.wait(IcedBeverages, 300);
+
+		s.click(IcedBeverages);
+
+		s.wait(Iced_Latte, 300);
+
+		s.click(Iced_Latte);
+
+		s.wait(RM_Unsweetend_Latte, 300);
+
+		s.click(RM_Unsweetend_Latte);
+		
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Unsweetend medium");
+
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"IcedBR_IcedLatte_UnsweetendMedium");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"IcedBR_IcedLatte_UnsweetendMedium_priceName");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_Unsweetend_Medium_Refill_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_Unsweetend_Medium_Refill_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct Refill Medium Unsweetend Iced Latte price. ");
+
+			System.out.println(
+					"***********Scenario252 PASS: Correct Refill Medium Unsweetend Iced Latte price. ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect Refill Medium Unsweetend Iced Latte price " + "Expected Price: "
+					+ read_Unsweetend_Medium_Refill_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario252 FAIL: Incorrect Refill Medium Unsweetend Iced Latte price ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	
+	
+	@Test(priority = 253)
+
+	public void sikuliTestCase253(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_253:Verify Refill Large Unsweetend Iced Latte. " + "Region Id:" + b.read_Region_Id());
+
+//	    s.wait(Beverages1,300); 
+//
+//	    s.click(Beverages1); 
+
+		s.wait(IcedBeverages, 300);
+
+		s.click(IcedBeverages);
+
+		s.wait(Iced_Latte, 300);
+
+		s.click(Iced_Latte);
+
+		s.wait(RL_Unsweetend_Latte, 300);
+
+		s.click(RL_Unsweetend_Latte);
+		
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Unsweetend large");
+		
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"IcedBR_IcedLatte_UnsweetendLarge");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"IcedBR_IcedLatte_UnsweetendLarge_priceName");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_Unsweetend_Large_Refill_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_Unsweetend_Large_Refill_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct Refill Large Unsweetend Iced Latte price ");
+
+			System.out.println(
+					"***********Scenario253 PASS: Correct Refill Large Unsweetend Iced Latte price ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect Refill Large Unsweetend Iced Latte price " + "Expected Price: "
+					+ read_Unsweetend_Large_Refill_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario253 FAIL: Incorrect Refill Large Unsweetend Iced Latte price ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+	}
+	
+	
+	
+	@Test(priority = 254)
+
+	public void sikuliTestCase254(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_254:Verify Refill Small Black Coffee. " + "Region Id:" + b.read_Region_Id());
+
+	    s.wait(Beverages1,300); 
+
+	    s.click(Beverages1); 
+
+		s.wait(IcedBeverages, 300);
+
+		s.click(IcedBeverages);
+
+		s.wait(IcedCoffee, 300);
+
+		s.click(IcedCoffee);
+
+//		s.wait(Original_Iced_Coffee, 300);
+//
+//		s.click(Original_Iced_Coffee);
+		
+		s.wait(RS_Black_Coffee, 300);
+
+		s.click(RS_Black_Coffee);
+		
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Refill Black Coffee Small");
+		
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"Small_Black_Coffee_Price");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"Small_Black_Coffee_PriceName");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_Black_Coffee_Small_Refill_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_Black_Coffee_Small_Refill_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct Refill Small Black Coffee price ");
+
+			System.out.println(
+					"***********Scenario254 PASS: Correct Refill Small Black Coffee price ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect Refill Small Black Coffee Price " + "Expected Price: "
+					+ read_Black_Coffee_Small_Refill_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario254 FAIL: Incorrect Refill Small Black Coffee Price ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+		
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+
+	}
+	
+	
+	@Test(priority = 255)
+
+	public void sikuliTestCase255(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_255:Verify Refill Medium Black Coffee. " + "Region Id:" + b.read_Region_Id());
+
+//	    s.wait(Beverages1,300); 
+//
+//	    s.click(Beverages1); 
+//
+		s.wait(IcedBeverages, 300);
+
+		s.click(IcedBeverages);
+
+		s.wait(IcedCoffee, 300);
+
+		s.click(IcedCoffee);
+
+//		s.wait(Original_Iced_Coffee, 300);
+//
+//		s.click(Original_Iced_Coffee);
+		
+		s.wait(RM_Black_Coffee, 300);
+
+		s.click(RM_Black_Coffee);
+		
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Refill Black Coffee Medium");
+		
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"Medium_Black_Coffee_Price");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"Medium_Black_Coffee_PriceName");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_Black_Coffee_Medium_Refill_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_Black_Coffee_Medium_Refill_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct Refill Medium Black Coffee price ");
+
+			System.out.println(
+					"***********Scenario255 PASS: Correct Refill Medium Black Coffee price ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect Refill Medium Black Coffee Price " + "Expected Price: "
+					+ read_Black_Coffee_Medium_Refill_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario255 FAIL: Incorrect Refill Medium Black Coffee Price ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+		
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+
+	}
+	
+	@Test(priority = 256)
+
+	public void sikuliTestCase256(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_256:Verify Refill Large Black Coffee. " + "Region Id:" + b.read_Region_Id());
+
+//	    s.wait(Beverages1,300); 
+//
+//	    s.click(Beverages1); 
+//
+		s.wait(IcedBeverages, 300);
+
+		s.click(IcedBeverages);
+
+		s.wait(IcedCoffee, 300);
+
+		s.click(IcedCoffee);
+
+//		s.wait(Original_Iced_Coffee, 300);
+//
+//		s.click(Original_Iced_Coffee);
+		
+		s.wait(RL_Black_Coffee, 300);
+
+		s.click(RL_Black_Coffee);
+		
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Refill Black Coffee Large");
+		
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"Large_Black_Coffee_Price");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"Large_Black_Coffee_PriceName");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_Black_Coffee_Large_Refill_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_Black_Coffee_Large_Refill_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct Refill Large Black Coffee price ");
+
+			System.out.println(
+					"***********Scenario256 PASS: Correct Refill Large Black Coffee price ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect Refill Large Black Coffee Price " + "Expected Price: "
+					+ read_Black_Coffee_Large_Refill_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario256 FAIL: Incorrect Refill Large Black Coffee Price ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+		
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+
+	}
+	
+	
+	@Test(priority = 257)
+
+	public void sikuliTestCase257(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_257:Verify Refill Small Black Cold Brew. " + "Region Id:" + b.read_Region_Id());
+
+	    s.wait(Beverages1,300); 
+
+	    s.click(Beverages1); 
+
+		s.wait(IcedBeverages, 300);
+
+		s.click(IcedBeverages);
+
+		s.wait(ColdBrew, 300);
+
+		s.click(ColdBrew);
+
+		s.wait(Original_Cold_Brew, 300);
+
+		s.click(Original_Cold_Brew);
+		
+		s.wait(RS_Black_Cold_Brew, 300);
+
+		s.click(RS_Black_Cold_Brew);
+		
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Refill Small Black Cold Brew");
+		
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"Small_Black_Cold_Brew_Price");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"Small_Black_Cold_Brew_PriceName");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_Small_Black_Cold_Brew_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_Small_Black_Cold_Brew_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct Refill Small_Black_Cold_Brew price ");
+
+			System.out.println(
+					"***********Scenario257 PASS: Correct Refill Small_Black_Cold_Brew price ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect Refill Small_Black_Cold_Brew Price " + "Expected Price: "
+					+ read_Small_Black_Cold_Brew_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario257 FAIL: Incorrect Refill Small_Black_Cold_Brew Price ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+		
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+
+	}
+	
+	
+	@Test(priority = 258)
+
+	public void sikuliTestCase258(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_258:Verify Refill Medium Black Cold Brew. " + "Region Id:" + b.read_Region_Id());
+
+//	    s.wait(Beverages1,300); 
+//
+//	    s.click(Beverages1); 
+
+		s.wait(IcedBeverages, 300);
+
+		s.click(IcedBeverages);
+
+		s.wait(ColdBrew, 300);
+
+		s.click(ColdBrew);
+
+		s.wait(Original_Cold_Brew, 300);
+
+		s.click(Original_Cold_Brew);
+		
+		s.wait(RM_Black_Cold_Brew, 300);
+
+		s.click(RM_Black_Cold_Brew);
+		
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Refill Medium Black Cold Brew");
+		
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"Medium_Black_Cold_Brew_Price");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"Medium_Black_Cold_Brew_PriceName");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_Medium_Black_Cold_Brew_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_Medium_Black_Cold_Brew_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct Refill Medium_Black_Cold_Brew price ");
+
+			System.out.println(
+					"***********Scenario258 PASS: Correct Refill Medium_Black_Cold_Brew price ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect Refill Medium_Black_Cold_Brew Price " + "Expected Price: "
+					+ read_Medium_Black_Cold_Brew_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario258 FAIL: Incorrect Refill Medium_Black_Cold_Brew Price ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+		
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+
+	}
+	
+	
+	@Test(priority = 259)
+
+	public void sikuliTestCase259(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException
+
+	{
+
+		BeverageItems b = new BeverageItems(s);
+
+		testcase = extent
+				.createTest("TC_259:Verify Refill Large Black Cold Brew. " + "Region Id:" + b.read_Region_Id());
+
+//	    s.wait(Beverages1,300); 
+//
+//	    s.click(Beverages1); 
+
+		s.wait(IcedBeverages, 300);
+
+		s.click(IcedBeverages);
+
+		s.wait(ColdBrew, 300);
+
+		s.click(ColdBrew);
+
+		s.wait(Original_Cold_Brew, 300);
+
+		s.click(Original_Cold_Brew);
+		
+		s.wait(RL_Black_Cold_Brew, 300);
+
+		s.click(RL_Black_Cold_Brew);
+		
+		Thread.sleep(2000);
+
+		testcase.log(Status.PASS, "User able to click on Refill Large Black Cold Brew");
+		
+		s.wait(EatIn, 300);
+
+		s.click(EatIn.similar((float) 0.8));
+
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(7000);
+
+		Rectangle rectangle = new Rectangle();
+
+		rectangle.setBounds(420, 200, 70, 40);
+
+		String imagePath = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"Large_Black_Cold_Brew_Price");
+
+		rectangle.setBounds(210, 200, 275, 30);
+
+		String pricewithname = capture(rectangle).save(System.getProperty("user.dir") + "/Image/",
+				"Large_Black_Cold_Brew_PriceName");
+
+		System.out.println("price screen shot clicked");
+
+		ITesseract image = new Tesseract();
+
+		image.setDatapath(".\\tessdata");
+
+		String imageText = image.doOCR(new File(imagePath));
+
+		System.out.println("frompic " + imageText);
+
+		System.out.println("fromexcel " + b.read_Large_Black_Cold_Brew_price());
+
+		String a1 = null;
+
+		String a2 = null;
+
+		String replaceAll = imageText.replaceAll("\\s", "");
+
+		a1 = replaceAll;
+
+		a2 = String.valueOf(b.read_Large_Black_Cold_Brew_price());
+
+		System.out.println("from pic " + a1);
+
+		System.out.println("from excel " + a2);
+
+		int value = a1.compareTo(a2);
+
+		System.out.println(value);
+
+		if (a1.equals(a2)) {
+
+			System.out.println("same");
+
+		}
+
+		if (a1.equals(a2)) {
+
+			testcase.log(Status.PASS, " Correct Refill Large_Black_Cold_Brew price ");
+
+			System.out.println(
+					"***********Scenario259 PASS: Correct Refill Large_Black_Cold_Brew price ***********");
+
+		}
+
+		else
+
+		{
+
+			testcase.log(Status.FAIL, " Incorrect Refill Large_Black_Cold_Brew Price " + "Expected Price: "
+					+ read_Large_Black_Cold_Brew_price());
+
+			testcase.addScreenCaptureFromPath(pricewithname);
+
+			System.out.println(
+					"***********Scenario259 FAIL: Incorrect Refill Large_Black_Cold_Brew Price ***********");
+
+		}
+
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+		
+		s.wait(VoidItem, 300);
+
+		s.click(VoidItem.similar((float) 0.5));
+
+
+	}
+
+
 }
