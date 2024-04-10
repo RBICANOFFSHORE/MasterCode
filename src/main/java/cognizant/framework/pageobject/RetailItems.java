@@ -63,6 +63,36 @@ public class RetailItems extends Read_Data {
   	Pattern  BYO_Breakfast_Platter =  new Pattern("C:\\Images For Sikuli\\BYO_Breakfast_Platter.png");
   	Pattern  Cater_Lunch_Wrap_12 =  new Pattern("C:\\Images For Sikuli\\Cater_Lunch_Wrap_12.png");
   	Pattern  Cater_Lunch_Wrap_6 =  new Pattern("C:\\Images For Sikuli\\Cater_Lunch_Wrap_6.png");
+  	Pattern  I_Love_You_Dad_Journal =  new Pattern("C:\\Images For Sikuli\\I_Love_You_Dad_Journal.png");
+  	Pattern  I_Love_You_Mom_Journal =  new Pattern("C:\\Images For Sikuli\\I_Love_You_Mom_Journal.png");
+  	Pattern  I_Love_You_Dad_Journal_French =  new Pattern("C:\\Images For Sikuli\\I_Love_You_Dad_Journal_French.png");
+  	Pattern  I_Love_You_Mom_Journal_French =  new Pattern("C:\\Images For Sikuli\\I_Love_You_Mom_Journal_French.png");
+  	Pattern  Teacher_Coach_Journal =  new Pattern("C:\\Images For Sikuli\\Teacher_Coach_Journal.png");
+  	Pattern  Teacher_Coach_Journal_French =  new Pattern("C:\\Images For Sikuli\\Teacher_Coach_Journal_French.png");
+  	Pattern  Black_SS_Travel_Mug =  new Pattern("C:\\Images For Sikuli\\Black_SS_Travel_Mug.png");
+  	Pattern  Sorry_Ceramic_Mug =  new Pattern("C:\\Images For Sikuli\\Sorry_Ceramic_Mug.png");
+  	Pattern  Attends_Creamic_Mug =  new Pattern("C:\\Images For Sikuli\\Attends_Creamic_Mug.png");
+  	Pattern  Hlyday_Snwman_Ceramic_Mug_2023 =  new Pattern("C:\\Images For Sikuli\\2023_Hlyday_Snwman_Ceramic_Mug.png");
+  	Pattern  Hlyday_Snow_Globe_2023 =  new Pattern("C:\\Images For Sikuli\\Hlyday_Snow_Globe_2023.png");
+  	Pattern  Hlyday_Ornament_2023 =  new Pattern("C:\\Images For Sikuli\\Hlyday_Ornament_2023.png");
+  	Pattern  I_Love_You_Dad_Mug_English =  new Pattern("C:\\Images For Sikuli\\I_Love_You_Dad_Mug_English.png");
+  	Pattern  I_Love_You_Dad_Mug_French =  new Pattern("C:\\Images For Sikuli\\I_Love_You_Dad_Mug_French.png");
+  	Pattern  I_Love_You_Mom_Mug_English =  new Pattern("C:\\Images For Sikuli\\I_Love_You_Mom_Mug_English.png");
+  	Pattern  I_Love_You_Mom_Mug_French =  new Pattern("C:\\Images For Sikuli\\I_Love_You_Mom_Mug_French.png");
+    Pattern  Teacher_Coach_Mug_English =  new Pattern("C:\\Images For Sikuli\\Teacher_Coach_Mug_English.png");
+  	Pattern  Teacher_Coach_Mug_French =  new Pattern("C:\\Images For Sikuli\\Teacher_Coach_Mug_French.png");
+  	Pattern  Other_Hardware =  new Pattern("C:\\Images For Sikuli\\Other_Hardware.png");
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
   	
 //  	Pattern  Retail_Catrering =  new Pattern("C:\\Images For Sikuli\\Retail_Catrering.png");
 //  	
@@ -615,6 +645,1029 @@ public class RetailItems extends Read_Data {
 	
 			testcase.addScreenCaptureFromPath(pricewithname);
 			System.out.println("***********Scenario06 FAIL: Incorrect ala carte price of LUNCH WRAPS BUNDLE - 6 PEOPLE.***********");
+
+
+		}
+
+	
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+		
+	  }
+	
+	@Test(priority = 7)
+	public void siKuliTestCase007(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException {
+ 
+		RetailItems b = new RetailItems(s);
+	
+		testcase=extent.createTest("TC_007: Verify I Love You Dad Journal Price. "+"Region Id: "+b.read_Region_Id());
+
+
+		Thread.sleep(3000);
+	    s.wait(Retail, 300);  
+        s.click(Retail.similar((float)0.5));
+		testcase.log(Status.PASS, "User able to click on Retail");
+		Thread.sleep(2000);
+		s.wait(Hardware, 300);
+		s.click(Hardware.similar((float) 0.5));
+		testcase.log(Status.PASS, "User able to click on Hardware");
+		Thread.sleep(2000);
+		s.wait(Other_Hardware,300);
+		s.click(Other_Hardware.similar((float) 0.5));
+		Thread.sleep(2000);
+		s.wait(I_Love_You_Dad_Journal,300);
+		s.click(I_Love_You_Dad_Journal.similar((float) 0.5));
+		testcase.log(Status.PASS, "User able to click on I Love You Dad Journal");
+		s.wait(EatIn, 300);
+		s.click(EatIn.similar((float) 0.8));
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(2000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(420,200,60,30);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "I_Love_You_Dad_Journal_Price");
+	
+		
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "I_Love_You_Dad_Journal_Price_Withname");
+
+		//System.out.println(b.read_Cater_Egg_and_Cheese_Wrap_Price());
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_I_Love_You_Dad_Journal_Price();
+		
+		
+	      System.out.println("Price from picture in POS: "+a1);
+	    System.out.println("Price from pricing sheet: "+a2);
+
+
+		if(a1.equals(a2)){
+
+			 testcase.log(Status.PASS," Correct ala carte price of I Love You Dad Journal");
+
+			 System.out.println("***********Scenario07 PASS: Correct ala carte price of I Love You Dad Journal.  ***********");
+
+
+		}
+		else {
+
+			testcase.log(Status.FAIL," Incorrect ala carte price of I Love You Dad Journal."+" Expected Price: "+b.read_I_Love_You_Dad_Journal_Price());
+	
+			testcase.addScreenCaptureFromPath(pricewithname);
+			System.out.println("***********Scenario07 FAIL: Incorrect ala carte price of I Love You Dad Journal.***********");
+
+
+		}
+
+	
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+		
+	  }
+	
+	@Test(priority = 8)
+	public void siKuliTestCase008(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException {
+ 
+		RetailItems b = new RetailItems(s);
+	
+		testcase=extent.createTest("TC_008: Verify I Love You Dad Journal French Price. "+"Region Id: "+b.read_Region_Id());
+
+
+		Thread.sleep(3000);
+	    s.wait(Retail, 300);  
+        s.click(Retail.similar((float)0.5));
+		testcase.log(Status.PASS, "User able to click on Retail");
+		Thread.sleep(2000);
+		s.wait(Hardware, 300);
+		s.click(Hardware.similar((float) 0.5));
+		testcase.log(Status.PASS, "User able to click on Hardware");
+		Thread.sleep(2000);
+		s.wait(Other_Hardware,300);
+		s.click(Other_Hardware.similar((float) 0.5));
+		Thread.sleep(2000);
+		s.wait(I_Love_You_Dad_Journal_French,300);
+		s.click(I_Love_You_Dad_Journal_French.similar((float) 0.5));
+		testcase.log(Status.PASS, "User able to click on I Love You Dad Journal French");
+		s.wait(EatIn, 300);
+		s.click(EatIn.similar((float) 0.8));
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(2000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(420,200,60,30);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "I_Love_You_Dad_Journal_French_Price");
+	
+		
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "I_Love_You_Dad_Journal_French_Price_Withname");
+
+		//System.out.println(b.read_Cater_Egg_and_Cheese_Wrap_Price());
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_I_Love_You_Dad_Journal_French_Price();
+		
+		
+	      System.out.println("Price from picture in POS: "+a1);
+	    System.out.println("Price from pricing sheet: "+a2);
+
+
+		if(a1.equals(a2)){
+
+			 testcase.log(Status.PASS," Correct ala carte price of I Love You Dad Journal French");
+
+			 System.out.println("***********Scenario08 PASS: Correct ala carte price of I Love You Dad Journal French.  ***********");
+
+
+		}
+		else {
+
+			testcase.log(Status.FAIL," Incorrect ala carte price of I Love You Dad Journal French."+" Expected Price: "+b.read_I_Love_You_Dad_Journal_French_Price());
+	
+			testcase.addScreenCaptureFromPath(pricewithname);
+			System.out.println("***********Scenario08 FAIL: Incorrect ala carte price of I Love You Dad Journal French.***********");
+
+
+		}
+
+	
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+		
+	  }
+
+	@Test(priority = 9)
+	public void siKuliTestCase009(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException {
+ 
+		RetailItems b = new RetailItems(s);
+	
+		testcase=extent.createTest("TC_009: Verify I Love You Mom Journal Price. "+"Region Id: "+b.read_Region_Id());
+
+
+		Thread.sleep(3000);
+	    s.wait(Retail, 300);  
+        s.click(Retail.similar((float)0.5));
+		testcase.log(Status.PASS, "User able to click on Retail");
+		Thread.sleep(2000);
+		s.wait(Hardware, 300);
+		s.click(Hardware.similar((float) 0.5));
+		testcase.log(Status.PASS, "User able to click on Hardware");
+		Thread.sleep(2000);
+		s.wait(Other_Hardware,300);
+		s.click(Other_Hardware.similar((float) 0.5));
+		Thread.sleep(2000);
+		s.wait(I_Love_You_Mom_Journal,300);
+		s.click(I_Love_You_Mom_Journal.similar((float) 0.5));
+		testcase.log(Status.PASS, "User able to click on I Love You Mom Journal");
+		s.wait(EatIn, 300);
+		s.click(EatIn.similar((float) 0.8));
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(2000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(420,200,60,30);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "I_Love_You_Mom_Journal_Price");
+	
+		
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "I_Love_You_Mom_Journal_Price_Withname");
+
+		//System.out.println(b.read_Cater_Egg_and_Cheese_Wrap_Price());
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_I_Love_You_Mom_Journal_Price();
+		
+		
+	      System.out.println("Price from picture in POS: "+a1);
+	    System.out.println("Price from pricing sheet: "+a2);
+
+
+		if(a1.equals(a2)){
+
+			 testcase.log(Status.PASS," Correct ala carte price of I Love You Mom Journal French");
+
+			 System.out.println("***********Scenario09 PASS: Correct ala carte price of I Love You Mom Journal French.  ***********");
+
+
+		}
+		else {
+
+			testcase.log(Status.FAIL," Incorrect ala carte price of I Love You Mom Journal."+" Expected Price: "+b.read_I_Love_You_Mom_Journal_Price());
+	
+			testcase.addScreenCaptureFromPath(pricewithname);
+			System.out.println("***********Scenario09 FAIL: Incorrect ala carte price of I Love You Mom Journal.***********");
+
+
+		}
+
+	
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+		
+	  }
+	
+	@Test(priority = 10)
+	public void siKuliTestCase010(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException {
+ 
+		RetailItems b = new RetailItems(s);
+	
+		testcase=extent.createTest("TC_0010: Verify I Love You Mom Journal French Price. "+"Region Id: "+b.read_Region_Id());
+
+
+		Thread.sleep(3000);
+	    s.wait(Retail, 300);  
+        s.click(Retail.similar((float)0.5));
+		testcase.log(Status.PASS, "User able to click on Retail");
+		Thread.sleep(2000);
+		s.wait(Hardware, 300);
+		s.click(Hardware.similar((float) 0.5));
+		testcase.log(Status.PASS, "User able to click on Hardware");
+		Thread.sleep(2000);
+		s.wait(Other_Hardware,300);
+		s.click(Other_Hardware.similar((float) 0.5));
+		Thread.sleep(2000);
+		s.wait(I_Love_You_Mom_Journal_French,300);
+		s.click(I_Love_You_Mom_Journal_French.similar((float) 0.5));
+		testcase.log(Status.PASS, "User able to click on I Love You Mom Journal French");
+		s.wait(EatIn, 300);
+		s.click(EatIn.similar((float) 0.8));
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(2000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(420,200,60,30);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "I_Love_You_Mom_Journal_French_Price");
+	
+		
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "I_Love_You_Mom_Journal_French_Price_Withname");
+
+		//System.out.println(b.read_Cater_Egg_and_Cheese_Wrap_Price());
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_I_Love_You_Mom_Journal_French_Price();
+		
+		
+	      System.out.println("Price from picture in POS: "+a1);
+	    System.out.println("Price from pricing sheet: "+a2);
+
+
+		if(a1.equals(a2)){
+
+			 testcase.log(Status.PASS," Correct ala carte price of I Love You Mom Journal French");
+
+			 System.out.println("***********Scenario10 PASS: Correct ala carte price of I Love You Mom Journal French.  ***********");
+
+
+		}
+		else {
+
+			testcase.log(Status.FAIL," Incorrect ala carte price of I Love You Mom Journal French."+" Expected Price: "+b.read_I_Love_You_Mom_Journal_French_Price());
+	
+			testcase.addScreenCaptureFromPath(pricewithname);
+			System.out.println("***********Scenario10 FAIL: Incorrect ala carte price of I Love You Mom Journal French.***********");
+
+
+		}
+
+	
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+		
+	  }
+
+	@Test(priority = 11)
+	public void siKuliTestCase011(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException {
+ 
+		RetailItems b = new RetailItems(s);
+	
+		testcase=extent.createTest("TC_0011: Verify Teacher/Coach Journal Price. "+"Region Id: "+b.read_Region_Id());
+
+
+		Thread.sleep(3000);
+	    s.wait(Retail, 300);  
+        s.click(Retail.similar((float)0.5));
+		testcase.log(Status.PASS, "User able to click on Retail");
+		Thread.sleep(2000);
+		s.wait(Hardware, 300);
+		s.click(Hardware.similar((float) 0.5));
+		testcase.log(Status.PASS, "User able to click on Hardware");
+		Thread.sleep(2000);
+		s.wait(Other_Hardware,300);
+		s.click(Other_Hardware.similar((float) 0.5));
+		Thread.sleep(2000);
+		s.wait(Teacher_Coach_Journal,300);
+		s.click(Teacher_Coach_Journal.similar((float) 0.5));
+		testcase.log(Status.PASS, "User able to click on Teacher/Coach Journal");
+		s.wait(EatIn, 300);
+		s.click(EatIn.similar((float) 0.8));
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(2000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(420,200,60,30);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Teacher_Coach_Journal_Price");
+	
+		
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Teacher_Coach_Journal_Price_Withname");
+
+		//System.out.println(b.read_Cater_Egg_and_Cheese_Wrap_Price());
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_Teacher_Journal_Price();
+		
+		
+	      System.out.println("Price from picture in POS: "+a1);
+	    System.out.println("Price from pricing sheet: "+a2);
+
+
+		if(a1.equals(a2)){
+
+			 testcase.log(Status.PASS," Correct ala carte price of Teacher/Coach Journal");
+
+			 System.out.println("***********Scenario11 PASS: Correct ala carte price of Teacher/Coach Journal.  ***********");
+
+
+		}
+		else {
+
+			testcase.log(Status.FAIL," Incorrect ala carte price of Teacher/Coach Journal."+" Expected Price: "+b.read_Teacher_Journal_Price());
+	
+			testcase.addScreenCaptureFromPath(pricewithname);
+			System.out.println("***********Scenario11 FAIL: Incorrect ala carte price of Teacher/Coach Journal.***********");
+
+
+		}
+
+	
+		s.wait(VoidItem, 300);
+		s.click(VoidItem.similar((float)0.5));
+		
+	  }
+	
+	@Test(priority = 12)
+	public void siKuliTestCase0012(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException {
+ 
+		RetailItems b = new RetailItems(s);
+	
+		testcase=extent.createTest("TC_0012: Verify I Love You Dad Mug - English"
+				+ " Price. "+"Region Id: "+b.read_Region_Id());
+
+
+		Thread.sleep(3000);
+	    s.wait(Retail, 300);
+	    
+        s.click(Retail.similar((float)0.5));
+        s.wait(Hardware,300);
+        s.click(Hardware);
+        
+		Thread.sleep(2000);
+        s.wait(I_Love_You_Dad_Mug_English,300);	
+        s.click(I_Love_You_Dad_Mug_English);
+        
+        s.wait(EatIn, 300);
+		s.click(EatIn.similar((float) 0.8));
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(2000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(420,200,60,30);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "I_Love_You_Dad_Mug_English_Price");
+	
+		
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "I_Love_You_Dad_Mug_English_Price_Withname");
+
+		
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_I_Love_You_Dad_Mug_English_Price();
+		
+		   System.out.println("Price from picture in POS: "+a1);
+		    System.out.println("Price from pricing sheet: "+a2);
+
+
+			if(a1.equals(a2)){
+
+				 testcase.log(Status.PASS," Correct ala carte price of I Love You Dad Mug - English.");
+
+				 System.out.println("***********Scenario012 PASS: Correct ala carte price of I Love You Dad Mug - English.  ***********");
+
+
+			}
+			else {
+
+				testcase.log(Status.FAIL," Incorrect ala carte price of I Love You Dad Mug - English."+" Expected Price: "+b.read_I_Love_You_Dad_Mug_English_Price());
+		
+				testcase.addScreenCaptureFromPath(pricewithname);
+				System.out.println("***********Scenario012 FAIL: Incorrect ala carte price of I Love You Dad Mug - English.***********");
+
+
+			}
+
+		
+			s.wait(VoidItem, 300);
+			s.click(VoidItem.similar((float)0.5));
+
+
+
+	}
+	@Test(priority = 13)
+	public void siKuliTestCase0013(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException {
+ 
+		RetailItems b = new RetailItems(s);
+	
+		testcase=extent.createTest("TC_0013: Verify I Love You Dad Mug - French"
+				+ " Price. "+"Region Id: "+b.read_Region_Id());
+
+
+		Thread.sleep(3000);
+	    s.wait(Retail, 300);
+	    
+        s.click(Retail.similar((float)0.5));
+        s.wait(Hardware,300);
+        s.click(Hardware);
+        
+		Thread.sleep(2000);
+        s.wait(I_Love_You_Dad_Mug_French,300);	
+        s.click(I_Love_You_Dad_Mug_French);
+        
+        s.wait(EatIn, 300);
+		s.click(EatIn.similar((float) 0.8));
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(2000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(420,200,60,30);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "I_Love_You_Dad_Mug_English_Price");
+	
+		
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "I_Love_You_Dad_Mug_English_Price_Withname");
+
+		
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_I_Love_You_Dad_Mug_French_Price();
+		
+		   System.out.println("Price from picture in POS: "+a1);
+		    System.out.println("Price from pricing sheet: "+a2);
+
+
+			if(a1.equals(a2)){
+
+				 testcase.log(Status.PASS," Correct ala carte price of I Love You Dad Mug - French.");
+
+				 System.out.println("***********Scenario013 PASS: Correct ala carte price of I Love You Dad Mug - French.  ***********");
+
+
+			}
+			else {
+
+				testcase.log(Status.FAIL," Incorrect ala carte price of I Love You Dad Mug - French."+" Expected Price: "+b.read_I_Love_You_Dad_Mug_French_Price());
+		
+				testcase.addScreenCaptureFromPath(pricewithname);
+				System.out.println("***********Scenario013 FAIL: Incorrect ala carte price of I Love You Dad Mug - French.***********");
+
+
+			}
+
+		
+			s.wait(VoidItem, 300);
+			s.click(VoidItem.similar((float)0.5));
+
+
+
+	}
+	@Test(priority = 14)
+	public void siKuliTestCase0014(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException {
+ 
+		RetailItems b = new RetailItems(s);
+	
+		testcase=extent.createTest("TC_0014: Verify I Love You Mom Mug - English"
+				+ " Price. "+"Region Id: "+b.read_Region_Id());
+
+
+		Thread.sleep(3000);
+	    s.wait(Retail, 300);
+	    
+        s.click(Retail.similar((float)0.5));
+        s.wait(Hardware,300);
+        s.click(Hardware);
+        
+		Thread.sleep(2000);
+        s.wait(I_Love_You_Mom_Mug_English,300);	
+        s.click(I_Love_You_Mom_Mug_English);
+        
+        s.wait(EatIn, 300);
+		s.click(EatIn.similar((float) 0.8));
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(2000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(420,200,60,30);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "I_Love_You_Mom_Mug_English_Price");
+	
+		
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "I_Love_You_Mom_Mug_English_Price_Withname");
+
+		
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_I_Love_You_Mom_Mug_English_Price();
+		
+		   System.out.println("Price from picture in POS: "+a1);
+		    System.out.println("Price from pricing sheet: "+a2);
+
+
+			if(a1.equals(a2)){
+
+				 testcase.log(Status.PASS," Correct ala carte price of I Love You Mom Mug - English.");
+
+				 System.out.println("***********Scenario014 PASS: Correct ala carte price of I Love You Mom Mug - English.  ***********");
+
+
+			}
+			else {
+
+				testcase.log(Status.FAIL," Incorrect ala carte price of I Love You Mom Mug - English."+" Expected Price: "+b.read_I_Love_You_Mom_Mug_English_Price());
+		
+				testcase.addScreenCaptureFromPath(pricewithname);
+				System.out.println("***********Scenario014 FAIL: Incorrect ala carte price of I Love You Mom Mug - English.***********");
+
+
+			}
+
+		
+			s.wait(VoidItem, 300);
+			s.click(VoidItem.similar((float)0.5));
+
+
+
+	}
+	
+	
+	
+	@Test(priority = 15)
+	public void siKuliTestCase0015(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException {
+ 
+		RetailItems b = new RetailItems(s);
+	
+		testcase=extent.createTest("TC_0015: Verify I Love You Mom Mug - French"
+				+ " Price. "+"Region Id: "+b.read_Region_Id());
+
+
+		Thread.sleep(3000);
+	    s.wait(Retail, 300);
+	    
+        s.click(Retail.similar((float)0.5));
+        s.wait(Hardware,300);
+        s.click(Hardware);
+
+		Thread.sleep(2000);
+        s.wait(I_Love_You_Mom_Mug_French,300);	
+        s.click(I_Love_You_Mom_Mug_French);
+        
+        s.wait(EatIn, 300);
+		s.click(EatIn.similar((float) 0.8));
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(2000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(420,200,60,30);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "I_Love_You_Mom_Mug_French_Price");
+	
+		
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "I_Love_You_Mom_Mug_French_Price_Withname");
+
+		
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_I_Love_You_Mom_Mug_French_Price();
+		
+		   System.out.println("Price from picture in POS: "+a1);
+		    System.out.println("Price from pricing sheet: "+a2);
+
+
+			if(a1.equals(a2)){
+
+				 testcase.log(Status.PASS," Correct ala carte price of I Love You Mom Mug - French.");
+
+				 System.out.println("***********Scenario015 PASS: Correct ala carte price of I Love You Mom Mug - French.  ***********");
+
+
+			}
+			else {
+
+				testcase.log(Status.FAIL," Incorrect ala carte price of I Love You Mom Mug - French."+" Expected Price: "+b.read_I_Love_You_Mom_Mug_French_Price());
+		
+				testcase.addScreenCaptureFromPath(pricewithname);
+				System.out.println("***********Scenario015 FAIL: Incorrect ala carte price of I Love You Mom Mug - French.***********");
+
+
+			}
+
+		
+			s.wait(VoidItem, 300);
+			s.click(VoidItem.similar((float)0.5));
+
+
+
+	}
+	
+
+	@Test(priority = 16)
+	public void siKuliTestCase0016(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException {
+ 
+		RetailItems b = new RetailItems(s);
+	
+		testcase=extent.createTest("TC_0016: Verify Teacher or Coach Mug - English"
+				+ " Price. "+"Region Id: "+b.read_Region_Id());
+
+
+		Thread.sleep(3000);
+	    s.wait(Retail, 300);
+	    
+        s.click(Retail.similar((float)0.5));
+        s.wait(Hardware,300);
+        s.click(Hardware);
+        
+		Thread.sleep(2000);
+        s.wait(Teacher_Coach_Mug_English,300);	
+        s.click(Teacher_Coach_Mug_English);
+        
+        s.wait(EatIn, 300);
+		s.click(EatIn.similar((float) 0.8));
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(2000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(420,200,60,30);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Teacher_Coach_Mug_English_Price");
+	
+		
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Teacher_Coach_Mug_English_Price_Withname");
+
+		
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_Teacher_or_Coach_English_Price();
+		
+		   System.out.println("Price from picture in POS: "+a1);
+		    System.out.println("Price from pricing sheet: "+a2);
+
+
+			if(a1.equals(a2)){
+
+				 testcase.log(Status.PASS," Correct ala carte price of Teacher or Coach Mug - English.");
+
+				 System.out.println("***********Scenario016 PASS: Correct ala carte price of Teacher or Coach Mug - English.  ***********");
+
+
+			}
+			else {
+
+				testcase.log(Status.FAIL," Incorrect ala carte price of Teacher or Coach Mug - English."+" Expected Price: "+b.read_Teacher_or_Coach_English_Price());
+		
+				testcase.addScreenCaptureFromPath(pricewithname);
+				System.out.println("***********Scenario016 FAIL: Incorrect ala carte price of Teacher or Coach Mug - English.***********");
+
+
+			}
+
+		
+			s.wait(VoidItem, 300);
+			s.click(VoidItem.similar((float)0.5));
+
+
+
+	}
+
+	
+	@Test(priority = 17)
+	public void siKuliTestCase0017(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException {
+ 
+		RetailItems b = new RetailItems(s);
+	
+		testcase=extent.createTest("TC_0017: Verify Teacher or Coach Mug - French"
+				+ " Price. "+"Region Id: "+b.read_Region_Id());
+
+
+		Thread.sleep(3000);
+	    s.wait(Retail, 300);
+	    
+        s.click(Retail.similar((float)0.5));
+        s.wait(Hardware,300);
+        s.click(Hardware);
+        
+		Thread.sleep(2000);
+        s.wait(Teacher_Coach_Mug_French,300);	
+        s.click(Teacher_Coach_Mug_French);
+        
+        s.wait(EatIn, 300);
+		s.click(EatIn.similar((float) 0.8));
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(2000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(420,200,60,30);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Teacher_Coach_Mug_French_Price");
+	
+		
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Teacher_Coach_Mug_French_Price_Withname");
+
+		
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_Teacher_or_Coach_French_Price();
+		
+		   System.out.println("Price from picture in POS: "+a1);
+		    System.out.println("Price from pricing sheet: "+a2);
+
+
+			if(a1.equals(a2)){
+
+				 testcase.log(Status.PASS," Correct ala carte price of Teacher or Coach Mug - French.");
+
+				 System.out.println("***********Scenario017 PASS: Correct ala carte price of Teacher or Coach Mug - French.  ***********");
+
+
+			}
+			else {
+
+				testcase.log(Status.FAIL," Incorrect ala carte price of Teacher or Coach Mug - French."+" Expected Price: "+b.read_Teacher_or_Coach_French_Price());
+		
+				testcase.addScreenCaptureFromPath(pricewithname);
+				System.out.println("***********Scenario017 FAIL: Incorrect ala carte price of Teacher or Coach Mug - French.***********");
+
+
+			}
+
+		
+			s.wait(VoidItem, 300);
+			s.click(VoidItem.similar((float)0.5));
+
+
+
+	}
+
+
+	@Test(priority = 18)
+	public void siKuliTestCase018(ExtentReports extent, ExtentTest testcase)
+			throws FindFailed, IOException, TesseractException, InterruptedException {
+ 
+		RetailItems b = new RetailItems(s);
+	
+		testcase=extent.createTest("TC_0018: Verify Teacher/Coach Journal French Price. "+"Region Id: "+b.read_Region_Id());
+
+
+		Thread.sleep(3000);
+	    s.wait(Retail, 300);  
+        s.click(Retail.similar((float)0.5));
+		testcase.log(Status.PASS, "User able to click on Retail");
+		Thread.sleep(2000);
+		s.wait(Hardware, 300);
+		s.click(Hardware.similar((float) 0.5));
+		testcase.log(Status.PASS, "User able to click on Hardware");
+		Thread.sleep(2000);
+		s.wait(Other_Hardware,300);
+		s.click(Other_Hardware.similar((float) 0.5));
+		Thread.sleep(2000);
+		s.wait(Teacher_Coach_Journal_French,300);
+		s.click(Teacher_Coach_Journal_French.similar((float) 0.5));
+		testcase.log(Status.PASS, "User able to click on Teacher/Coach Journal French");
+		s.wait(EatIn, 300);
+		s.click(EatIn.similar((float) 0.8));
+		testcase.log(Status.PASS, "User able to click on Eat In");
+
+		Thread.sleep(2000);
+		Rectangle rectangle=new Rectangle();
+		rectangle.setBounds(420,200,60,30);
+		
+		String imagePath  = capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Teacher_Coach_Journal_French_Price");
+	
+		
+		ITesseract image = new Tesseract();
+		image.setDatapath(".\\tessdata");
+		String imageText=image.doOCR(new File(imagePath));
+		System.out.println(imageText);
+
+		rectangle.setBounds(210,200,275,30);
+
+		
+		String  pricewithname=capture(rectangle).save(System.getProperty("user.dir")+"/Image/", "Teacher_Coach_Journal_French_Price_Withname");
+
+		//System.out.println(b.read_Cater_Egg_and_Cheese_Wrap_Price());
+		String a1=null;
+		String a2=null;
+
+
+		//Price validation
+		String replaceAll = imageText.replaceAll("\\s","");
+		a1 = replaceAll;
+
+		
+		a2 = b.read_Teacher_Journal_French_Price();
+		
+		
+	      System.out.println("Price from picture in POS: "+a1);
+	    System.out.println("Price from pricing sheet: "+a2);
+
+
+		if(a1.equals(a2)){
+
+			 testcase.log(Status.PASS," Correct ala carte price of Teacher/Coach Journal French");
+
+			 System.out.println("***********Scenario18 PASS: Correct ala carte price of Teacher/Coach Journal French.  ***********");
+
+
+		}
+		else {
+
+			testcase.log(Status.FAIL," Incorrect ala carte price of Teacher/Coach Journal French."+" Expected Price: "+b.read_Teacher_Journal_French_Price());
+	
+			testcase.addScreenCaptureFromPath(pricewithname);
+			System.out.println("***********Scenario18 FAIL: Incorrect ala carte price of Teacher/Coach Journal French.***********");
 
 
 		}

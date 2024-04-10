@@ -86,7 +86,7 @@ public  class Read_Data {
 	
 	
 	public static Sheet sheet_No() throws IOException {
-		int n=1;
+		int n=0;
 		File f= new File(".\\TestDataSet\\Dataset_For_Read.xlsx");
  
   		FileInputStream fis = new FileInputStream(f);
@@ -2364,6 +2364,168 @@ public  class Read_Data {
 
   		} 
   		
+  		public String read_Assorted_Half_Dozen_price() throws IOException 
+
+  		{ 
+
+  		Sheet a=sheet_No(); 
+
+  		  		Row row = a.getRow(15); 
+
+  		  		Cell cell = row.getCell(15); 
+
+  		  		CellType typeofCell = cell.getCellType();  
+
+  		  		String numericCellValue=""; 
+
+  		  		if(typeofCell.equals(CellType.STRING)) 
+
+  		  		{ 
+
+  		  		  numericCellValue = cell.getStringCellValue(); 
+
+  		  			//System.out.println(numericCellValue); 
+
+  		  		} 
+
+  		  		return numericCellValue; 
+  		}
+  		
+  		public String read_Dream_Half_Dozen_price() throws IOException 
+
+  		{ 
+
+  		Sheet a=sheet_No(); 
+
+  		  		Row row = a.getRow(16); 
+
+  		  		Cell cell = row.getCell(15); 
+
+  		  		CellType typeofCell = cell.getCellType();  
+
+  		  		String numericCellValue=""; 
+
+  		  		if(typeofCell.equals(CellType.STRING)) 
+
+  		  		{ 
+
+  		  		  numericCellValue = cell.getStringCellValue(); 
+
+  		  			//System.out.println(numericCellValue); 
+
+  		  		} 
+
+  		  		return numericCellValue; 
+  		}
+  		
+  		public String read_Blueberry_Muffins_price() throws IOException 
+
+  		{ 
+
+  		Sheet a=sheet_No(); 
+
+  		  		Row row = a.getRow(17); 
+
+  		  		Cell cell = row.getCell(15); 
+
+  		  		CellType typeofCell = cell.getCellType();  
+
+  		  		String numericCellValue=""; 
+
+  		  		if(typeofCell.equals(CellType.STRING)) 
+
+  		  		{ 
+
+  		  		  numericCellValue = cell.getStringCellValue(); 
+
+  		  			//System.out.println(numericCellValue); 
+
+  		  		} 
+
+  		  		return numericCellValue; 
+  		}
+  		
+  		public String read_Chocolate_Chip_Muffins_price() throws IOException 
+
+  		{ 
+
+  		Sheet a=sheet_No(); 
+
+  		  		Row row = a.getRow(18); 
+
+  		  		Cell cell = row.getCell(15); 
+
+  		  		CellType typeofCell = cell.getCellType();  
+
+  		  		String numericCellValue=""; 
+
+  		  		if(typeofCell.equals(CellType.STRING)) 
+
+  		  		{ 
+
+  		  		  numericCellValue = cell.getStringCellValue(); 
+
+  		  			//System.out.println(numericCellValue); 
+
+  		  		} 
+
+  		  		return numericCellValue; 
+  		}
+  		
+  		public String read_Raisin_Bran_Muffins_price() throws IOException 
+
+  		{ 
+
+  		Sheet a=sheet_No(); 
+
+  		  		Row row = a.getRow(19); 
+
+  		  		Cell cell = row.getCell(15); 
+
+  		  		CellType typeofCell = cell.getCellType();  
+
+  		  		String numericCellValue=""; 
+
+  		  		if(typeofCell.equals(CellType.STRING)) 
+
+  		  		{ 
+
+  		  		  numericCellValue = cell.getStringCellValue(); 
+
+  		  			//System.out.println(numericCellValue); 
+
+  		  		} 
+
+  		  		return numericCellValue; 
+  		}
+  		
+  		public String read_WG_Pecan_Muffins_price() throws IOException 
+
+  		{ 
+
+  		Sheet a=sheet_No(); 
+
+  		  		Row row = a.getRow(20); 
+
+  		  		Cell cell = row.getCell(15); 
+
+  		  		CellType typeofCell = cell.getCellType();  
+
+  		  		String numericCellValue=""; 
+
+  		  		if(typeofCell.equals(CellType.STRING)) 
+
+  		  		{ 
+
+  		  		  numericCellValue = cell.getStringCellValue(); 
+
+  		  			//System.out.println(numericCellValue); 
+
+  		  		} 
+
+  		  		return numericCellValue; 
+  		}
+  		
 	public  String 	SM_Americano_price()throws IOException
 	{
 		/*File f= new File(".\\TestDataSet\\Dataset_For_Read.xlsx");
@@ -2945,7 +3107,79 @@ public  class Read_Data {
   		}
   		return numericCellValue;
 	}
+	
+	public  String 	Cheese_Chive_Bgl_price() throws IOException
+	{
+		/*File f= new File(".\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);*/
+  		Sheet a=sheet_No();
+  		Row row = a.getRow(7);
+  		Cell cell = row.getCell(18);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	}
 
+	public  String 	Four_Cheese_Bgl_price() throws IOException
+	{
+		/*File f= new File(".\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);*/
+  		Sheet a=sheet_No();
+  		Row row = a.getRow(7);
+  		Cell cell = row.getCell(18);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	}
+	
+	public  String 	Jalapeno_Asiago_Bgl_price() throws IOException
+	{
+		/*File f= new File(".\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);*/
+  		Sheet a=sheet_No();
+  		Row row = a.getRow(8);
+  		Cell cell = row.getCell(18);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	}
+	
+	public  String 	Sundried_Tomato_Bgl_price() throws IOException
+	{
+		/*File f= new File(".\\TestDataSet\\Dataset_For_Read.xlsx");
+  		FileInputStream fis = new FileInputStream(f);
+  		Workbook wb = new XSSFWorkbook(fis);*/
+  		Sheet a=sheet_No();
+  		Row row = a.getRow(9);
+  		Cell cell = row.getCell(18);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	}
+	
 	public String read_Region_Id()throws IOException
 	{
 		/*File f= new File(".\\TestDataSet\\Dataset_For_Read.xlsx");
@@ -6234,6 +6468,105 @@ public  class Read_Data {
   		}
   		return numericCellValue;
 	}
+	
+	public String read_I_Love_You_Dad_Journal_Price()throws IOException
+	{
+
+		Sheet a=sheet_No();
+  		Row row = a.getRow(7);
+  		Cell cell = row.getCell(41);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	}
+	
+	public String read_I_Love_You_Mom_Journal_Price()throws IOException
+	{
+
+		Sheet a=sheet_No();
+  		Row row = a.getRow(8);
+  		Cell cell = row.getCell(41);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	}
+	
+	public String read_I_Love_You_Dad_Journal_French_Price()throws IOException
+	{
+
+		Sheet a=sheet_No();
+  		Row row = a.getRow(9);
+  		Cell cell = row.getCell(41);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	}
+	
+	public String read_I_Love_You_Mom_Journal_French_Price()throws IOException
+	{
+
+		Sheet a=sheet_No();
+  		Row row = a.getRow(10);
+  		Cell cell = row.getCell(41);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	}
+	
+	public String read_Teacher_Journal_Price()throws IOException
+	{
+
+		Sheet a=sheet_No();
+  		Row row = a.getRow(11);
+  		Cell cell = row.getCell(41);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	}
+	
+	public String read_Teacher_Journal_French_Price()throws IOException
+	{
+
+		Sheet a=sheet_No();
+  		Row row = a.getRow(18);
+  		Cell cell = row.getCell(41);
+  		CellType typeofCell = cell.getCellType(); 
+  		String numericCellValue="";
+  		if(typeofCell.equals(CellType.STRING))
+  		{
+  		  numericCellValue = cell.getStringCellValue();
+  			//System.out.println(numericCellValue);
+  		}
+  		return numericCellValue;
+	}
+
+
+
 
 	
 	public String read_Smokey_Hny_Bcn_Brk_Sandwich_Biscuit_Price()throws IOException
@@ -6703,6 +7036,1255 @@ public  class Read_Data {
 	  		return numericCellValue; 
 
 	} 
+	
+	public String read_SS_White_HotChocolate_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(157); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_BR_White_HotChocolate_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(158); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_Take12_White_HotChocolate_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(159); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_SM_Apple_Cinn_Fog_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(160); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_MD_Apple_Cinn_Fog_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(161); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_LG_Apple_Cinn_Fog_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(162); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_RS_Apple_Cinn_Fog_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(163); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_RM_Apple_Cinn_Fog_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(164); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_RL_Apple_Cinn_Fog_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(165); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_SM_White_Milk_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(166); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_LG_White_Milk_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(167); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_SM_Chocolate_Milk_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(168); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_LG_Chocolate_Milk_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(169); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_SM_MangoStarfruit_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(170); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_MD_MangoStarfruit_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(171); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_LG_MangoStarfruit_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(172); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_RS_MangoStarfruit_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(173); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_RM_MangoStarfruit_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(174); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_RL_MangoStarfruit_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(175); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_SM_Wildberry_Hibiscus_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(176); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+
+	public String read_MD_Wildberry_Hibiscus_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(177); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_LG_Wildberry_Hibiscus_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(178); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_RS_Wildberry_Hibiscus_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(179); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+
+	public String read_RM_Wildberry_Hibiscus_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(180); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_RL_Wildberry_Hibiscus_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(181); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_SM_Spcl_Tea_price_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(182); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_MD_Spcl_Tea_price_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(183); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_LG_Spcl_Tea_price_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(184); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_RS_Spcl_Tea_price_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(185); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_RM_Spcl_Tea_price_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(186); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_RL_Spcl_Tea_price_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(187); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_Spcl_Tea_BR_Thermos_price_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(188); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_Spcl_Tea_Big_Tim_price_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(189); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_Spcl_Tea_Take12_price_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(190); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_SM_Steeped_Tea_price_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(191); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_MD_Steeped_Tea_price_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(192); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_LG_Steeped_Tea_price_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(193); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_RS_Steeped_Tea_price_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(194); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_RM_Steeped_Tea_price_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(195); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_RL_Steeped_Tea_price_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(196); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_Steeped_Tea_BR_Thermos_price_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(197); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+
+	public String read_Steeped_Tea_Big_Tim_price_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(198); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_Steeped_Tea_Take12_price_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(199); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+
+	public String read_Btl_Apple_Juice_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(200); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_Btl_Orange_Juice_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(201); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_Unsweetend_Small_Refill_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(202); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_Unsweetend_Medium_Refill_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(203); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_Unsweetend_Large_Refill_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(204); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_Black_Coffee_Small_Refill_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(205); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_Black_Coffee_Medium_Refill_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(206); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_Black_Coffee_Large_Refill_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(207); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_Small_Black_Cold_Brew_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(208); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_Medium_Black_Cold_Brew_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(209); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_Large_Black_Cold_Brew_price() throws IOException 
+
+	{ 
+
+	Sheet a=sheet_No(); 
+
+	  		Row row = a.getRow(210); 
+	  		Cell cell = row.getCell(10); 
+	  		CellType typeofCell = cell.getCellType();  
+	  		String numericCellValue=""; 
+	  		if(typeofCell.equals(CellType.STRING)) 
+	  		{ 
+	  		  numericCellValue = cell.getStringCellValue(); 
+
+	  			//System.out.println(numericCellValue);
+	  		} 
+
+	  		return numericCellValue; 
+
+	} 
+	
+	public String read_I_Love_You_Dad_Mug_English_Price()throws IOException {
+		Sheet a=sheet_No(); 
+
+		Row row = a.getRow(12); 
+		Cell cell = row.getCell(41); 
+		CellType typeofCell = cell.getCellType();  
+		String numericCellValue=""; 
+		if(typeofCell.equals(CellType.STRING)) 
+		{ 
+		  numericCellValue = cell.getStringCellValue(); 
+
+			//System.out.println(numericCellValue);
+		} 
+
+		return numericCellValue; 	
+	}
+
+	public String read_I_Love_You_Dad_Mug_French_Price()throws IOException {
+		Sheet a=sheet_No(); 
+
+		Row row = a.getRow(13); 
+		Cell cell = row.getCell(41); 
+		CellType typeofCell = cell.getCellType();  
+		String numericCellValue=""; 
+		if(typeofCell.equals(CellType.STRING)) 
+		{ 
+		  numericCellValue = cell.getStringCellValue(); 
+
+			//System.out.println(numericCellValue);
+		} 
+
+		return numericCellValue; 	
+	}
+
+	public String read_I_Love_You_Mom_Mug_English_Price()throws IOException {
+		Sheet a=sheet_No(); 
+
+		Row row = a.getRow(14); 
+		Cell cell = row.getCell(41); 
+		CellType typeofCell = cell.getCellType();  
+		String numericCellValue=""; 
+		if(typeofCell.equals(CellType.STRING)) 
+		{ 
+		  numericCellValue = cell.getStringCellValue(); 
+
+			//System.out.println(numericCellValue);
+		} 
+
+		return numericCellValue; 	
+	}
+	public String read_I_Love_You_Mom_Mug_French_Price()throws IOException {
+		Sheet a=sheet_No(); 
+
+		Row row = a.getRow(15); 
+		Cell cell = row.getCell(41); 
+		CellType typeofCell = cell.getCellType();  
+		String numericCellValue=""; 
+		if(typeofCell.equals(CellType.STRING)) 
+		{ 
+		  numericCellValue = cell.getStringCellValue(); 
+
+			//System.out.println(numericCellValue);
+		} 
+
+		return numericCellValue; 	
+	}
+
+	public String read_Teacher_or_Coach_English_Price()throws IOException {
+		Sheet a=sheet_No(); 
+
+		Row row = a.getRow(16); 
+		Cell cell = row.getCell(41); 
+		CellType typeofCell = cell.getCellType();  
+		String numericCellValue=""; 
+		if(typeofCell.equals(CellType.STRING)) 
+		{ 
+		  numericCellValue = cell.getStringCellValue(); 
+
+			//System.out.println(numericCellValue);
+		} 
+
+		return numericCellValue; 	
+	}
+
+	public String read_Teacher_or_Coach_French_Price()throws IOException {
+		Sheet a=sheet_No(); 
+
+		Row row = a.getRow(17); 
+		Cell cell = row.getCell(41); 
+		CellType typeofCell = cell.getCellType();  
+		String numericCellValue=""; 
+		if(typeofCell.equals(CellType.STRING)) 
+		{ 
+		  numericCellValue = cell.getStringCellValue(); 
+
+			//System.out.println(numericCellValue);
+		} 
+
+		return numericCellValue; 	
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
 
 
 	

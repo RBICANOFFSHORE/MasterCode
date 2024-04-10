@@ -515,6 +515,14 @@ public WebDriver wd;
 			//*****Breakfast Combos*****
 			breakfastsitem.siKuliTestCase0011(extent, testcase);
 			breakfastsitem.siKuliTestCase0016(extent, testcase);*/
+	
+	/*Hot Chocolate
+	 * bevItem.sikuliTestCase131(extent, testcase);
+	bevItem.sikuliTestCase132(extent, testcase);
+	bevItem.sikuliTestCase133(extent, testcase);
+	bevItem.sikuliTestCase134(extent, testcase);
+	bevItem.sikuliTestCase135(extent, testcase);
+	bevItem.sikuliTestCase136(extent, testcase);*/
 			
 	
 	
